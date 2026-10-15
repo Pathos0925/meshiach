@@ -23,6 +23,7 @@
   #graph { position: relative; overflow: hidden; }
   svg { width: 100%; height: 100%; display: block; cursor: grab; }
   svg:active { cursor: grabbing; }
+  svg[hidden] { display: none; }
   #controls { position: absolute; top: 12px; left: 12px; display: flex; flex-wrap: wrap; gap: 6px; max-width: calc(100% - 24px); }
   #controls input { padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--fg); font: inherit; }
   .chip { padding: 3px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); font-size: 12px; cursor: pointer; user-select: none; }
@@ -72,7 +73,9 @@
   .link.rel { stroke-dasharray: 4 3; stroke: var(--jew); stroke-opacity: .8; }
   .node.selected circle { stroke: var(--fg); stroke-width: 3px; }
   .node.dim, .link.dim { opacity: .12; }
-  #tl { cursor: default; }
+  #tl { cursor: default; height: auto; }
+  #graph.tl-mode { overflow-y: auto; }
+  #graph.tl-mode #legend { display: none; }
   #tl .axis text { font-size: 11px; fill: var(--muted); }
   #tl .axis line, #tl .axis path { stroke: var(--line); }
   #tl .row text { font-size: 10px; fill: var(--fg); }
@@ -314,22 +317,22 @@
   const fmtYear = y => y < 0 ? `${-y} BCE` : `${y} CE`;
   function drawTimeline() {
     const b = box();
-    tlSvg.attr("viewBox", `0 0 ${b.width} ${b.height}`).selectAll("*").remove();
     const dated = entries.filter(e => dateOf(e));
     const years = dated.flatMap(e => { const d = dateOf(e); return [d.crit, d.trad]; });
-    const left = 110, right = 24, top = 80, bottom = 36;
+    const left = 110, right = 24, top = 130, bottom = 44, rowH = 17;
+    const H = top + dated.length * rowH + bottom;
+    tlSvg.attr("viewBox", `0 0 ${b.width} ${H}`).attr("width", b.width).attr("height", H).selectAll("*").remove();
     const x = d3.scaleLinear().domain([Math.min(...years) - 60, Math.max(...years, 100) + 60]).range([left, b.width - right]);
     const themesHere = THEMES.filter(t => dated.some(e => e.theme === t));
-    const rowH = Math.max(14, (b.height - top - bottom) / dated.length);
     const g = tlSvg.append("g");
     // axis
-    const axis = d3.axisTop(x).ticks(8).tickFormat(fmtYear);
+    const axis = d3.axisTop(x).ticks(Math.max(3, Math.floor((b.width - left - right) / 110))).tickFormat(fmtYear);
     g.append("g").attr("class", "axis").attr("transform", `translate(0,${top - 14})`).call(axis);
     // markers
     [[30, "Jesus' ministry and death, c. 30 CE"], [70, "Temple destroyed, 70 CE"]].forEach(([y, label], i) => {
       const m = g.append("g").attr("class", "marker");
-      m.append("line").attr("x1", x(y)).attr("x2", x(y)).attr("y1", top - 4).attr("y2", b.height - bottom + 8);
-      m.append("text").attr("x", x(y) + 4).attr("y", b.height - bottom + 20 + i * 0).attr("text-anchor", i ? "start" : "end").attr("dx", i ? 4 : -8).text(label);
+      m.append("line").attr("x1", x(y)).attr("x2", x(y)).attr("y1", top - 4).attr("y2", H - bottom + 8);
+      m.append("text").attr("x", x(y)).attr("y", H - bottom + 22 + i * 14).attr("text-anchor", i ? "start" : "end").attr("dx", i ? 6 : -6).text(label);
     });
     // rows grouped by theme
     let yi = 0;
@@ -350,8 +353,8 @@
         yi++;
       });
     });
-    g.append("text").attr("class", "theme-label").attr("x", left).attr("y", top - 40)
-      .text("filled dot: critical dating · dashed dot: traditional dating · dashed line joins them when they differ");
+    g.append("text").attr("class", "theme-label").attr("x", 8).attr("y", top - 36)
+      .text("filled dot: critical dating · dashed dot: traditional dating · joined when they differ");
     applyFilter();
   }
   tlBtn.addEventListener("click", () => {
@@ -359,6 +362,7 @@
     tlBtn.classList.toggle("off", !showTimeline);
     document.getElementById("svg").toggleAttribute("hidden", showTimeline);
     document.getElementById("tl").toggleAttribute("hidden", !showTimeline);
+    document.getElementById("graph").classList.toggle("tl-mode", showTimeline);
     if (showTimeline) drawTimeline();
   });
   tlBtn.classList.add("off");
