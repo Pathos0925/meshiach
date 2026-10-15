@@ -25,6 +25,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "Plain-sense reading (Rashi, Ibn Ezra): ongoing hostility between humans and snakes. Targum Pseudo-Jonathan and Targum Neofiti give it an eschatological turn: healing 'in the days of King Messiah'.",
+  "christian_reading": "The first promise of a deliverer: the woman's offspring will crush the serpent at the cost of his own wounding. Read as the gospel in seed form, fulfilled in the cross and resurrection, and the reason Paul calls Jesus 'born of a woman'.",
   "notes": "Often called the protoevangelium. The pronoun הוא ('he') is masculine singular, which Christian readers stress.",
   "tags": [
    "protoevangelium",
@@ -56,6 +57,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "The blessing is to Abraham's descendants collectively, Israel; nations are blessed through Israel's existence and Torah.",
+  "christian_reading": "The blessing of all nations through Abraham's seed is fulfilled in Jesus, through whom Gentiles are brought into Abraham's family (Galatians 3). The singular 'seed' points to one descendant.",
   "notes": "Paul's argument in Galatians 3:16 turns on זרע 'seed' being singular.",
   "tags": [
    "abraham",
@@ -87,6 +89,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "Targum Onkelos: 'until the Messiah comes, to whom the kingdom belongs'. Sanhedrin 98b lists 'Shiloh' as a name of the Messiah. Rabbinic tradition is messianic here; the dispute is only whether he has come.",
+  "christian_reading": "Judah will hold the royal line until the one to whom it belongs arrives. Jesus is the Lion of Judah; the end of Judah's independent rule under Rome marks the time of his coming.",
   "notes": "שילה 'Shiloh' is textually uncertain; readings include 'he whose it is' (שלו) and 'tribute to him' (שי לה).",
   "tags": [
    "judah",
@@ -119,6 +122,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "The plain sense is the succession of prophets in general (Rashi, Ibn Ezra), or Joshua specifically. 4Q175 (Testimonia) at Qumran, however, quotes it in a list of eschatological figures.",
+  "christian_reading": "Jesus is the prophet like Moses: lawgiver of a new covenant, mediator, deliverer from bondage, performing signs. Peter and Stephen apply the verse to him directly in Acts.",
   "notes": "The Samaritans built their messianic hope (the Taheb) almost entirely on this verse.",
   "tags": [
    "moses",
@@ -144,6 +148,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "Primarily Solomon, who built the Temple; the 'forever' is the Davidic dynasty, which the Messiah will restore (Amos 9:11, Sanhedrin 97a-98b). 4Q174 (Florilegium) reads it of the 'Branch of David' at the end of days.",
+  "christian_reading": "Solomon fulfilled it in part, but 'forever' demands an eternal king. Jesus, son of David, builds the true house of God (his people) and reigns without end, as Gabriel tells Mary.",
   "notes": "Foundation of the title 'Son of David'.",
   "tags": [
    "david",
@@ -176,6 +181,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "MT reads כארי 'like a lion'; the psalm is David's own distress, or Israel in exile (Rashi: Esther).",
+  "christian_reading": "The psalm describes crucifixion in detail centuries before the practice: pierced hands and feet, mocking, divided garments, thirst. Jesus quotes its opening line from the cross, and its ending ('he has done it') matches 'it is finished'.",
   "notes": "Key text-critical case: MT כארי vs LXX ὤρυξαν 'they dug/pierced' (reading כארו). Nahal Hever Psalms scroll supports כארו.",
   "tags": [
    "text-criticism",
@@ -209,6 +215,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "Spoken by a court poet about David, or by David about Abraham (Nedarim 32b); some midrashim do apply it to the Messiah.",
+  "christian_reading": "David calls his own descendant 'my lord', which Jesus uses to show the Messiah is more than David's son. The enthronement at God's right hand is the ascension; the priest 'after the order of Melchizedek' (v.4) is Jesus' eternal priesthood.",
   "notes": "Most-quoted OT verse in the NT. אדני here is adoni (my lord, human), not Adonai.",
   "tags": [
    "right-hand",
@@ -300,6 +307,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "A sign for King Ahaz in his own lifetime; עלמה means a young woman, not specifically a virgin (בתולה). Rashi: Isaiah's wife; others: Hezekiah.",
+  "christian_reading": "A sign given to the house of David that exceeds Ahaz's day: a virgin conceives, and the child is 'God with us'. The Greek Septuagint's choice of 'virgin' is taken as inspired, and Matthew sees it fulfilled in Mary.",
   "notes": "The LXX, translated by Jews before Jesus, chose παρθένος 'virgin'. Matthew quotes the LXX.",
   "tags": [
    "immanuel",
@@ -438,6 +446,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "Hezekiah (Sanhedrin 94a discusses this). The names are read as a sentence naming God, with only 'Prince of Peace' describing the child. Targum Jonathan nonetheless reads it messianically.",
+  "christian_reading": "The child born is given divine titles, Mighty God and Everlasting Father, and an unending reign on David's throne. No ordinary king, including Hezekiah, fits; Jesus does.",
   "notes": "Punctuation of the throne-names is the interpretive hinge.",
   "tags": [
    "hezekiah",
@@ -470,6 +479,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "The servant is Israel, suffering among the nations (Rashi, Ibn Ezra, Radak). But Targum Jonathan on 52:13 opens 'Behold my servant the Messiah', and Sanhedrin 98b applies 53:4 to the Messiah ('the leper scholar').",
+  "christian_reading": "The clearest portrait of the atonement: an innocent individual suffers vicariously for the sins of others, is silent, dies, is buried with the rich, and lives again. Philip preaches Jesus from this chapter to the Ethiopian.",
   "notes": "The fourth Servant Song, Isaiah 52:13-53:12. The whole song should be catalogued, not only v.5.",
   "tags": [
    "servant-songs",
@@ -576,6 +586,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "Messianic in Targum Jonathan ('from you shall come forth before me the Messiah'); the 'origins from of old' are read as the Messiah's lineage from David of Bethlehem, or his name existing before creation (Pesachim 54a).",
+  "christian_reading": "The Messiah's birthplace is Bethlehem, yet his origins are 'from ancient days', pointing to pre-existence. Herod's own scribes cite it when the magi ask where the Christ is born.",
   "notes": "Matthew's wording differs from both MT and LXX.",
   "tags": [
    "bethlehem",
@@ -601,6 +612,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "The 'anointed' is a high priest (Onias III) or King Agrippa; Rashi takes the prince as Titus. Rabbinic tradition (Sanhedrin 97b) actively discourages calculating the end from Daniel.",
+  "christian_reading": "An anointed one is cut off, having nothing, before the destruction of the city and sanctuary in 70 CE. The chronology of the seventy weeks, however reckoned, lands in the first century, so the Messiah must have come and died before the Temple fell.",
   "notes": "The 'seventy weeks' chronology is the most contested calculation in the whole field; record the competing start dates rather than one answer.",
   "tags": [
    "seventy-weeks",
@@ -633,6 +645,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "Messianic in rabbinic tradition. Sanhedrin 98a: if Israel is worthy, the Messiah comes 'with the clouds of heaven' (Daniel 7:13); if not, 'lowly and riding on a donkey'.",
+  "christian_reading": "Jesus deliberately enacts this verse on Palm Sunday, presenting himself as the humble king. The passage goes on to speak of peace to the nations and a dominion 'to the ends of the earth'.",
   "notes": "Hebrew ונושע is passive, 'saved/delivered', not 'having salvation'.",
   "tags": [
    "triumphal-entry",
@@ -664,6 +677,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "Sukkah 52a applies the mourning to Messiah ben Joseph, slain in the final war. Others: a national mourning for those killed in battle.",
+  "christian_reading": "God speaks of being pierced, and Jerusalem mourning for him as for an only son. Fulfilled at the cross (John 19:37) and awaiting a final fulfilment when Israel looks on him at his return (Revelation 1:7).",
   "notes": "The shift from 'to me' (אלי) to 'for him' (עליו) is discussed by every commentator.",
   "tags": [
    "messiah-ben-joseph",
@@ -696,6 +710,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "The messenger is Elijah (Malachi 3:23 [4:5]), who precedes the day of the LORD; the 'Lord' coming to his temple is God himself.",
+  "christian_reading": "John the Baptist is the messenger who prepares the way, and the Lord who comes suddenly to his temple is Jesus, whose cleansing of the Temple and teaching there fulfil it.",
   "notes": "Pairs with Isaiah 40:3. Jesus identifies John the Baptist as the Elijah figure (Matthew 11:14).",
   "tags": [
    "elijah",
@@ -727,6 +742,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "A coronation psalm for the Davidic king; 'son' is the adoptive language of 2 Samuel 7:14. Rashi relates it to David; Sukkah 52a, however, has God say this verse to Messiah ben David.",
+  "christian_reading": "God's declaration 'You are my son' is spoken over Jesus at his baptism and transfiguration, and Paul applies 'today I have begotten you' to the resurrection, by which Jesus is declared Son of God with power.",
   "notes": "Paul applies 'today' to the resurrection, not the birth.",
   "tags": [
    "son-of-god",
@@ -759,6 +775,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "David's confidence that God will preserve his life from premature death; שחת is 'the pit' (grave), not 'corruption'.",
+  "christian_reading": "David died and his tomb was known, so he spoke of another: one whose body would not see decay. Peter's first sermon and Paul's at Antioch both build the case for the resurrection on this verse.",
   "notes": "Peter's argument in Acts 2 turns on the LXX διαφθορά 'corruption' and on David's tomb still being in Jerusalem.",
   "tags": [
    "resurrection",
@@ -790,6 +807,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "A lament of David (or of Israel in exile, Rashi) over enemies who return cruelty for kindness.",
+  "christian_reading": "The righteous sufferer offered gall and vinegar is Jesus on the cross. John notes that Jesus said 'I thirst' to fulfil this Scripture; Psalm 69 is also quoted of his zeal for the Temple and of Judas.",
   "notes": "Psalm 69 is quoted in the NT more than any psalm except 22 and 110.",
   "tags": [
    "crucifixion",
@@ -827,6 +845,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "Unambiguously messianic in Jewish tradition. Targum Jonathan: 'a king shall come forth from the sons of Jesse, and the Messiah from his sons' sons'. The chapter's peace among animals (11:6-9) is the main Jewish objection to it being already fulfilled.",
+  "christian_reading": "The shoot from Jesse's stump is Jesus, on whom the sevenfold Spirit rests. Matthew connects 'branch' (netzer) with Nazareth. The peaceable kingdom of vv.6-9 awaits his return.",
   "notes": "Matthew 2:23 is usually taken as wordplay on נצר (netzer, branch) and Nazareth.",
   "tags": [
    "jesse",
@@ -860,6 +879,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "Comfort to the Babylonian exiles: a road for God to lead them home. The Qumran community (1QS 8:13-14) applied it to itself, going to the desert to study Torah.",
+  "christian_reading": "All four gospels open the ministry with this verse: John the Baptist is the voice in the wilderness, and the Lord whose way he prepares is Jesus, implying the Messiah shares God's identity.",
   "notes": "Masoretic accents put 'in the wilderness' with 'prepare', not with 'a voice cries'. The LXX, followed by the gospels, moves it.",
   "tags": [
    "john-the-baptist",
@@ -892,6 +912,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "The first Servant Song. Targum Jonathan reads 'Behold my servant the Messiah'; Rashi and Radak read the servant as Israel (cf. 41:8, 'Israel my servant').",
+  "christian_reading": "The Spirit-anointed servant who brings justice to the nations gently, without breaking a bruised reed, is Jesus; Matthew quotes the whole passage of his healing ministry, and the Father's voice at the baptism echoes it.",
   "notes": "The voice at Jesus' baptism combines this verse with Psalm 2:7.",
   "tags": [
    "servant-songs",
@@ -924,6 +945,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "The second Servant Song; the servant is Israel, or the prophet himself, with a mission to the nations. Verse 3 names the servant 'Israel' explicitly.",
+  "christian_reading": "The servant's mission is too small if limited to Israel: he is to be a light to the nations. Simeon says it over the infant Jesus, and Paul takes it as his own commission to the Gentiles.",
   "notes": "Paul applies it to the apostles, not only to Jesus (Acts 13:47).",
   "tags": [
    "servant-songs",
@@ -955,6 +977,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "The third Servant Song; the prophet speaks of his own persecution, or Israel of its sufferings in exile.",
+  "christian_reading": "The servant who gives his back to the smiters and his face to spitting is Jesus before the Sanhedrin and the Roman soldiers. The passion narratives record each detail.",
   "notes": "No NT writer quotes this verse directly; the passion narratives echo it.",
   "tags": [
    "servant-songs",
@@ -980,6 +1003,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "The prophet speaks of his own commission to comfort Zion. Note that the speaker is literally 'anointed' (משח), which is why Qumran's 11Q13 (Melchizedek) reads it eschatologically.",
+  "christian_reading": "Jesus reads this in the Nazareth synagogue and declares it fulfilled in their hearing: he is the anointed one who brings good news to the poor, liberty to captives, and the year of the Lord's favour.",
   "notes": "Jesus stops reading before 'the day of vengeance of our God' (61:2b).",
   "tags": [
    "anointing",
@@ -1013,6 +1037,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "Messianic in Targum Jonathan ('I will raise up for David the Messiah of the righteous'). The name 'the LORD is our righteousness' is read as a sentence-name like Jerusalem's in 33:16, not a claim of divinity.",
+  "christian_reading": "The righteous Branch of David who reigns wisely and whose name is 'the LORD our righteousness' is Jesus, in whom believers are made righteous (1 Corinthians 1:30).",
   "notes": "'Branch' (צמח) becomes a messianic title in Zechariah 3:8, 6:12.",
   "tags": [
    "branch",
@@ -1045,6 +1070,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "A renewal of the Sinai covenant with the same Torah, now internalised, in the messianic age; not a replacement of the Torah. Verses 35-36 immediately promise Israel's permanence.",
+  "christian_reading": "Jesus inaugurates the new covenant at the Last Supper, 'in my blood'. Hebrews 8 quotes the passage in full: the law written on hearts and sins remembered no more are the gifts of the Spirit and the cross.",
   "notes": "Only occurrence of the phrase 'new covenant' in the Tanakh. The longest OT quotation in the NT (Hebrews 8).",
   "tags": [
    "new-covenant",
@@ -1076,6 +1102,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "In the chapter's own interpretation (7:18, 27) the 'son of man' stands for 'the holy ones of the Most High', Israel. Yet Sanhedrin 98a reads the clouds as the Messiah's coming 'if they are worthy', and Rashi says plainly 'this is King Messiah'. 1 Enoch 46-48 and 4 Ezra 13 also read it of an individual.",
+  "christian_reading": "Jesus' chosen title 'Son of Man' comes from this vision. At his trial he claims it openly and is condemned for it. Dominion over all peoples, given by the Ancient of Days, is the ascended Christ's.",
   "notes": "The book of Daniel switches to Aramaic from 2:4b to 7:28. Jesus' self-title 'Son of Man' comes from here.",
   "tags": [
    "son-of-man",
@@ -1103,6 +1130,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "Plainly about the Exodus, in the past tense; 'my son' is Israel (Exodus 4:22). Not a prediction.",
+  "christian_reading": "Jesus recapitulates Israel's history: called out of Egypt, tested in the wilderness forty days, and faithful where Israel failed. Matthew reads the verse typologically, as the true Son retracing the nation's steps.",
   "notes": "The clearest case of typology rather than prediction: Matthew reads Jesus as re-living Israel's story. Record it as such.",
   "tags": [
    "typology",
@@ -1135,6 +1163,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "The prophet, acting out the role of shepherd, is paid an insulting wage (thirty shekels is the price of a slave, Exodus 21:32) and throws it back. Nothing messianic in context.",
+  "christian_reading": "The shepherd valued at thirty pieces of silver, the money thrown down in the Temple and going to the potter, is fulfilled in Judas' betrayal and the purchase of the potter's field (Matthew 27).",
   "notes": "Matthew attributes the quotation to Jeremiah, probably conflating with Jeremiah 19 and 32. Syriac reads אוצר 'treasury' for היוצר 'potter'.",
   "tags": [
    "judas",
@@ -1161,6 +1190,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "The shepherd is a bad ruler (the worthless shepherd of 11:17) whose fall leads to Israel's refining; Ibn Ezra and Radak take the whole of chapters 12-14 as the wars of Gog.",
+  "christian_reading": "Jesus quotes it on the way to Gethsemane: he is the shepherd struck by God's own sword, his disciples the scattered sheep. The 'man who is my associate' is read as a hint of the Messiah's equality with God.",
   "notes": "The Damascus Document (CD-B 19:7-9) at Qumran quotes this verse of the coming of the Messiah of Aaron and Israel.",
   "tags": [
    "shepherd",
@@ -1193,6 +1223,7 @@ window.MESHIACH = [
    }
   ],
   "jewish_reading": "Elijah himself, bodily, returns before the Messiah; hence the cup of Elijah at Passover and the chair of Elijah at circumcision. Eruvin 43b: Elijah comes the day before the Messiah.",
+  "christian_reading": "John the Baptist comes 'in the spirit and power of Elijah' (Luke 1:17), and Jesus says plainly that he is the Elijah who was to come. Elijah's appearance at the transfiguration confirms the link.",
   "notes": "The Gospel of John has John the Baptist deny being Elijah (John 1:21); Matthew has Jesus affirm it.",
   "tags": [
    "elijah",
@@ -1224,6 +1255,7 @@ window.MESHIACH = [
    "isa-42-1"
   ],
   "jewish_reading": "The Targum applies the exaltation to the Messiah but systematically rewrites the suffering of chapter 53 onto Israel and the nations. So it is evidence that the servant was read messianically, not that his suffering was.",
+  "christian_reading": "Evidence from within Jewish tradition that the servant of Isaiah 52-53 was understood as the Messiah before the rabbinic 'Israel' reading became standard. Philippians 2 describes the same exaltation after humiliation.",
   "notes": "Dated roughly 1st-2nd century CE in its core; the text we have is later.",
   "tags": [
    "targum",
@@ -1246,6 +1278,7 @@ window.MESHIACH = [
    "isa-53-5"
   ],
   "jewish_reading": "A rabbinic voice applying Isaiah 53:4 to the Messiah as one who suffers, alongside the mainstream reading of the servant as Israel. Both readings coexist in the tradition.",
+  "christian_reading": "Rabbinic acknowledgment that the Messiah bears sickness and suffering, in the words of Isaiah 53:4, and that 'Shiloh' of Genesis 49:10 is a messianic name. Both are read as pointing to Jesus.",
   "notes": "Mixed Hebrew and Aramaic, as the Talmud usually is.",
   "tags": [
    "talmud",
@@ -1269,6 +1302,7 @@ window.MESHIACH = [
    "ps-2-7"
   ],
   "jewish_reading": "The tradition of two Messiahs: ben Joseph who dies in battle, ben David who then reigns. The passage goes on to have Messiah ben David ask God for life, and God answer with Psalm 2:7-8 and Psalm 21:5.",
+  "christian_reading": "The tradition of a Messiah who dies (ben Joseph) and a Messiah who reigns (ben David) is read as two aspects of one Messiah: Jesus who suffered at his first coming and will reign at his second.",
   "notes": "This is the main rabbinic text for a dying Messiah. Christian readers see Jesus in both roles; Jewish readers see two distinct figures.",
   "tags": [
    "talmud",
@@ -1299,6 +1333,7 @@ window.MESHIACH = [
    "isa-61-1-2"
   ],
   "jewish_reading": "A pre-Christian Jewish text (c. 100 BCE) combining Psalm 146 and Isaiah 61 into a list of what will happen when the Messiah comes, including raising the dead. It shows the expectation Jesus' answer to John the Baptist was addressing.",
+  "christian_reading": "A pre-Christian Jewish expectation that the Messiah's age brings healing of the blind, raising of the dead, and good news to the poor. Jesus' reply to John the Baptist (Matthew 11:5) lists exactly these signs as proof of who he is.",
   "notes": "Whether the healer is God or the Messiah is debated; the grammar favours God acting in the Messiah's time.",
   "tags": [
    "qumran",

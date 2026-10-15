@@ -70,6 +70,7 @@ Fields:
 | `source` | the Jewish text: reference, language code (`he` Hebrew, `arc` Aramaic, `el` Greek), original text, English |
 | `fulfilment` | list of New Testament passages (Greek + English) that cite or allude to it |
 | `jewish_reading` | how classical Jewish interpretation (Targum, Talmud, Rashi, Radak, etc.) takes the passage |
+| `christian_reading` | how Christian interpretation takes the passage and why it is applied to Jesus |
 | `notes` | textual or translation issues |
 | `tags` | free keywords |
 | `words` | optional per-word glosses for the original text (see below) |
