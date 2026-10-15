@@ -140,7 +140,8 @@ See [docs/sources.md](docs/sources.md) for editions and licensing.
 - [x] Add Targum / Talmud / Qumran entries as first-class sources, not just notes
 - [x] Script to regenerate `docs/graph.md` and the web data from the YAML
 - [x] Interactive web graph (click a node, see both languages side by side)
-- [ ] **Word hover**: hovering a word of the original text shows (a) the word's translation and (b) its meaning in the context of the sentence. Where Jewish and Christian tradition differ on the contextual meaning, both are shown. The `words` field and the web viewer already support this; the work is filling in glosses for every entry.
+- [x] **Word hover**: hovering a word of the original text shows (a) the word's translation and (b) its meaning in the context of the sentence. Where Jewish and Christian tradition differ on the contextual meaning, both are shown. All 35 entries have glosses; they still need a second reader.
+- [ ] Review pass on all glosses and readings by someone other than the first author
 - [x] Add vowel pointing (niqqud) to the Hebrew, with a toggle in the viewer
 - [ ] Catalogue whole passages, not single verses (Isaiah 52:13-53:12, Psalm 22 entire, Daniel 9:24-27)
 - [ ] Midrash entries (Pesikta Rabbati 36-37, Midrash Tehillim)

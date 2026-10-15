@@ -31,6 +31,114 @@ window.MESHIACH = [
   "tags": [
    "protoevangelium",
    "targum"
+  ],
+  "words": [
+   {
+    "w": "ואיבה",
+    "lemma": "אֵיבָה",
+    "gloss": "and enmity",
+    "context": "hostility, hatred"
+   },
+   {
+    "w": "אשית",
+    "lemma": "שִׁית",
+    "gloss": "I will put, set",
+    "context": "God establishes it"
+   },
+   {
+    "w": "בינך",
+    "lemma": "בֵּין",
+    "gloss": "between you",
+    "context": "the serpent"
+   },
+   {
+    "w": "ובין",
+    "lemma": "בֵּין",
+    "gloss": "and between",
+    "context": "and"
+   },
+   {
+    "w": "האשה",
+    "lemma": "אִשָּׁה",
+    "gloss": "the woman",
+    "context": "Eve"
+   },
+   {
+    "w": "ובין",
+    "lemma": "בֵּין",
+    "gloss": "and between",
+    "context": "and"
+   },
+   {
+    "w": "זרעך",
+    "lemma": "זֶרַע",
+    "gloss": "your seed, offspring",
+    "context": "the serpent's descendants",
+    "readings": {
+     "jewish": "snakes, or evil more broadly",
+     "christian": "the devil's followers; the serpent is Satan (Revelation 12:9)"
+    }
+   },
+   {
+    "w": "ובין",
+    "lemma": "בֵּין",
+    "gloss": "and between",
+    "context": "and"
+   },
+   {
+    "w": "זרעה",
+    "lemma": "זֶרַע",
+    "gloss": "her seed",
+    "context": "the woman's offspring",
+    "readings": {
+     "jewish": "humanity, Eve's descendants collectively",
+     "christian": "the Messiah, uniquely 'her' seed: born of a woman without a human father"
+    }
+   },
+   {
+    "w": "הוא",
+    "lemma": "הוּא",
+    "gloss": "he, it",
+    "context": "masculine singular pronoun",
+    "readings": {
+     "jewish": "collective 'it' or 'they': mankind; the Septuagint's masculine αὐτός is grammatical, not messianic",
+     "christian": "'he': one individual, the Messiah"
+    }
+   },
+   {
+    "w": "ישופך",
+    "lemma": "שׁוּף",
+    "gloss": "he will bruise, crush you",
+    "context": "strike at"
+   },
+   {
+    "w": "ראש",
+    "lemma": "רֹאשׁ",
+    "gloss": "head",
+    "context": "a fatal blow to the head"
+   },
+   {
+    "w": "ואתה",
+    "lemma": "אַתָּה",
+    "gloss": "and you",
+    "context": "the serpent"
+   },
+   {
+    "w": "תשופנו",
+    "lemma": "שׁוּף",
+    "gloss": "you will bruise him",
+    "context": "strike at him"
+   },
+   {
+    "w": "עקב",
+    "lemma": "עָקֵב",
+    "gloss": "heel",
+    "context": "a non-fatal wound",
+    "readings": {
+     "jewish": "humans strike snakes' heads, snakes bite heels: the enmity of everyday life",
+     "christian": "the Messiah's suffering and death, from which he rises; the serpent's wound is final, his is not"
+    }
+   }
   ]
  },
  {
@@ -64,6 +172,66 @@ window.MESHIACH = [
   "tags": [
    "abraham",
    "nations"
+  ],
+  "words": [
+   {
+    "w": "ואברכה",
+    "lemma": "בָּרַךְ",
+    "gloss": "and I will bless",
+    "context": "God promises"
+   },
+   {
+    "w": "מברכיך",
+    "lemma": "בָּרַךְ",
+    "gloss": "those who bless you",
+    "context": "your well-wishers"
+   },
+   {
+    "w": "ומקללך",
+    "lemma": "קָלַל",
+    "gloss": "and the one who curses you",
+    "context": "your enemy"
+   },
+   {
+    "w": "אאר",
+    "lemma": "אָרַר",
+    "gloss": "I will curse",
+    "context": "bind with a curse"
+   },
+   {
+    "w": "ונברכו",
+    "lemma": "בָּרַךְ",
+    "gloss": "and they shall be blessed / bless themselves",
+    "context": "niphal: passive or reflexive",
+    "readings": {
+     "jewish": "reflexive: the nations will bless themselves by Abraham's name, 'may you be like Abraham' (Rashi)",
+     "christian": "passive: the nations will be blessed through Abraham's seed (Galatians 3:8)"
+    }
+   },
+   {
+    "w": "בך",
+    "lemma": "בְּ + אַתָּה",
+    "gloss": "in you, by you",
+    "context": "through you"
+   },
+   {
+    "w": "כל",
+    "lemma": "כֹּל",
+    "gloss": "all",
+    "context": "every"
+   },
+   {
+    "w": "משפחת",
+    "lemma": "מִשְׁפָּחָה",
+    "gloss": "families, clans of",
+    "context": "the peoples of"
+   },
+   {
+    "w": "האדמה",
+    "lemma": "אֲדָמָה",
+    "gloss": "the ground, the earth",
+    "context": "the whole earth"
+   }
   ]
  },
  {
@@ -233,6 +401,72 @@ window.MESHIACH = [
   "tags": [
    "moses",
    "qumran"
+  ],
+  "words": [
+   {
+    "w": "נביא",
+    "lemma": "נָבִיא",
+    "gloss": "a prophet",
+    "context": "one who speaks for God"
+   },
+   {
+    "w": "מקרבך",
+    "lemma": "קֶרֶב",
+    "gloss": "from your midst",
+    "context": "from among you"
+   },
+   {
+    "w": "מאחיך",
+    "lemma": "אָח",
+    "gloss": "from your brothers",
+    "context": "an Israelite, not a foreign diviner (v.14)"
+   },
+   {
+    "w": "כמני",
+    "lemma": "כְּמוֹ",
+    "gloss": "like me",
+    "context": "like Moses",
+    "readings": {
+     "jewish": "like Moses in office: each prophet in turn is 'like me' in being God's spokesman",
+     "christian": "like Moses uniquely: lawgiver, mediator, redeemer, which only the Messiah is (Deuteronomy 34:10)"
+    }
+   },
+   {
+    "w": "יקים",
+    "lemma": "קוּם",
+    "gloss": "he will raise up",
+    "context": "God will establish"
+   },
+   {
+    "w": "לך",
+    "lemma": "לְ + אַתָּה",
+    "gloss": "for you",
+    "context": "for Israel"
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "the LORD",
+    "context": "God"
+   },
+   {
+    "w": "אלהיך",
+    "lemma": "אֱלֹהִים",
+    "gloss": "your God",
+    "context": "your God"
+   },
+   {
+    "w": "אליו",
+    "lemma": "אֶל",
+    "gloss": "to him",
+    "context": "to that prophet"
+   },
+   {
+    "w": "תשמעון",
+    "lemma": "שָׁמַע",
+    "gloss": "you shall listen, obey",
+    "context": "heed him; echoed at the transfiguration, 'listen to him'"
+   }
   ]
  },
  {
@@ -261,6 +495,136 @@ window.MESHIACH = [
    "david",
    "qumran",
    "son-of-david"
+  ],
+  "words": [
+   {
+    "w": "והקימתי",
+    "lemma": "קוּם",
+    "gloss": "and I will raise up",
+    "context": "God promises"
+   },
+   {
+    "w": "את",
+    "lemma": "אֵת",
+    "gloss": "(object marker)",
+    "context": "marks 'your seed'"
+   },
+   {
+    "w": "זרעך",
+    "lemma": "זֶרַע",
+    "gloss": "your seed, offspring",
+    "context": "your descendant"
+   },
+   {
+    "w": "אחריך",
+    "lemma": "אַחַר",
+    "gloss": "after you",
+    "context": "when you are gone"
+   },
+   {
+    "w": "אשר",
+    "lemma": "אֲשֶׁר",
+    "gloss": "who",
+    "context": "who"
+   },
+   {
+    "w": "יצא",
+    "lemma": "יָצָא",
+    "gloss": "will come forth",
+    "context": "will be born"
+   },
+   {
+    "w": "ממעיך",
+    "lemma": "מֵעֶה",
+    "gloss": "from your body",
+    "context": "your own son"
+   },
+   {
+    "w": "והכינתי",
+    "lemma": "כּוּן",
+    "gloss": "and I will establish",
+    "context": "make firm"
+   },
+   {
+    "w": "את",
+    "lemma": "אֵת",
+    "gloss": "(object marker)",
+    "context": "marks 'his kingdom'"
+   },
+   {
+    "w": "ממלכתו",
+    "lemma": "מַמְלָכָה",
+    "gloss": "his kingdom",
+    "context": "his reign"
+   },
+   {
+    "w": "הוא",
+    "lemma": "הוּא",
+    "gloss": "he",
+    "context": "emphatic: he, not you"
+   },
+   {
+    "w": "יבנה",
+    "lemma": "בָּנָה",
+    "gloss": "will build",
+    "context": "will build"
+   },
+   {
+    "w": "בית",
+    "lemma": "בַּיִת",
+    "gloss": "a house",
+    "context": "a temple",
+    "readings": {
+     "jewish": "Solomon's Temple, built c. 960 BCE",
+     "christian": "Solomon's Temple first; ultimately the living temple of Christ's people (1 Peter 2:5), and the Messiah who will build the final Temple"
+    }
+   },
+   {
+    "w": "לשמי",
+    "lemma": "שֵׁם",
+    "gloss": "for my name",
+    "context": "for God's name"
+   },
+   {
+    "w": "וכננתי",
+    "lemma": "כּוּן",
+    "gloss": "and I will establish",
+    "context": "make firm"
+   },
+   {
+    "w": "את",
+    "lemma": "אֵת",
+    "gloss": "(object marker)",
+    "context": "marks 'the throne'"
+   },
+   {
+    "w": "כסא",
+    "lemma": "כִּסֵּא",
+    "gloss": "the throne of",
+    "context": "the throne of"
+   },
+   {
+    "w": "ממלכתו",
+    "lemma": "מַמְלָכָה",
+    "gloss": "his kingdom",
+    "context": "his reign"
+   },
+   {
+    "w": "עד",
+    "lemma": "עַד",
+    "gloss": "unto",
+    "context": "until"
+   },
+   {
+    "w": "עולם",
+    "lemma": "עוֹלָם",
+    "gloss": "forever, eternity",
+    "context": "for all time",
+    "readings": {
+     "jewish": "the Davidic dynasty endures, even through exile, until the Messiah son of David restores it",
+     "christian": "a literally eternal reign, which only an eternal king can hold (Luke 1:33)"
+    }
+   }
   ]
  },
  {
@@ -1205,6 +1569,152 @@ window.MESHIACH = [
   "tags": [
    "triumphal-entry",
    "sanhedrin-98"
+  ],
+  "words": [
+   {
+    "w": "גילי",
+    "lemma": "גִּיל",
+    "gloss": "rejoice",
+    "context": "exult"
+   },
+   {
+    "w": "מאד",
+    "lemma": "מְאֹד",
+    "gloss": "greatly",
+    "context": "exceedingly"
+   },
+   {
+    "w": "בת",
+    "lemma": "בַּת",
+    "gloss": "daughter of",
+    "context": "personified city"
+   },
+   {
+    "w": "ציון",
+    "lemma": "צִיּוֹן",
+    "gloss": "Zion",
+    "context": "Jerusalem"
+   },
+   {
+    "w": "הריעי",
+    "lemma": "רוּעַ",
+    "gloss": "shout",
+    "context": "raise a shout"
+   },
+   {
+    "w": "בת",
+    "lemma": "בַּת",
+    "gloss": "daughter of",
+    "context": "personified city"
+   },
+   {
+    "w": "ירושלם",
+    "lemma": "יְרוּשָׁלַיִם",
+    "gloss": "Jerusalem",
+    "context": "Jerusalem"
+   },
+   {
+    "w": "הנה",
+    "lemma": "הִנֵּה",
+    "gloss": "behold",
+    "context": "look"
+   },
+   {
+    "w": "מלכך",
+    "lemma": "מֶלֶךְ",
+    "gloss": "your king",
+    "context": "the king who belongs to you",
+    "readings": {
+     "jewish": "King Messiah, who comes humbly if Israel is not worthy (Sanhedrin 98a)",
+     "christian": "Jesus, entering Jerusalem on Palm Sunday"
+    }
+   },
+   {
+    "w": "יבוא",
+    "lemma": "בּוֹא",
+    "gloss": "comes",
+    "context": "is coming"
+   },
+   {
+    "w": "לך",
+    "lemma": "לְ + אַתְּ",
+    "gloss": "to you",
+    "context": "to you"
+   },
+   {
+    "w": "צדיק",
+    "lemma": "צַדִּיק",
+    "gloss": "righteous",
+    "context": "just"
+   },
+   {
+    "w": "ונושע",
+    "lemma": "יָשַׁע",
+    "gloss": "and saved, delivered",
+    "context": "niphal: he has been saved (by God)",
+    "readings": {
+     "jewish": "saved by God, victorious; a human king delivered in battle",
+     "christian": "having salvation to give; or 'saved' through resurrection after being struck"
+    }
+   },
+   {
+    "w": "הוא",
+    "lemma": "הוּא",
+    "gloss": "he",
+    "context": "he"
+   },
+   {
+    "w": "עני",
+    "lemma": "עָנִי",
+    "gloss": "humble, poor, afflicted",
+    "context": "lowly"
+   },
+   {
+    "w": "ורכב",
+    "lemma": "רָכַב",
+    "gloss": "and riding",
+    "context": "mounted"
+   },
+   {
+    "w": "על",
+    "lemma": "עַל",
+    "gloss": "on",
+    "context": "on"
+   },
+   {
+    "w": "חמור",
+    "lemma": "חֲמוֹר",
+    "gloss": "a donkey",
+    "context": "a donkey, not a war-horse"
+   },
+   {
+    "w": "ועל",
+    "lemma": "עַל",
+    "gloss": "and on",
+    "context": "and on"
+   },
+   {
+    "w": "עיר",
+    "lemma": "עַיִר",
+    "gloss": "a colt",
+    "context": "a young donkey",
+    "readings": {
+     "jewish": "Hebrew parallelism: one animal described twice",
+     "christian": "Matthew 21 mentions both donkey and colt; the parallelism names one animal, the colt"
+    }
+   },
+   {
+    "w": "בן",
+    "lemma": "בֵּן",
+    "gloss": "son of",
+    "context": "foal of"
+   },
+   {
+    "w": "אתנות",
+    "lemma": "אָתוֹן",
+    "gloss": "she-donkeys",
+    "context": "a she-ass's foal"
+   }
   ]
  },
  {
@@ -1406,6 +1916,138 @@ window.MESHIACH = [
   "tags": [
    "elijah",
    "john-the-baptist"
+  ],
+  "words": [
+   {
+    "w": "הנני",
+    "lemma": "הִנֵּה + אֲנִי",
+    "gloss": "behold, I",
+    "context": "God speaks"
+   },
+   {
+    "w": "שלח",
+    "lemma": "שָׁלַח",
+    "gloss": "am sending",
+    "context": "sending"
+   },
+   {
+    "w": "מלאכי",
+    "lemma": "מַלְאָךְ",
+    "gloss": "my messenger",
+    "context": "my messenger; also the prophet's own name, Malachi",
+    "readings": {
+     "jewish": "Elijah, named in 3:23",
+     "christian": "John the Baptist (Mark 1:2)"
+    }
+   },
+   {
+    "w": "ופנה",
+    "lemma": "פָּנָה",
+    "gloss": "and he will clear",
+    "context": "prepare, clear away"
+   },
+   {
+    "w": "דרך",
+    "lemma": "דֶּרֶךְ",
+    "gloss": "a way",
+    "context": "a road"
+   },
+   {
+    "w": "לפני",
+    "lemma": "פָּנִים",
+    "gloss": "before me",
+    "context": "ahead of me, God",
+    "readings": {
+     "jewish": "before God's own coming in judgement",
+     "christian": "before Jesus, so Jesus is the 'me', the LORD"
+    }
+   },
+   {
+    "w": "ופתאם",
+    "lemma": "פִּתְאֹם",
+    "gloss": "and suddenly",
+    "context": "without warning"
+   },
+   {
+    "w": "יבוא",
+    "lemma": "בּוֹא",
+    "gloss": "will come",
+    "context": "will come"
+   },
+   {
+    "w": "אל",
+    "lemma": "אֶל",
+    "gloss": "to",
+    "context": "to"
+   },
+   {
+    "w": "היכלו",
+    "lemma": "הֵיכָל",
+    "gloss": "his temple",
+    "context": "the Temple in Jerusalem"
+   },
+   {
+    "w": "האדון",
+    "lemma": "אָדוֹן",
+    "gloss": "the Lord",
+    "context": "the Master; with the article, God",
+    "readings": {
+     "jewish": "God himself comes to judge the corrupt priesthood",
+     "christian": "the Lord who comes to his temple is Jesus, who cleansed it"
+    }
+   },
+   {
+    "w": "אשר",
+    "lemma": "אֲשֶׁר",
+    "gloss": "whom",
+    "context": "whom"
+   },
+   {
+    "w": "אתם",
+    "lemma": "אַתֶּם",
+    "gloss": "you",
+    "context": "you, the people"
+   },
+   {
+    "w": "מבקשים",
+    "lemma": "בָּקַשׁ",
+    "gloss": "are seeking",
+    "context": "asking for (2:17, 'where is the God of justice?')"
+   },
+   {
+    "w": "ומלאך",
+    "lemma": "מַלְאָךְ",
+    "gloss": "and the messenger of",
+    "context": "angel or messenger"
+   },
+   {
+    "w": "הברית",
+    "lemma": "בְּרִית",
+    "gloss": "the covenant",
+    "context": "of the covenant",
+    "readings": {
+     "jewish": "the same as 'the Lord': God, guardian of the covenant; or Elijah again",
+     "christian": "the Messiah, mediator of the new covenant (Jeremiah 31:31)"
+    }
+   },
+   {
+    "w": "אשר",
+    "lemma": "אֲשֶׁר",
+    "gloss": "whom",
+    "context": "whom"
+   },
+   {
+    "w": "אתם",
+    "lemma": "אַתֶּם",
+    "gloss": "you",
+    "context": "you"
+   },
+   {
+    "w": "חפצים",
+    "lemma": "חָפֵץ",
+    "gloss": "delight in, desire",
+    "context": "long for"
+   }
   ]
  },
  {
@@ -1440,6 +2082,86 @@ window.MESHIACH = [
    "son-of-god",
    "coronation",
    "sukkah-52"
+  ],
+  "words": [
+   {
+    "w": "אספרה",
+    "lemma": "סָפַר",
+    "gloss": "I will recount, declare",
+    "context": "the king speaks"
+   },
+   {
+    "w": "אל",
+    "lemma": "אֶל",
+    "gloss": "concerning",
+    "context": "about"
+   },
+   {
+    "w": "חק",
+    "lemma": "חֹק",
+    "gloss": "the decree",
+    "context": "the statute of adoption"
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "the LORD",
+    "context": "God"
+   },
+   {
+    "w": "אמר",
+    "lemma": "אָמַר",
+    "gloss": "said",
+    "context": "said"
+   },
+   {
+    "w": "אלי",
+    "lemma": "אֶל",
+    "gloss": "to me",
+    "context": "to the king"
+   },
+   {
+    "w": "בני",
+    "lemma": "בֵּן",
+    "gloss": "my son",
+    "context": "my son",
+    "readings": {
+     "jewish": "the Davidic king adopted as God's son at coronation (2 Samuel 7:14); or Israel (Exodus 4:22)",
+     "christian": "the Messiah, Son of God in a unique sense, spoken at Jesus' baptism"
+    }
+   },
+   {
+    "w": "אתה",
+    "lemma": "אַתָּה",
+    "gloss": "you",
+    "context": "you are"
+   },
+   {
+    "w": "אני",
+    "lemma": "אֲנִי",
+    "gloss": "I",
+    "context": "I"
+   },
+   {
+    "w": "היום",
+    "lemma": "יוֹם",
+    "gloss": "today",
+    "context": "this day",
+    "readings": {
+     "jewish": "the day of enthronement",
+     "christian": "the day of enthronement, applied by Paul to the resurrection (Acts 13:33)"
+    }
+   },
+   {
+    "w": "ילדתיך",
+    "lemma": "יָלַד",
+    "gloss": "I have begotten you",
+    "context": "fathered you",
+    "readings": {
+     "jewish": "adoptive language, not literal begetting",
+     "christian": "language of unique sonship; or of the resurrection as 'birth' from the dead"
+    }
+   }
   ]
  },
  {
@@ -1473,6 +2195,76 @@ window.MESHIACH = [
   "tags": [
    "resurrection",
    "septuagint"
+  ],
+  "words": [
+   {
+    "w": "כי",
+    "lemma": "כִּי",
+    "gloss": "for",
+    "context": "because"
+   },
+   {
+    "w": "לא",
+    "lemma": "לֹא",
+    "gloss": "not",
+    "context": "not"
+   },
+   {
+    "w": "תעזב",
+    "lemma": "עָזַב",
+    "gloss": "you will abandon",
+    "context": "leave, forsake"
+   },
+   {
+    "w": "נפשי",
+    "lemma": "נֶפֶשׁ",
+    "gloss": "my soul, my life",
+    "context": "myself"
+   },
+   {
+    "w": "לשאול",
+    "lemma": "שְׁאוֹל",
+    "gloss": "to Sheol",
+    "context": "the grave, the underworld"
+   },
+   {
+    "w": "לא",
+    "lemma": "לֹא",
+    "gloss": "not",
+    "context": "not"
+   },
+   {
+    "w": "תתן",
+    "lemma": "נָתַן",
+    "gloss": "you will give, allow",
+    "context": "let"
+   },
+   {
+    "w": "חסידך",
+    "lemma": "חָסִיד",
+    "gloss": "your faithful one",
+    "context": "your devoted one",
+    "readings": {
+     "jewish": "David himself, confident of God's protection",
+     "christian": "the Holy One, Jesus, whose body did not decay (Acts 2:27)"
+    }
+   },
+   {
+    "w": "לראות",
+    "lemma": "רָאָה",
+    "gloss": "to see",
+    "context": "to experience"
+   },
+   {
+    "w": "שחת",
+    "lemma": "שַׁחַת",
+    "gloss": "the pit; corruption",
+    "context": "the grave",
+    "readings": {
+     "jewish": "the pit, i.e. premature death; David asks to be spared it",
+     "christian": "corruption, decay (Septuagint διαφθορά): the resurrection body did not decay"
+    }
+   }
   ]
  },
  {
@@ -1506,6 +2298,48 @@ window.MESHIACH = [
   "tags": [
    "crucifixion",
    "lament"
+  ],
+  "words": [
+   {
+    "w": "ויתנו",
+    "lemma": "נָתַן",
+    "gloss": "and they gave, put",
+    "context": "they offered"
+   },
+   {
+    "w": "בברותי",
+    "lemma": "בָּרוּת",
+    "gloss": "in my food",
+    "context": "my meal"
+   },
+   {
+    "w": "ראש",
+    "lemma": "רֹאשׁ",
+    "gloss": "gall, poison",
+    "context": "a bitter poisonous plant"
+   },
+   {
+    "w": "ולצמאי",
+    "lemma": "צָמָא",
+    "gloss": "and for my thirst",
+    "context": "when I was thirsty"
+   },
+   {
+    "w": "ישקוני",
+    "lemma": "שָׁקָה",
+    "gloss": "they gave me to drink",
+    "context": "made me drink"
+   },
+   {
+    "w": "חמץ",
+    "lemma": "חֹמֶץ",
+    "gloss": "vinegar, sour wine",
+    "context": "sour wine (Greek ὄξος)",
+    "readings": {
+     "jewish": "a metaphor for enemies' cruelty to the psalmist",
+     "christian": "literally fulfilled at the cross, where Jesus was offered sour wine"
+    }
+   }
   ]
  },
  {
@@ -1547,6 +2381,138 @@ window.MESHIACH = [
    "branch",
    "targum",
    "spirit"
+  ],
+  "words": [
+   {
+    "w": "ויצא",
+    "lemma": "יָצָא",
+    "gloss": "and there will come forth",
+    "context": "will emerge"
+   },
+   {
+    "w": "חטר",
+    "lemma": "חֹטֶר",
+    "gloss": "a shoot, twig",
+    "context": "a new growth"
+   },
+   {
+    "w": "מגזע",
+    "lemma": "גֶּזַע",
+    "gloss": "from the stump of",
+    "context": "a cut-down tree: the Davidic line reduced"
+   },
+   {
+    "w": "ישי",
+    "lemma": "יִשַׁי",
+    "gloss": "Jesse",
+    "context": "David's father; the line restarts from humble roots"
+   },
+   {
+    "w": "ונצר",
+    "lemma": "נֵצֶר",
+    "gloss": "and a branch",
+    "context": "a sprout",
+    "readings": {
+     "jewish": "a branch from David's line: the Messiah",
+     "christian": "the Messiah; Matthew 2:23 hears 'Nazarene' in netzer"
+    }
+   },
+   {
+    "w": "משרשיו",
+    "lemma": "שֹׁרֶשׁ",
+    "gloss": "from his roots",
+    "context": "from his roots"
+   },
+   {
+    "w": "יפרה",
+    "lemma": "פָּרָה",
+    "gloss": "will bear fruit",
+    "context": "be fruitful"
+   },
+   {
+    "w": "ונחה",
+    "lemma": "נוּחַ",
+    "gloss": "and will rest",
+    "context": "settle"
+   },
+   {
+    "w": "עליו",
+    "lemma": "עַל",
+    "gloss": "upon him",
+    "context": "on him"
+   },
+   {
+    "w": "רוח",
+    "lemma": "רוּחַ",
+    "gloss": "the Spirit of",
+    "context": "the Spirit"
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "the LORD",
+    "context": "God"
+   },
+   {
+    "w": "רוח",
+    "lemma": "רוּחַ",
+    "gloss": "the spirit of",
+    "context": "a spirit of"
+   },
+   {
+    "w": "חכמה",
+    "lemma": "חָכְמָה",
+    "gloss": "wisdom",
+    "context": "wisdom"
+   },
+   {
+    "w": "ובינה",
+    "lemma": "בִּינָה",
+    "gloss": "and understanding",
+    "context": "discernment"
+   },
+   {
+    "w": "רוח",
+    "lemma": "רוּחַ",
+    "gloss": "the spirit of",
+    "context": "a spirit of"
+   },
+   {
+    "w": "עצה",
+    "lemma": "עֵצָה",
+    "gloss": "counsel",
+    "context": "good judgement"
+   },
+   {
+    "w": "וגבורה",
+    "lemma": "גְּבוּרָה",
+    "gloss": "and might",
+    "context": "strength"
+   },
+   {
+    "w": "רוח",
+    "lemma": "רוּחַ",
+    "gloss": "the spirit of",
+    "context": "a spirit of"
+   },
+   {
+    "w": "דעת",
+    "lemma": "דַּעַת",
+    "gloss": "knowledge",
+    "context": "knowledge"
+   },
+   {
+    "w": "ויראת",
+    "lemma": "יִרְאָה",
+    "gloss": "and the fear of",
+    "context": "reverence for"
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "the LORD",
+    "context": "God"
+   }
   ]
  },
  {
@@ -1581,6 +2547,76 @@ window.MESHIACH = [
    "john-the-baptist",
    "qumran",
    "exile"
+  ],
+  "words": [
+   {
+    "w": "קול",
+    "lemma": "קוֹל",
+    "gloss": "a voice",
+    "context": "a voice"
+   },
+   {
+    "w": "קורא",
+    "lemma": "קָרָא",
+    "gloss": "calling, crying",
+    "context": "proclaiming"
+   },
+   {
+    "w": "במדבר",
+    "lemma": "מִדְבָּר",
+    "gloss": "in the wilderness",
+    "context": "in the desert",
+    "readings": {
+     "jewish": "the accents attach this to 'prepare': prepare a way in the wilderness (for the exiles' return)",
+     "christian": "the Septuagint and gospels attach it to 'voice': a voice crying in the wilderness, John the Baptist"
+    }
+   },
+   {
+    "w": "פנו",
+    "lemma": "פָּנָה",
+    "gloss": "clear, prepare",
+    "context": "make ready"
+   },
+   {
+    "w": "דרך",
+    "lemma": "דֶּרֶךְ",
+    "gloss": "the way of",
+    "context": "the road for"
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "the LORD",
+    "context": "God",
+    "readings": {
+     "jewish": "God, leading the exiles home from Babylon",
+     "christian": "the Lord Jesus, whose way John prepares"
+    }
+   },
+   {
+    "w": "ישרו",
+    "lemma": "יָשַׁר",
+    "gloss": "make straight",
+    "context": "level"
+   },
+   {
+    "w": "בערבה",
+    "lemma": "עֲרָבָה",
+    "gloss": "in the desert",
+    "context": "in the Arabah, the dry plain"
+   },
+   {
+    "w": "מסלה",
+    "lemma": "מְסִלָּה",
+    "gloss": "a highway",
+    "context": "a raised road"
+   },
+   {
+    "w": "לאלהינו",
+    "lemma": "אֱלֹהִים",
+    "gloss": "for our God",
+    "context": "for our God"
+   }
   ]
  },
  {
@@ -1615,6 +2651,90 @@ window.MESHIACH = [
    "servant-songs",
    "targum",
    "baptism"
+  ],
+  "words": [
+   {
+    "w": "הן",
+    "lemma": "הֵן",
+    "gloss": "behold",
+    "context": "look"
+   },
+   {
+    "w": "עבדי",
+    "lemma": "עֶבֶד",
+    "gloss": "my servant",
+    "context": "God's servant",
+    "readings": {
+     "jewish": "Israel, 'Israel my servant' (41:8); Rashi, Radak",
+     "christian": "the Messiah; Targum Jonathan reads 'my servant the Messiah', and Matthew 12:18 applies it to Jesus"
+    }
+   },
+   {
+    "w": "אתמך",
+    "lemma": "תָּמַךְ",
+    "gloss": "I uphold",
+    "context": "I support"
+   },
+   {
+    "w": "בו",
+    "lemma": "בְּ + הוּא",
+    "gloss": "him",
+    "context": "him"
+   },
+   {
+    "w": "בחירי",
+    "lemma": "בָּחִיר",
+    "gloss": "my chosen one",
+    "context": "my elect"
+   },
+   {
+    "w": "רצתה",
+    "lemma": "רָצָה",
+    "gloss": "delights, is pleased",
+    "context": "takes pleasure"
+   },
+   {
+    "w": "נפשי",
+    "lemma": "נֶפֶשׁ",
+    "gloss": "my soul",
+    "context": "I myself"
+   },
+   {
+    "w": "נתתי",
+    "lemma": "נָתַן",
+    "gloss": "I have put",
+    "context": "I have placed"
+   },
+   {
+    "w": "רוחי",
+    "lemma": "רוּחַ",
+    "gloss": "my Spirit",
+    "context": "my Spirit"
+   },
+   {
+    "w": "עליו",
+    "lemma": "עַל",
+    "gloss": "upon him",
+    "context": "on him"
+   },
+   {
+    "w": "משפט",
+    "lemma": "מִשְׁפָּט",
+    "gloss": "justice, judgement",
+    "context": "right order"
+   },
+   {
+    "w": "לגוים",
+    "lemma": "גּוֹי",
+    "gloss": "to the nations",
+    "context": "to the Gentiles"
+   },
+   {
+    "w": "יוציא",
+    "lemma": "יָצָא",
+    "gloss": "he will bring forth",
+    "context": "cause to go out"
+   }
   ]
  },
  {
@@ -1648,6 +2768,60 @@ window.MESHIACH = [
   "tags": [
    "servant-songs",
    "nations"
+  ],
+  "words": [
+   {
+    "w": "ונתתיך",
+    "lemma": "נָתַן",
+    "gloss": "and I will make you",
+    "context": "I will appoint you"
+   },
+   {
+    "w": "לאור",
+    "lemma": "אוֹר",
+    "gloss": "as a light",
+    "context": "for a light"
+   },
+   {
+    "w": "גוים",
+    "lemma": "גּוֹי",
+    "gloss": "of nations",
+    "context": "to the Gentiles",
+    "readings": {
+     "jewish": "Israel is a light to the nations by its faithfulness, or the prophet to the exiles among the nations",
+     "christian": "the Messiah is the light of the world (John 8:12; Luke 2:32)"
+    }
+   },
+   {
+    "w": "להיות",
+    "lemma": "הָיָה",
+    "gloss": "to be",
+    "context": "so that"
+   },
+   {
+    "w": "ישועתי",
+    "lemma": "יְשׁוּעָה",
+    "gloss": "my salvation",
+    "context": "God's deliverance; cf. the name Yeshua"
+   },
+   {
+    "w": "עד",
+    "lemma": "עַד",
+    "gloss": "to",
+    "context": "as far as"
+   },
+   {
+    "w": "קצה",
+    "lemma": "קָצֶה",
+    "gloss": "the end of",
+    "context": "the edge of"
+   },
+   {
+    "w": "הארץ",
+    "lemma": "אֶרֶץ",
+    "gloss": "the earth",
+    "context": "the earth"
+   }
   ]
  },
  {
@@ -1681,6 +2855,72 @@ window.MESHIACH = [
   "tags": [
    "servant-songs",
    "passion"
+  ],
+  "words": [
+   {
+    "w": "גוי",
+    "lemma": "גֵּו",
+    "gloss": "my back",
+    "context": "my back"
+   },
+   {
+    "w": "נתתי",
+    "lemma": "נָתַן",
+    "gloss": "I gave",
+    "context": "I offered"
+   },
+   {
+    "w": "למכים",
+    "lemma": "נָכָה",
+    "gloss": "to those who strike",
+    "context": "to the smiters"
+   },
+   {
+    "w": "ולחיי",
+    "lemma": "לְחִי",
+    "gloss": "and my cheeks",
+    "context": "my cheeks"
+   },
+   {
+    "w": "למרטים",
+    "lemma": "מָרַט",
+    "gloss": "to those who pluck",
+    "context": "who pull out the beard"
+   },
+   {
+    "w": "פני",
+    "lemma": "פָּנִים",
+    "gloss": "my face",
+    "context": "my face"
+   },
+   {
+    "w": "לא",
+    "lemma": "לֹא",
+    "gloss": "not",
+    "context": "not"
+   },
+   {
+    "w": "הסתרתי",
+    "lemma": "סָתַר",
+    "gloss": "I hid",
+    "context": "I did not hide"
+   },
+   {
+    "w": "מכלמות",
+    "lemma": "כְּלִמָּה",
+    "gloss": "from insults, shame",
+    "context": "from humiliation"
+   },
+   {
+    "w": "ורק",
+    "lemma": "רֹק",
+    "gloss": "and spitting",
+    "context": "spittle",
+    "readings": {
+     "jewish": "the prophet, or Israel, endures abuse for faithfulness",
+     "christian": "Jesus spat upon at his trial (Matthew 26:67)"
+    }
+   }
   ]
  },
  {
@@ -1710,6 +2950,160 @@ window.MESHIACH = [
    "jubilee",
    "qumran",
    "nazareth"
+  ],
+  "words": [
+   {
+    "w": "רוח",
+    "lemma": "רוּחַ",
+    "gloss": "the Spirit of",
+    "context": "the Spirit"
+   },
+   {
+    "w": "אדני",
+    "lemma": "אֲדֹנָי",
+    "gloss": "the Lord",
+    "context": "the Lord"
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "GOD",
+    "context": "the LORD"
+   },
+   {
+    "w": "עלי",
+    "lemma": "עַל",
+    "gloss": "is upon me",
+    "context": "on me",
+    "readings": {
+     "jewish": "the prophet speaks of his own commission",
+     "christian": "Jesus reads this of himself at Nazareth (Luke 4:21)"
+    }
+   },
+   {
+    "w": "יען",
+    "lemma": "יַעַן",
+    "gloss": "because",
+    "context": "for the reason that"
+   },
+   {
+    "w": "משח",
+    "lemma": "מָשַׁח",
+    "gloss": "he has anointed",
+    "context": "anointed; the root of 'Messiah'",
+    "readings": {
+     "jewish": "figurative: appointed as a prophet",
+     "christian": "literally the Anointed One, the Messiah, anointed with the Spirit at his baptism"
+    }
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "the LORD",
+    "context": "God"
+   },
+   {
+    "w": "אתי",
+    "lemma": "אֵת",
+    "gloss": "me",
+    "context": "me"
+   },
+   {
+    "w": "לבשר",
+    "lemma": "בָּשַׂר",
+    "gloss": "to bring good news",
+    "context": "to announce glad tidings; cf. 'gospel'"
+   },
+   {
+    "w": "ענוים",
+    "lemma": "עָנָו",
+    "gloss": "to the poor, humble",
+    "context": "the afflicted"
+   },
+   {
+    "w": "שלחני",
+    "lemma": "שָׁלַח",
+    "gloss": "he has sent me",
+    "context": "commissioned me"
+   },
+   {
+    "w": "לחבש",
+    "lemma": "חָבַשׁ",
+    "gloss": "to bind up",
+    "context": "to bandage"
+   },
+   {
+    "w": "לנשברי",
+    "lemma": "שָׁבַר",
+    "gloss": "the broken of",
+    "context": "those broken in"
+   },
+   {
+    "w": "לב",
+    "lemma": "לֵב",
+    "gloss": "heart",
+    "context": "heart"
+   },
+   {
+    "w": "לקרא",
+    "lemma": "קָרָא",
+    "gloss": "to proclaim",
+    "context": "to call out"
+   },
+   {
+    "w": "לשבוים",
+    "lemma": "שָׁבָה",
+    "gloss": "to captives",
+    "context": "to those taken captive"
+   },
+   {
+    "w": "דרור",
+    "lemma": "דְּרוֹר",
+    "gloss": "liberty, release",
+    "context": "the Jubilee release (Leviticus 25:10)"
+   },
+   {
+    "w": "ולאסורים",
+    "lemma": "אָסַר",
+    "gloss": "and to the bound",
+    "context": "to prisoners"
+   },
+   {
+    "w": "פקח",
+    "lemma": "פָּקַח",
+    "gloss": "opening",
+    "context": "opening (of eyes or prison)"
+   },
+   {
+    "w": "קוח",
+    "lemma": "קוֹחַ",
+    "gloss": "opening",
+    "context": "the pair means 'release'; the Septuagint reads 'recovery of sight to the blind'"
+   },
+   {
+    "w": "לקרא",
+    "lemma": "קָרָא",
+    "gloss": "to proclaim",
+    "context": "to announce"
+   },
+   {
+    "w": "שנת",
+    "lemma": "שָׁנָה",
+    "gloss": "the year of",
+    "context": "the year of"
+   },
+   {
+    "w": "רצון",
+    "lemma": "רָצוֹן",
+    "gloss": "favour, acceptance",
+    "context": "good will"
+   },
+   {
+    "w": "ליהוה",
+    "lemma": "יהוה",
+    "gloss": "of the LORD",
+    "context": "the LORD's; Jesus stops reading here, before 'the day of vengeance'"
+   }
   ]
  },
  {
@@ -1744,6 +3138,188 @@ window.MESHIACH = [
    "branch",
    "david",
    "targum"
+  ],
+  "words": [
+   {
+    "w": "הנה",
+    "lemma": "הִנֵּה",
+    "gloss": "behold",
+    "context": "look"
+   },
+   {
+    "w": "ימים",
+    "lemma": "יוֹם",
+    "gloss": "days",
+    "context": "days"
+   },
+   {
+    "w": "באים",
+    "lemma": "בּוֹא",
+    "gloss": "are coming",
+    "context": "will come"
+   },
+   {
+    "w": "נאם",
+    "lemma": "נְאֻם",
+    "gloss": "declares",
+    "context": "oracle of"
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "the LORD",
+    "context": "God"
+   },
+   {
+    "w": "והקמתי",
+    "lemma": "קוּם",
+    "gloss": "and I will raise up",
+    "context": "I will establish"
+   },
+   {
+    "w": "לדוד",
+    "lemma": "דָּוִד",
+    "gloss": "for David",
+    "context": "from David's line"
+   },
+   {
+    "w": "צמח",
+    "lemma": "צֶמַח",
+    "gloss": "a Branch, sprout",
+    "context": "a shoot; a messianic title (Zechariah 3:8, 6:12)",
+    "readings": {
+     "jewish": "the Messiah, son of David (Targum: 'the Messiah of the righteous')",
+     "christian": "the Messiah, Jesus, son of David"
+    }
+   },
+   {
+    "w": "צדיק",
+    "lemma": "צַדִּיק",
+    "gloss": "righteous",
+    "context": "just"
+   },
+   {
+    "w": "ומלך",
+    "lemma": "מָלַךְ",
+    "gloss": "and he will reign",
+    "context": "will rule"
+   },
+   {
+    "w": "מלך",
+    "lemma": "מֶלֶךְ",
+    "gloss": "as king",
+    "context": "a king"
+   },
+   {
+    "w": "והשכיל",
+    "lemma": "שָׂכַל",
+    "gloss": "and he will act wisely, prosper",
+    "context": "deal prudently"
+   },
+   {
+    "w": "ועשה",
+    "lemma": "עָשָׂה",
+    "gloss": "and he will do",
+    "context": "execute"
+   },
+   {
+    "w": "משפט",
+    "lemma": "מִשְׁפָּט",
+    "gloss": "justice",
+    "context": "justice"
+   },
+   {
+    "w": "וצדקה",
+    "lemma": "צְדָקָה",
+    "gloss": "and righteousness",
+    "context": "righteousness"
+   },
+   {
+    "w": "בארץ",
+    "lemma": "אֶרֶץ",
+    "gloss": "in the land",
+    "context": "in the land"
+   },
+   {
+    "w": "בימיו",
+    "lemma": "יוֹם",
+    "gloss": "in his days",
+    "context": "during his reign"
+   },
+   {
+    "w": "תושע",
+    "lemma": "יָשַׁע",
+    "gloss": "will be saved",
+    "context": "delivered"
+   },
+   {
+    "w": "יהודה",
+    "lemma": "יְהוּדָה",
+    "gloss": "Judah",
+    "context": "Judah"
+   },
+   {
+    "w": "וישראל",
+    "lemma": "יִשְׂרָאֵל",
+    "gloss": "and Israel",
+    "context": "Israel"
+   },
+   {
+    "w": "ישכן",
+    "lemma": "שָׁכַן",
+    "gloss": "will dwell",
+    "context": "will live"
+   },
+   {
+    "w": "לבטח",
+    "lemma": "בֶּטַח",
+    "gloss": "securely",
+    "context": "in safety",
+    "readings": {
+     "jewish": "Israel dwelling securely in its land has not yet happened, so the Messiah has not come",
+     "christian": "begun spiritually now, completed at the second coming"
+    }
+   },
+   {
+    "w": "וזה",
+    "lemma": "זֶה",
+    "gloss": "and this",
+    "context": "this is"
+   },
+   {
+    "w": "שמו",
+    "lemma": "שֵׁם",
+    "gloss": "his name",
+    "context": "his name"
+   },
+   {
+    "w": "אשר",
+    "lemma": "אֲשֶׁר",
+    "gloss": "which",
+    "context": "by which"
+   },
+   {
+    "w": "יקראו",
+    "lemma": "קָרָא",
+    "gloss": "they will call him",
+    "context": "he will be called"
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "the LORD",
+    "context": "the LORD",
+    "readings": {
+     "jewish": "a sentence-name, 'the LORD is our righteousness', like Jerusalem's in 33:16; not a claim that the king is God",
+     "christian": "the king bears the divine name because he is the LORD who makes his people righteous"
+    }
+   },
+   {
+    "w": "צדקנו",
+    "lemma": "צֶדֶק",
+    "gloss": "our righteousness",
+    "context": "our righteousness"
+   }
   ]
  },
  {
@@ -1777,6 +3353,142 @@ window.MESHIACH = [
   "tags": [
    "new-covenant",
    "torah"
+  ],
+  "words": [
+   {
+    "w": "הנה",
+    "lemma": "הִנֵּה",
+    "gloss": "behold",
+    "context": "look"
+   },
+   {
+    "w": "ימים",
+    "lemma": "יוֹם",
+    "gloss": "days",
+    "context": "days"
+   },
+   {
+    "w": "באים",
+    "lemma": "בּוֹא",
+    "gloss": "are coming",
+    "context": "will come"
+   },
+   {
+    "w": "נאם",
+    "lemma": "נְאֻם",
+    "gloss": "declares",
+    "context": "oracle of"
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "the LORD",
+    "context": "God"
+   },
+   {
+    "w": "וכרתי",
+    "lemma": "כָּרַת",
+    "gloss": "and I will cut",
+    "context": "make (a covenant), by cutting a sacrifice"
+   },
+   {
+    "w": "את",
+    "lemma": "אֵת",
+    "gloss": "with",
+    "context": "with"
+   },
+   {
+    "w": "בית",
+    "lemma": "בַּיִת",
+    "gloss": "the house of",
+    "context": "the people of"
+   },
+   {
+    "w": "ישראל",
+    "lemma": "יִשְׂרָאֵל",
+    "gloss": "Israel",
+    "context": "the northern kingdom"
+   },
+   {
+    "w": "ואת",
+    "lemma": "אֵת",
+    "gloss": "and with",
+    "context": "and with"
+   },
+   {
+    "w": "בית",
+    "lemma": "בַּיִת",
+    "gloss": "the house of",
+    "context": "the people of"
+   },
+   {
+    "w": "יהודה",
+    "lemma": "יְהוּדָה",
+    "gloss": "Judah",
+    "context": "the southern kingdom; the covenant is with Israel, not the nations"
+   },
+   {
+    "w": "ברית",
+    "lemma": "בְּרִית",
+    "gloss": "a covenant",
+    "context": "a binding agreement"
+   },
+   {
+    "w": "חדשה",
+    "lemma": "חָדָשׁ",
+    "gloss": "new",
+    "context": "new; only here in the Tanakh",
+    "readings": {
+     "jewish": "renewed: the same Torah, now kept perfectly because written on the heart",
+     "christian": "new in kind: fulfilled in Jesus' blood (Luke 22:20), making the first obsolete (Hebrews 8:13)"
+    }
+   },
+   {
+    "w": "נתתי",
+    "lemma": "נָתַן",
+    "gloss": "I have put",
+    "context": "I will place"
+   },
+   {
+    "w": "את",
+    "lemma": "אֵת",
+    "gloss": "(object marker)",
+    "context": "marks 'my Torah'"
+   },
+   {
+    "w": "תורתי",
+    "lemma": "תּוֹרָה",
+    "gloss": "my Torah, instruction",
+    "context": "my law",
+    "readings": {
+     "jewish": "the Torah of Moses, internalised",
+     "christian": "God's law, now written by the Spirit on hearts (2 Corinthians 3:3)"
+    }
+   },
+   {
+    "w": "בקרבם",
+    "lemma": "קֶרֶב",
+    "gloss": "within them",
+    "context": "inside them"
+   },
+   {
+    "w": "ועל",
+    "lemma": "עַל",
+    "gloss": "and on",
+    "context": "and on"
+   },
+   {
+    "w": "לבם",
+    "lemma": "לֵב",
+    "gloss": "their heart",
+    "context": "their hearts"
+   },
+   {
+    "w": "אכתבנה",
+    "lemma": "כָּתַב",
+    "gloss": "I will write it",
+    "context": "I will inscribe it"
+   }
   ]
  },
  {
@@ -1812,6 +3524,254 @@ window.MESHIACH = [
    "aramaic",
    "sanhedrin-98",
    "clouds"
+  ],
+  "words": [
+   {
+    "w": "חזה",
+    "lemma": "חֲזָה",
+    "gloss": "seeing",
+    "context": "I was seeing (Aramaic)"
+   },
+   {
+    "w": "הוית",
+    "lemma": "הֲוָה",
+    "gloss": "I was",
+    "context": "I was"
+   },
+   {
+    "w": "בחזוי",
+    "lemma": "חֵזוּ",
+    "gloss": "in the visions of",
+    "context": "in visions"
+   },
+   {
+    "w": "ליליא",
+    "lemma": "לֵילְיָא",
+    "gloss": "the night",
+    "context": "night"
+   },
+   {
+    "w": "וארו",
+    "lemma": "אֲרוּ",
+    "gloss": "and behold",
+    "context": "and look"
+   },
+   {
+    "w": "עם",
+    "lemma": "עִם",
+    "gloss": "with",
+    "context": "with"
+   },
+   {
+    "w": "ענני",
+    "lemma": "עֲנָן",
+    "gloss": "the clouds of",
+    "context": "clouds",
+    "readings": {
+     "jewish": "the clouds mark the Messiah's glorious coming if Israel is worthy (Sanhedrin 98a)",
+     "christian": "divine transport: only God rides the clouds in the Tanakh, so the figure is divine"
+    }
+   },
+   {
+    "w": "שמיא",
+    "lemma": "שְׁמַיָּא",
+    "gloss": "heaven",
+    "context": "the heavens"
+   },
+   {
+    "w": "כבר",
+    "lemma": "בַּר",
+    "gloss": "like a son of",
+    "context": "one like a"
+   },
+   {
+    "w": "אנש",
+    "lemma": "אֱנָשׁ",
+    "gloss": "man",
+    "context": "human being",
+    "readings": {
+     "jewish": "a human-like figure representing 'the holy ones of the Most High', Israel (7:18, 27); Rashi: King Messiah",
+     "christian": "the Son of Man, Jesus' own title for himself (Mark 14:62)"
+    }
+   },
+   {
+    "w": "אתה",
+    "lemma": "אֲתָה",
+    "gloss": "coming",
+    "context": "was coming"
+   },
+   {
+    "w": "הוא",
+    "lemma": "הֲוָא",
+    "gloss": "was",
+    "context": "was"
+   },
+   {
+    "w": "ועד",
+    "lemma": "עַד",
+    "gloss": "and to",
+    "context": "unto"
+   },
+   {
+    "w": "עתיק",
+    "lemma": "עַתִּיק",
+    "gloss": "the Ancient of",
+    "context": "the Ancient"
+   },
+   {
+    "w": "יומיא",
+    "lemma": "יוֹם",
+    "gloss": "Days",
+    "context": "of Days: God"
+   },
+   {
+    "w": "מטה",
+    "lemma": "מְטָא",
+    "gloss": "he came, arrived",
+    "context": "he reached"
+   },
+   {
+    "w": "וקדמוהי",
+    "lemma": "קֳדָם",
+    "gloss": "and before him",
+    "context": "into his presence"
+   },
+   {
+    "w": "הקרבוהי",
+    "lemma": "קְרֵב",
+    "gloss": "they brought him near",
+    "context": "he was presented"
+   },
+   {
+    "w": "ולה",
+    "lemma": "לְ + הוּא",
+    "gloss": "and to him",
+    "context": "to him"
+   },
+   {
+    "w": "יהב",
+    "lemma": "יְהַב",
+    "gloss": "was given",
+    "context": "was given"
+   },
+   {
+    "w": "שלטן",
+    "lemma": "שׇׁלְטָן",
+    "gloss": "dominion",
+    "context": "rule"
+   },
+   {
+    "w": "ויקר",
+    "lemma": "יְקָר",
+    "gloss": "and glory, honour",
+    "context": "honour"
+   },
+   {
+    "w": "ומלכו",
+    "lemma": "מַלְכוּ",
+    "gloss": "and kingdom",
+    "context": "kingship"
+   },
+   {
+    "w": "וכל",
+    "lemma": "כֹּל",
+    "gloss": "and all",
+    "context": "every"
+   },
+   {
+    "w": "עממיא",
+    "lemma": "עַם",
+    "gloss": "the peoples",
+    "context": "peoples"
+   },
+   {
+    "w": "אמיא",
+    "lemma": "אֻמָּה",
+    "gloss": "nations",
+    "context": "nations"
+   },
+   {
+    "w": "ולשניא",
+    "lemma": "לִשָּׁן",
+    "gloss": "and languages",
+    "context": "tongues"
+   },
+   {
+    "w": "לה",
+    "lemma": "לְ + הוּא",
+    "gloss": "him",
+    "context": "him"
+   },
+   {
+    "w": "יפלחון",
+    "lemma": "פְּלַח",
+    "gloss": "will serve, worship",
+    "context": "serve; used of divine service in Daniel (3:28)",
+    "readings": {
+     "jewish": "serve him as a ruler; the same word is used for serving kings",
+     "christian": "worship him: the Son of Man receives what belongs to God"
+    }
+   },
+   {
+    "w": "שלטנה",
+    "lemma": "שׇׁלְטָן",
+    "gloss": "his dominion",
+    "context": "his rule"
+   },
+   {
+    "w": "שלטן",
+    "lemma": "שׇׁלְטָן",
+    "gloss": "a dominion",
+    "context": "a rule"
+   },
+   {
+    "w": "עלם",
+    "lemma": "עָלַם",
+    "gloss": "everlasting",
+    "context": "eternal"
+   },
+   {
+    "w": "די",
+    "lemma": "דִּי",
+    "gloss": "which",
+    "context": "that"
+   },
+   {
+    "w": "לא",
+    "lemma": "לָא",
+    "gloss": "not",
+    "context": "not"
+   },
+   {
+    "w": "יעדה",
+    "lemma": "עֲדָה",
+    "gloss": "will pass away",
+    "context": "will be removed"
+   },
+   {
+    "w": "ומלכותה",
+    "lemma": "מַלְכוּ",
+    "gloss": "and his kingdom",
+    "context": "his kingship"
+   },
+   {
+    "w": "די",
+    "lemma": "דִּי",
+    "gloss": "which",
+    "context": "that"
+   },
+   {
+    "w": "לא",
+    "lemma": "לָא",
+    "gloss": "not",
+    "context": "not"
+   },
+   {
+    "w": "תתחבל",
+    "lemma": "חֲבַל",
+    "gloss": "will be destroyed",
+    "context": "will be harmed"
+   }
   ]
  },
  {
@@ -1840,6 +3800,54 @@ window.MESHIACH = [
    "typology",
    "exodus",
    "egypt"
+  ],
+  "words": [
+   {
+    "w": "כי",
+    "lemma": "כִּי",
+    "gloss": "when, for",
+    "context": "when"
+   },
+   {
+    "w": "נער",
+    "lemma": "נַעַר",
+    "gloss": "a youth, child",
+    "context": "young"
+   },
+   {
+    "w": "ישראל",
+    "lemma": "יִשְׂרָאֵל",
+    "gloss": "Israel",
+    "context": "the nation"
+   },
+   {
+    "w": "ואהבהו",
+    "lemma": "אָהַב",
+    "gloss": "I loved him",
+    "context": "I loved him"
+   },
+   {
+    "w": "וממצרים",
+    "lemma": "מִצְרַיִם",
+    "gloss": "and from Egypt",
+    "context": "out of Egypt"
+   },
+   {
+    "w": "קראתי",
+    "lemma": "קָרָא",
+    "gloss": "I called",
+    "context": "I summoned; past tense"
+   },
+   {
+    "w": "לבני",
+    "lemma": "בֵּן",
+    "gloss": "my son",
+    "context": "my son",
+    "readings": {
+     "jewish": "Israel, God's firstborn son (Exodus 4:22); a statement about the Exodus, not a prediction",
+     "christian": "Israel first; then Jesus, the true Son who relives Israel's story, returning from Egypt (Matthew 2:15): typology, not prediction"
+    }
+   }
   ]
  },
  {
@@ -1874,6 +3882,226 @@ window.MESHIACH = [
    "judas",
    "thirty-silver",
    "text-criticism"
+  ],
+  "words": [
+   {
+    "w": "ואמר",
+    "lemma": "אָמַר",
+    "gloss": "and I said",
+    "context": "the prophet-shepherd speaks"
+   },
+   {
+    "w": "אליהם",
+    "lemma": "אֶל",
+    "gloss": "to them",
+    "context": "to the sheep-merchants"
+   },
+   {
+    "w": "אם",
+    "lemma": "אִם",
+    "gloss": "if",
+    "context": "if"
+   },
+   {
+    "w": "טוב",
+    "lemma": "טוֹב",
+    "gloss": "good",
+    "context": "it seems right"
+   },
+   {
+    "w": "בעיניכם",
+    "lemma": "עַיִן",
+    "gloss": "in your eyes",
+    "context": "to you"
+   },
+   {
+    "w": "הבו",
+    "lemma": "יָהַב",
+    "gloss": "give",
+    "context": "hand over"
+   },
+   {
+    "w": "שכרי",
+    "lemma": "שָׂכָר",
+    "gloss": "my wages",
+    "context": "my pay"
+   },
+   {
+    "w": "ואם",
+    "lemma": "אִם",
+    "gloss": "and if",
+    "context": "and if"
+   },
+   {
+    "w": "לא",
+    "lemma": "לֹא",
+    "gloss": "not",
+    "context": "not"
+   },
+   {
+    "w": "חדלו",
+    "lemma": "חָדַל",
+    "gloss": "refrain",
+    "context": "keep it"
+   },
+   {
+    "w": "וישקלו",
+    "lemma": "שָׁקַל",
+    "gloss": "and they weighed out",
+    "context": "they paid"
+   },
+   {
+    "w": "את",
+    "lemma": "אֵת",
+    "gloss": "(object marker)",
+    "context": "marks 'my wages'"
+   },
+   {
+    "w": "שכרי",
+    "lemma": "שָׂכָר",
+    "gloss": "my wages",
+    "context": "my pay"
+   },
+   {
+    "w": "שלשים",
+    "lemma": "שְׁלֹשִׁים",
+    "gloss": "thirty",
+    "context": "thirty"
+   },
+   {
+    "w": "כסף",
+    "lemma": "כֶּסֶף",
+    "gloss": "silver (shekels)",
+    "context": "pieces of silver; the price of a slave (Exodus 21:32)",
+    "readings": {
+     "jewish": "an insulting wage for the prophet's work as Israel's shepherd",
+     "christian": "the price paid to Judas for Jesus (Matthew 26:15)"
+    }
+   },
+   {
+    "w": "ויאמר",
+    "lemma": "אָמַר",
+    "gloss": "and said",
+    "context": "said"
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "the LORD",
+    "context": "God"
+   },
+   {
+    "w": "אלי",
+    "lemma": "אֶל",
+    "gloss": "to me",
+    "context": "to me"
+   },
+   {
+    "w": "השליכהו",
+    "lemma": "שָׁלַךְ",
+    "gloss": "throw it",
+    "context": "cast it"
+   },
+   {
+    "w": "אל",
+    "lemma": "אֶל",
+    "gloss": "to",
+    "context": "to"
+   },
+   {
+    "w": "היוצר",
+    "lemma": "יוֹצֵר",
+    "gloss": "the potter",
+    "context": "the potter; Syriac reads 'treasury'",
+    "readings": {
+     "jewish": "the Temple potter or smelter, where discarded metal went; or 'treasury'",
+     "christian": "the potter's field bought with Judas' silver (Matthew 27:7-10)"
+    }
+   },
+   {
+    "w": "אדר",
+    "lemma": "אֶדֶר",
+    "gloss": "the magnificence of",
+    "context": "the lordly (ironic)"
+   },
+   {
+    "w": "היקר",
+    "lemma": "יְקָר",
+    "gloss": "the price",
+    "context": "the value"
+   },
+   {
+    "w": "אשר",
+    "lemma": "אֲשֶׁר",
+    "gloss": "at which",
+    "context": "at which"
+   },
+   {
+    "w": "יקרתי",
+    "lemma": "יָקַר",
+    "gloss": "I was valued",
+    "context": "I was priced"
+   },
+   {
+    "w": "מעליהם",
+    "lemma": "עַל",
+    "gloss": "by them",
+    "context": "from them"
+   },
+   {
+    "w": "ואקחה",
+    "lemma": "לָקַח",
+    "gloss": "and I took",
+    "context": "so I took"
+   },
+   {
+    "w": "שלשים",
+    "lemma": "שְׁלֹשִׁים",
+    "gloss": "the thirty",
+    "context": "thirty"
+   },
+   {
+    "w": "הכסף",
+    "lemma": "כֶּסֶף",
+    "gloss": "the silver",
+    "context": "pieces of silver"
+   },
+   {
+    "w": "ואשליך",
+    "lemma": "שָׁלַךְ",
+    "gloss": "and I threw",
+    "context": "I cast"
+   },
+   {
+    "w": "אתו",
+    "lemma": "אֵת + הוּא",
+    "gloss": "it",
+    "context": "it"
+   },
+   {
+    "w": "בית",
+    "lemma": "בַּיִת",
+    "gloss": "in the house of",
+    "context": "into the house of"
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "the LORD",
+    "context": "God: the Temple; Judas threw the silver into the Temple"
+   },
+   {
+    "w": "אל",
+    "lemma": "אֶל",
+    "gloss": "to",
+    "context": "to"
+   },
+   {
+    "w": "היוצר",
+    "lemma": "יוֹצֵר",
+    "gloss": "the potter",
+    "context": "the potter"
+   }
   ]
  },
  {
@@ -1902,6 +4130,134 @@ window.MESHIACH = [
    "shepherd",
    "qumran",
    "gethsemane"
+  ],
+  "words": [
+   {
+    "w": "חרב",
+    "lemma": "חֶרֶב",
+    "gloss": "sword",
+    "context": "a sword"
+   },
+   {
+    "w": "עורי",
+    "lemma": "עוּר",
+    "gloss": "awake",
+    "context": "rouse yourself"
+   },
+   {
+    "w": "על",
+    "lemma": "עַל",
+    "gloss": "against",
+    "context": "against"
+   },
+   {
+    "w": "רעי",
+    "lemma": "רֹעֶה",
+    "gloss": "my shepherd",
+    "context": "my shepherd",
+    "readings": {
+     "jewish": "a ruler, whether good or the worthless shepherd of 11:17; Ibn Ezra: a leader slain in the wars of Gog",
+     "christian": "Jesus, the good shepherd, struck down at the crucifixion (Mark 14:27)"
+    }
+   },
+   {
+    "w": "ועל",
+    "lemma": "עַל",
+    "gloss": "and against",
+    "context": "and against"
+   },
+   {
+    "w": "גבר",
+    "lemma": "גֶּבֶר",
+    "gloss": "the man",
+    "context": "a man"
+   },
+   {
+    "w": "עמיתי",
+    "lemma": "עָמִית",
+    "gloss": "my associate, fellow",
+    "context": "my companion, my equal",
+    "readings": {
+     "jewish": "a close associate of God in office, as a king is",
+     "christian": "a hint of the Messiah's equality with God"
+    }
+   },
+   {
+    "w": "נאם",
+    "lemma": "נְאֻם",
+    "gloss": "declares",
+    "context": "oracle of"
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "the LORD",
+    "context": "God"
+   },
+   {
+    "w": "צבאות",
+    "lemma": "צָבָא",
+    "gloss": "of hosts",
+    "context": "of armies"
+   },
+   {
+    "w": "הך",
+    "lemma": "נָכָה",
+    "gloss": "strike",
+    "context": "smite"
+   },
+   {
+    "w": "את",
+    "lemma": "אֵת",
+    "gloss": "(object marker)",
+    "context": "marks 'the shepherd'"
+   },
+   {
+    "w": "הרעה",
+    "lemma": "רֹעֶה",
+    "gloss": "the shepherd",
+    "context": "the shepherd"
+   },
+   {
+    "w": "ותפוצין",
+    "lemma": "פּוּץ",
+    "gloss": "and they will be scattered",
+    "context": "dispersed"
+   },
+   {
+    "w": "הצאן",
+    "lemma": "צֹאן",
+    "gloss": "the sheep, flock",
+    "context": "the flock",
+    "readings": {
+     "jewish": "Israel scattered after its ruler's fall",
+     "christian": "the disciples fleeing at the arrest"
+    }
+   },
+   {
+    "w": "והשבתי",
+    "lemma": "שׁוּב",
+    "gloss": "and I will turn",
+    "context": "I will turn back"
+   },
+   {
+    "w": "ידי",
+    "lemma": "יָד",
+    "gloss": "my hand",
+    "context": "my hand"
+   },
+   {
+    "w": "על",
+    "lemma": "עַל",
+    "gloss": "against / upon",
+    "context": "on"
+   },
+   {
+    "w": "הצערים",
+    "lemma": "צָעַר",
+    "gloss": "the little ones",
+    "context": "the lowly; the remnant, refined in vv.8-9"
+   }
   ]
  },
  {
@@ -1936,6 +4292,94 @@ window.MESHIACH = [
    "elijah",
    "john-the-baptist",
    "day-of-the-lord"
+  ],
+  "words": [
+   {
+    "w": "הנה",
+    "lemma": "הִנֵּה",
+    "gloss": "behold",
+    "context": "look"
+   },
+   {
+    "w": "אנכי",
+    "lemma": "אָנֹכִי",
+    "gloss": "I",
+    "context": "I, God"
+   },
+   {
+    "w": "שלח",
+    "lemma": "שָׁלַח",
+    "gloss": "am sending",
+    "context": "will send"
+   },
+   {
+    "w": "לכם",
+    "lemma": "לְ + אַתֶּם",
+    "gloss": "to you",
+    "context": "to you"
+   },
+   {
+    "w": "את",
+    "lemma": "אֵת",
+    "gloss": "(object marker)",
+    "context": "marks 'Elijah'"
+   },
+   {
+    "w": "אליה",
+    "lemma": "אֵלִיָּה",
+    "gloss": "Elijah",
+    "context": "the prophet taken up alive (2 Kings 2)",
+    "readings": {
+     "jewish": "Elijah in person, who will return before the Messiah; hence the cup of Elijah at Passover",
+     "christian": "Elijah in person at the transfiguration, and in type as John the Baptist, who came 'in the spirit and power of Elijah'"
+    }
+   },
+   {
+    "w": "הנביא",
+    "lemma": "נָבִיא",
+    "gloss": "the prophet",
+    "context": "the prophet"
+   },
+   {
+    "w": "לפני",
+    "lemma": "פָּנִים",
+    "gloss": "before",
+    "context": "ahead of"
+   },
+   {
+    "w": "בוא",
+    "lemma": "בּוֹא",
+    "gloss": "the coming of",
+    "context": "the arrival"
+   },
+   {
+    "w": "יום",
+    "lemma": "יוֹם",
+    "gloss": "the day of",
+    "context": "the day"
+   },
+   {
+    "w": "יהוה",
+    "lemma": "יהוה",
+    "gloss": "the LORD",
+    "context": "of the LORD"
+   },
+   {
+    "w": "הגדול",
+    "lemma": "גָּדוֹל",
+    "gloss": "the great",
+    "context": "great"
+   },
+   {
+    "w": "והנורא",
+    "lemma": "יָרֵא",
+    "gloss": "and the terrible",
+    "context": "and dreadful",
+    "readings": {
+     "jewish": "the final judgement; it has not yet come, so neither has Elijah",
+     "christian": "the day of the Lord inaugurated at Jesus' first coming and completed at his second"
+    }
+   }
   ]
  },
  {
@@ -1968,6 +4412,60 @@ window.MESHIACH = [
   "tags": [
    "targum",
    "servant-songs"
+  ],
+  "words": [
+   {
+    "w": "הא",
+    "lemma": "הָא",
+    "gloss": "behold",
+    "context": "look (Aramaic)"
+   },
+   {
+    "w": "יצלח",
+    "lemma": "צְלַח",
+    "gloss": "will prosper",
+    "context": "will succeed"
+   },
+   {
+    "w": "עבדי",
+    "lemma": "עֶבֶד",
+    "gloss": "my servant",
+    "context": "my servant"
+   },
+   {
+    "w": "משיחא",
+    "lemma": "מְשִׁיחָא",
+    "gloss": "the Messiah",
+    "context": "the Anointed One; the Targum's addition to the Hebrew",
+    "readings": {
+     "jewish": "the Targum names the Messiah here but transfers the suffering of chapter 53 to Israel and the nations",
+     "christian": "early Jewish witness that the servant is the Messiah, which Christians extend to the suffering as well"
+    }
+   },
+   {
+    "w": "ירום",
+    "lemma": "רוּם",
+    "gloss": "he will be high, exalted",
+    "context": "raised up"
+   },
+   {
+    "w": "ויסגי",
+    "lemma": "סְגֵי",
+    "gloss": "and increase",
+    "context": "grow great"
+   },
+   {
+    "w": "ויתקוף",
+    "lemma": "תְּקֵף",
+    "gloss": "and be strong",
+    "context": "become mighty"
+   },
+   {
+    "w": "לחדא",
+    "lemma": "לַחֲדָא",
+    "gloss": "very much",
+    "context": "exceedingly"
+   }
   ]
  },
  {
@@ -1993,6 +4491,172 @@ window.MESHIACH = [
    "talmud",
    "sanhedrin-98",
    "servant-songs"
+  ],
+  "words": [
+   {
+    "w": "מה",
+    "lemma": "מָה",
+    "gloss": "what",
+    "context": "what is"
+   },
+   {
+    "w": "שמו",
+    "lemma": "שֵׁם",
+    "gloss": "his name",
+    "context": "the Messiah's name"
+   },
+   {
+    "w": "דבי",
+    "lemma": "בֵּי",
+    "gloss": "those of the house of",
+    "context": "the school of"
+   },
+   {
+    "w": "רבי",
+    "lemma": "רַבִּי",
+    "gloss": "Rabbi",
+    "context": "Rabbi"
+   },
+   {
+    "w": "שילא",
+    "lemma": "שִׁילָא",
+    "gloss": "Shila",
+    "context": "a sage"
+   },
+   {
+    "w": "אמרי",
+    "lemma": "אֲמַר",
+    "gloss": "say",
+    "context": "they say"
+   },
+   {
+    "w": "שילה",
+    "lemma": "שִׁילֹה",
+    "gloss": "Shiloh",
+    "context": "Shiloh"
+   },
+   {
+    "w": "שמו",
+    "lemma": "שֵׁם",
+    "gloss": "is his name",
+    "context": "his name"
+   },
+   {
+    "w": "שנאמר",
+    "lemma": "אָמַר",
+    "gloss": "as it is said",
+    "context": "as Scripture says"
+   },
+   {
+    "w": "עד",
+    "lemma": "עַד",
+    "gloss": "until",
+    "context": "until"
+   },
+   {
+    "w": "כי",
+    "lemma": "כִּי",
+    "gloss": "that",
+    "context": "that"
+   },
+   {
+    "w": "יבא",
+    "lemma": "בּוֹא",
+    "gloss": "comes",
+    "context": "comes"
+   },
+   {
+    "w": "שילה",
+    "lemma": "שִׁילֹה",
+    "gloss": "Shiloh",
+    "context": "Genesis 49:10",
+    "readings": {
+     "jewish": "each school finds the Messiah's name in its own master's name; a homily, not doctrine",
+     "christian": "a rabbinic acknowledgment that Genesis 49:10 is messianic"
+    }
+   },
+   {
+    "w": "ורבנן",
+    "lemma": "רַבָּנָן",
+    "gloss": "and the Rabbis",
+    "context": "the sages generally"
+   },
+   {
+    "w": "אמרי",
+    "lemma": "אֲמַר",
+    "gloss": "say",
+    "context": "they say"
+   },
+   {
+    "w": "חיוורא",
+    "lemma": "חִוָּרָא",
+    "gloss": "the white one, the leper",
+    "context": "one afflicted with skin disease"
+   },
+   {
+    "w": "דבי",
+    "lemma": "בֵּי",
+    "gloss": "of the house of",
+    "context": "of the school of"
+   },
+   {
+    "w": "רבי",
+    "lemma": "רַבִּי",
+    "gloss": "Rabbi",
+    "context": "Rabbi Judah the Prince"
+   },
+   {
+    "w": "שמו",
+    "lemma": "שֵׁם",
+    "gloss": "is his name",
+    "context": "his name",
+    "readings": {
+     "jewish": "the Messiah suffers illness like Rabbi Judah the Prince; one opinion among several",
+     "christian": "a rabbinic voice placing Isaiah 53's suffering on the Messiah"
+    }
+   },
+   {
+    "w": "שנאמר",
+    "lemma": "אָמַר",
+    "gloss": "as it is said",
+    "context": "as Scripture says"
+   },
+   {
+    "w": "אכן",
+    "lemma": "אָכֵן",
+    "gloss": "surely",
+    "context": "truly"
+   },
+   {
+    "w": "חליינו",
+    "lemma": "חֳלִי",
+    "gloss": "our sicknesses",
+    "context": "our diseases"
+   },
+   {
+    "w": "הוא",
+    "lemma": "הוּא",
+    "gloss": "he",
+    "context": "he"
+   },
+   {
+    "w": "נשא",
+    "lemma": "נָשָׂא",
+    "gloss": "has borne",
+    "context": "carried"
+   },
+   {
+    "w": "ומכאבינו",
+    "lemma": "מַכְאֹב",
+    "gloss": "and our pains",
+    "context": "our sorrows"
+   },
+   {
+    "w": "סבלם",
+    "lemma": "סָבַל",
+    "gloss": "he carried them",
+    "context": "he bore them; Isaiah 53:4"
+   }
   ]
  },
  {
@@ -2018,6 +4682,90 @@ window.MESHIACH = [
    "talmud",
    "messiah-ben-joseph",
    "sukkah-52"
+  ],
+  "words": [
+   {
+    "w": "חד",
+    "lemma": "חַד",
+    "gloss": "one",
+    "context": "one (sage)"
+   },
+   {
+    "w": "אמר",
+    "lemma": "אֲמַר",
+    "gloss": "said",
+    "context": "said"
+   },
+   {
+    "w": "על",
+    "lemma": "עַל",
+    "gloss": "for, over",
+    "context": "concerning"
+   },
+   {
+    "w": "משיח",
+    "lemma": "מָשִׁיחַ",
+    "gloss": "Messiah",
+    "context": "Messiah"
+   },
+   {
+    "w": "בן",
+    "lemma": "בֶּן",
+    "gloss": "son of",
+    "context": "son of"
+   },
+   {
+    "w": "יוסף",
+    "lemma": "יוֹסֵף",
+    "gloss": "Joseph",
+    "context": "Joseph: the Messiah from Ephraim who precedes Messiah son of David",
+    "readings": {
+     "jewish": "a second, distinct Messiah who dies in the war of Gog; the mourning of Zechariah 12:10 is for him",
+     "christian": "one Messiah in two roles: the suffering Messiah ben Joseph and the reigning Messiah ben David are both Jesus"
+    }
+   },
+   {
+    "w": "שנהרג",
+    "lemma": "הָרַג",
+    "gloss": "who is killed",
+    "context": "who is slain"
+   },
+   {
+    "w": "וחד",
+    "lemma": "חַד",
+    "gloss": "and one",
+    "context": "and the other"
+   },
+   {
+    "w": "אמר",
+    "lemma": "אֲמַר",
+    "gloss": "said",
+    "context": "said"
+   },
+   {
+    "w": "על",
+    "lemma": "עַל",
+    "gloss": "for",
+    "context": "concerning"
+   },
+   {
+    "w": "יצר",
+    "lemma": "יֵצֶר",
+    "gloss": "the inclination",
+    "context": "the impulse"
+   },
+   {
+    "w": "הרע",
+    "lemma": "רַע",
+    "gloss": "the evil",
+    "context": "evil: the evil inclination, slaughtered in the world to come"
+   },
+   {
+    "w": "שנהרג",
+    "lemma": "הָרַג",
+    "gloss": "which is killed",
+    "context": "which is slain"
+   }
   ]
  },
  {
@@ -2049,6 +4797,118 @@ window.MESHIACH = [
    "qumran",
    "dead-sea-scrolls",
    "miracles"
+  ],
+  "words": [
+   {
+    "w": "כי",
+    "lemma": "כִּי",
+    "gloss": "for",
+    "context": "for"
+   },
+   {
+    "w": "השמים",
+    "lemma": "שָׁמַיִם",
+    "gloss": "the heavens",
+    "context": "heaven"
+   },
+   {
+    "w": "והארץ",
+    "lemma": "אֶרֶץ",
+    "gloss": "and the earth",
+    "context": "and earth"
+   },
+   {
+    "w": "ישמעו",
+    "lemma": "שָׁמַע",
+    "gloss": "will listen, obey",
+    "context": "will heed"
+   },
+   {
+    "w": "למשיחו",
+    "lemma": "מָשִׁיחַ",
+    "gloss": "his Messiah",
+    "context": "God's Anointed",
+    "readings": {
+     "jewish": "the Messiah of the Qumran community's expectation; the following deeds are God's, done in the Messiah's days",
+     "christian": "a pre-Christian expectation that the Messiah's coming brings healing and resurrection, matched by Jesus' works"
+    }
+   },
+   {
+    "w": "מתיר",
+    "lemma": "נָתַר",
+    "gloss": "releasing",
+    "context": "setting free (Psalm 146:7)"
+   },
+   {
+    "w": "אסורים",
+    "lemma": "אָסַר",
+    "gloss": "prisoners",
+    "context": "the bound"
+   },
+   {
+    "w": "פוקח",
+    "lemma": "פָּקַח",
+    "gloss": "opening (the eyes of)",
+    "context": "giving sight to"
+   },
+   {
+    "w": "עורים",
+    "lemma": "עִוֵּר",
+    "gloss": "the blind",
+    "context": "the blind"
+   },
+   {
+    "w": "זוקף",
+    "lemma": "זָקַף",
+    "gloss": "raising up",
+    "context": "straightening"
+   },
+   {
+    "w": "כפופים",
+    "lemma": "כָּפַף",
+    "gloss": "the bowed down",
+    "context": "those bent over; reconstructed from the fragment"
+   },
+   {
+    "w": "ירפא",
+    "lemma": "רָפָא",
+    "gloss": "he will heal",
+    "context": "he will heal"
+   },
+   {
+    "w": "חללים",
+    "lemma": "חָלָל",
+    "gloss": "the wounded, slain",
+    "context": "the pierced"
+   },
+   {
+    "w": "ומתים",
+    "lemma": "מוּת",
+    "gloss": "and the dead",
+    "context": "the dead"
+   },
+   {
+    "w": "יחיה",
+    "lemma": "חָיָה",
+    "gloss": "he will make alive",
+    "context": "he will raise",
+    "readings": {
+     "jewish": "God raises the dead in the messianic age",
+     "christian": "Jesus raises the dead and cites it as a messianic sign (Matthew 11:5)"
+    }
+   },
+   {
+    "w": "ענוים",
+    "lemma": "עָנָו",
+    "gloss": "to the poor, humble",
+    "context": "the afflicted"
+   },
+   {
+    "w": "יבשר",
+    "lemma": "בָּשַׂר",
+    "gloss": "he will bring good news",
+    "context": "proclaim glad tidings (Isaiah 61:1)"
+   }
   ]
  }
 ];
