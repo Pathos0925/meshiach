@@ -10,6 +10,7 @@
     ref: Genesis 3:15
     lang: he
     text: "ואיבה אשית בינך ובין האשה ובין זרעך ובין זרעה הוא ישופך ראש ואתה תשופנו עקב"
+    text_pointed: "וְאֵיבָה אָשִׁית בֵּינְךָ וּבֵין הָאִשָּׁה וּבֵין זַרְעֲךָ וּבֵין זַרְעָהּ הוּא יְשׁוּפְךָ רֹאשׁ וְאַתָּה תְּשׁוּפֶנּוּ עָקֵב"
     english: "I will put enmity between you and the woman, and between your seed and her seed; he shall bruise your head, and you shall bruise his heel."
   fulfilment:
     - ref: Romans 16:20
@@ -32,6 +33,7 @@
     ref: Genesis 12:3
     lang: he
     text: "ואברכה מברכיך ומקללך אאר ונברכו בך כל משפחת האדמה"
+    text_pointed: "וַאֲבָרְכָה מְבָרְכֶיךָ וּמְקַלֶּלְךָ אָאֹר וְנִבְרְכוּ בְךָ כֹּל מִשְׁפְּחֹת הָאֲדָמָה"
     english: "I will bless those who bless you, and him who curses you I will curse; and in you all the families of the earth shall be blessed."
   fulfilment:
     - ref: Galatians 3:8
@@ -54,6 +56,7 @@
     ref: Genesis 49:10
     lang: he
     text: "לא יסור שבט מיהודה ומחקק מבין רגליו עד כי יבא שילה ולו יקהת עמים"
+    text_pointed: "לֹא־ יָסוּר שֵׁבֶט מִיהוּדָה וּמְחֹקֵק מִבֵּין רַגְלָיו עַד כִּי־ יָבֹא שִׁילֹה וְלוֹ יִקְּהַת עַמִּים"
     english: "The sceptre shall not depart from Judah, nor the ruler's staff from between his feet, until Shiloh comes; and to him shall be the obedience of the peoples."
   fulfilment:
     - ref: Hebrews 7:14
@@ -145,6 +148,7 @@
     ref: Deuteronomy 18:15
     lang: he
     text: "נביא מקרבך מאחיך כמני יקים לך יהוה אלהיך אליו תשמעון"
+    text_pointed: "נָבִיא מִקִּרְבְּךָ מֵאַחֶיךָ כָּמֹנִי יָקִים לְךָ יְהֹוָה אֱלֹהֶיךָ אֵלָיו תִּשְׁמָעוּן"
     english: "The LORD your God will raise up for you a prophet like me from among you, from your brothers; to him you shall listen."
   fulfilment:
     - ref: Acts 3:22
@@ -167,6 +171,7 @@
     ref: 2 Samuel 7:12-13
     lang: he
     text: "והקימתי את זרעך אחריך אשר יצא ממעיך והכינתי את ממלכתו הוא יבנה בית לשמי וכננתי את כסא ממלכתו עד עולם"
+    text_pointed: "וַהֲקִימֹתִי אֶת־ זַרְעֲךָ אַחֲרֶיךָ אֲשֶׁר יֵצֵא מִמֵּעֶיךָ וַהֲכִינֹתִי אֶת־ מַמְלַכְתּוֹ הוּא יִבְנֶה־ בַּיִת לִשְׁמִי וְכֹנַנְתִּי אֶת־ כִּסֵּא מַמְלַכְתּוֹ עַד־ עוֹלָם"
     english: "I will raise up your seed after you, who shall come from your body, and I will establish his kingdom. He shall build a house for my name, and I will establish the throne of his kingdom forever."
   fulfilment:
     - ref: Luke 1:32-33
@@ -185,6 +190,7 @@
     ref: Psalm 22:17 [16]
     lang: he
     text: "כי סבבוני כלבים עדת מרעים הקיפוני כארי ידי ורגלי"
+    text_pointed: "כִּי סְבָבוּנִי כְּלָבִים עֲדַת מְרֵעִים הִקִּיפוּנִי כָּאֲרִי יָדַי וְרַגְלָי"
     english: "For dogs surround me; a company of evildoers encircles me; like a lion [MT] / they pierced [LXX, DSS 5/6HevPs] my hands and feet."
   fulfilment:
     - ref: John 20:25
@@ -247,6 +253,7 @@
     ref: Psalm 110:1
     lang: he
     text: "נאם יהוה לאדני שב לימיני עד אשית איביך הדם לרגליך"
+    text_pointed: "נְאֻם יְהֹוָה לַאדֹנִי שֵׁב לִימִינִי עַד־ אָשִׁית אֹיְבֶיךָ הֲדֹם לְרַגְלֶיךָ"
     english: "The LORD says to my lord: Sit at my right hand, until I make your enemies your footstool."
   fulfilment:
     - ref: Matthew 22:44
@@ -313,6 +320,7 @@
     ref: Isaiah 7:14
     lang: he
     text: "לכן יתן אדני הוא לכם אות הנה העלמה הרה וילדת בן וקראת שמו עמנו אל"
+    text_pointed: "לָכֵן יִתֵּן אֲדֹנָי הוּא לָכֶם אוֹת הִנֵּה הָעַלְמָה הָרָה וְיֹלֶדֶת בֵּן וְקָרָאת שְׁמוֹ עִמָּנוּ אֵל"
     english: "Therefore the Lord himself will give you a sign: behold, the almah shall conceive and bear a son, and shall call his name Immanuel."
   fulfilment:
     - ref: Matthew 1:22-23
@@ -407,6 +415,7 @@
     ref: Isaiah 9:5 [6]
     lang: he
     text: "כי ילד ילד לנו בן נתן לנו ותהי המשרה על שכמו ויקרא שמו פלא יועץ אל גבור אבי עד שר שלום"
+    text_pointed: "כִּי־ יֶלֶד יֻלַּד־ לָנוּ בֵּן נִתַּן־ לָנוּ וַתְּהִי הַמִּשְׂרָה עַל־ שִׁכְמוֹ וַיִּקְרָא שְׁמוֹ פֶּלֶא יוֹעֵץ אֵל גִּבּוֹר אֲבִי־ עַד שַׂר־ שָׁלוֹם"
     english: "For to us a child is born, to us a son is given; and the government shall be upon his shoulder, and his name shall be called Wonderful Counsellor, Mighty God, Everlasting Father, Prince of Peace."
   fulfilment:
     - ref: Luke 2:11
@@ -528,6 +537,7 @@
     ref: Isaiah 53:5
     lang: he
     text: "והוא מחלל מפשענו מדכא מעונתינו מוסר שלומנו עליו ובחברתו נרפא לנו"
+    text_pointed: "וְהוּא מְחֹלָל מִפְּשָׁעֵנוּ מְדֻכָּא מֵעֲוֺנֹתֵינוּ מוּסַר שְׁלוֹמֵנוּ עָלָיו וּבַחֲבֻרָתוֹ נִרְפָּא־ לָנוּ"
     english: "But he was pierced for our transgressions, crushed for our iniquities; the chastisement of our peace was upon him, and by his wounds we are healed."
   fulfilment:
     - ref: 1 Peter 2:24
@@ -604,6 +614,7 @@
     ref: Micah 5:1 [2]
     lang: he
     text: "ואתה בית לחם אפרתה צעיר להיות באלפי יהודה ממך לי יצא להיות מושל בישראל ומוצאתיו מקדם מימי עולם"
+    text_pointed: "וְאַתָּה בֵּית־ לֶחֶם אֶפְרָתָה צָעִיר לִהְיוֹת בְּאַלְפֵי יְהוּדָה מִמְּךָ לִי יֵצֵא לִהְיוֹת מוֹשֵׁל בְּיִשְׂרָאֵל וּמוֹצָאֹתָיו מִקֶּדֶם מִימֵי עוֹלָם"
     english: "But you, Bethlehem Ephrathah, small among the clans of Judah, from you shall come forth for me one who is to be ruler in Israel, whose origins are from of old, from ancient days."
   fulfilment:
     - ref: Matthew 2:5-6
@@ -704,6 +715,7 @@
     ref: Daniel 9:26
     lang: he
     text: "ואחרי השבעים ששים ושנים יכרת משיח ואין לו והעיר והקדש ישחית עם נגיד הבא"
+    text_pointed: "וְאַחֲרֵי הַשָּׁבֻעִים שִׁשִּׁים וּשְׁנַיִם יִכָּרֵת מָשִׁיחַ וְאֵין לוֹ וְהָעִיר וְהַקֹּדֶשׁ יַשְׁחִית עַם נָגִיד הַבָּא"
     english: "And after the sixty-two weeks an anointed one shall be cut off and have nothing; and the people of the prince who is to come shall destroy the city and the sanctuary."
   fulfilment:
     - ref: Luke 21:6
@@ -794,6 +806,7 @@
     ref: Zechariah 9:9
     lang: he
     text: "גילי מאד בת ציון הריעי בת ירושלם הנה מלכך יבוא לך צדיק ונושע הוא עני ורכב על חמור ועל עיר בן אתנות"
+    text_pointed: "גִּילִי מְאֹד בַּת־ צִיּוֹן הָרִיעִי בַּת יְרוּשָׁלִַם הִנֵּה מַלְכֵּךְ יָבוֹא לָךְ צַדִּיק וְנוֹשָׁע הוּא עָנִי וְרֹכֵב עַל־ חֲמוֹר וְעַל־ עַיִר בֶּן־ אֲתֹנוֹת"
     english: "Rejoice greatly, daughter of Zion; shout, daughter of Jerusalem. Behold, your king comes to you; righteous and victorious is he, humble and riding on a donkey, on a colt, the foal of a donkey."
   fulfilment:
     - ref: Matthew 21:4-5
@@ -816,6 +829,7 @@
     ref: Zechariah 12:10
     lang: he
     text: "ושפכתי על בית דויד ועל יושב ירושלם רוח חן ותחנונים והביטו אלי את אשר דקרו וספדו עליו כמספד על היחיד"
+    text_pointed: "וְשָׁפַכְתִּי עַל־ בֵּית דָּוִיד וְעַל יוֹשֵׁב יְרוּשָׁלִַם רוּחַ חֵן וְתַחֲנוּנִים וְהִבִּיטוּ אֵלַי אֵת אֲשֶׁר־ דָּקָרוּ וְסָפְדוּ עָלָיו כְּמִסְפֵּד עַל־ הַיָּחִיד"
     english: "I will pour out on the house of David and the inhabitants of Jerusalem a spirit of grace and supplication; and they shall look to me, whom they have pierced, and they shall mourn for him as one mourns for an only son."
   fulfilment:
     - ref: John 19:37
@@ -928,6 +942,7 @@
     ref: Malachi 3:1
     lang: he
     text: "הנני שלח מלאכי ופנה דרך לפני ופתאם יבוא אל היכלו האדון אשר אתם מבקשים ומלאך הברית אשר אתם חפצים"
+    text_pointed: "הִנְנִי שֹׁלֵחַ מַלְאָכִי וּפִנָּה־ דֶרֶךְ לְפָנָי וּפִתְאֹם יָבוֹא אֶל־ הֵיכָלוֹ הָאָדוֹן אֲשֶׁר־ אַתֶּם מְבַקְשִׁים וּמַלְאַךְ הַבְּרִית אֲשֶׁר־ אַתֶּם חֲפֵצִים"
     english: "Behold, I send my messenger, and he will prepare the way before me; and the Lord whom you seek will suddenly come to his temple, the messenger of the covenant in whom you delight."
   fulfilment:
     - ref: Mark 1:2-4
@@ -954,6 +969,7 @@
     ref: Psalm 2:7
     lang: he
     text: "אספרה אל חק יהוה אמר אלי בני אתה אני היום ילדתיך"
+    text_pointed: "אֲסַפְּרָה אֶל־ חֹק יְהֹוָה אָמַר־ אֵלַי בְּנִי אַתָּה אֲנִי הַיּוֹם יְלִדְתִּיךָ"
     english: "I will tell of the decree: the LORD said to me, You are my son; today I have begotten you."
   fulfilment:
     - ref: Acts 13:33
@@ -976,6 +992,7 @@
     ref: Psalm 16:10
     lang: he
     text: "כי לא תעזב נפשי לשאול לא תתן חסידך לראות שחת"
+    text_pointed: "כִּי לֹא־ תַעֲזֹב נַפְשִׁי לִשְׁאוֹל לֹא־ תִתֵּן חֲסִידְךָ לִרְאוֹת שָׁחַת"
     english: "For you will not abandon my soul to Sheol, nor let your faithful one see the pit."
   fulfilment:
     - ref: Acts 2:27
@@ -998,6 +1015,7 @@
     ref: Psalm 69:22 [21]
     lang: he
     text: "ויתנו בברותי ראש ולצמאי ישקוני חמץ"
+    text_pointed: "וַיִּתְּנוּ בְּבָרוּתִי רֹאשׁ וְלִצְמָאִי יַשְׁקוּנִי חֹמֶץ"
     english: "They put gall in my food, and for my thirst they gave me vinegar to drink."
   fulfilment:
     - ref: John 19:28-29
@@ -1024,6 +1042,7 @@
     ref: Isaiah 11:1-2
     lang: he
     text: "ויצא חטר מגזע ישי ונצר משרשיו יפרה ונחה עליו רוח יהוה רוח חכמה ובינה רוח עצה וגבורה רוח דעת ויראת יהוה"
+    text_pointed: "וְיָצָא חֹטֶר מִגֵּזַע יִשָׁי וְנֵצֶר מִשׇּׁרָשָׁיו יִפְרֶה וְנָחָה עָלָיו רוּחַ יְהֹוָה רוּחַ חׇכְמָה וּבִינָה רוּחַ עֵצָה וּגְבוּרָה רוּחַ דַּעַת וְיִרְאַת יְהֹוָה"
     english: "A shoot shall come out from the stump of Jesse, and a branch from his roots shall bear fruit. The Spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and the fear of the LORD."
   fulfilment:
     - ref: Romans 15:12
@@ -1050,6 +1069,7 @@
     ref: Isaiah 40:3
     lang: he
     text: "קול קורא במדבר פנו דרך יהוה ישרו בערבה מסלה לאלהינו"
+    text_pointed: "קוֹל קוֹרֵא בַּמִּדְבָּר פַּנּוּ דֶּרֶךְ יְהֹוָה יַשְּׁרוּ בָּעֲרָבָה מְסִלָּה לֵאלֹהֵינוּ"
     english: "A voice cries: In the wilderness prepare the way of the LORD; make straight in the desert a highway for our God."
   fulfilment:
     - ref: Mark 1:3
@@ -1072,6 +1092,7 @@
     ref: Isaiah 42:1
     lang: he
     text: "הן עבדי אתמך בו בחירי רצתה נפשי נתתי רוחי עליו משפט לגוים יוציא"
+    text_pointed: "הֵן עַבְדִּי אֶתְמׇךְ־ בּוֹ בְּחִירִי רָצְתָה נַפְשִׁי נָתַתִּי רוּחִי עָלָיו מִשְׁפָּט לַגּוֹיִם יוֹצִיא"
     english: "Behold my servant, whom I uphold, my chosen, in whom my soul delights; I have put my Spirit upon him, he will bring forth justice to the nations."
   fulfilment:
     - ref: Matthew 12:18
@@ -1094,6 +1115,7 @@
     ref: Isaiah 49:6
     lang: he
     text: "ונתתיך לאור גוים להיות ישועתי עד קצה הארץ"
+    text_pointed: "וּנְתַתִּיךָ לְאוֹר גּוֹיִם לִהְיוֹת יְשׁוּעָתִי עַד־ קְצֵה הָאָרֶץ"
     english: "I will make you a light to the nations, that my salvation may reach to the end of the earth."
   fulfilment:
     - ref: Acts 13:47
@@ -1116,6 +1138,7 @@
     ref: Isaiah 50:6
     lang: he
     text: "גוי נתתי למכים ולחיי למרטים פני לא הסתרתי מכלמות ורק"
+    text_pointed: "גֵּוִי נָתַתִּי לְמַכִּים וּלְחָיַי לְמֹרְטִים פָּנַי לֹא הִסְתַּרְתִּי מִכְּלִמּוֹת וָרֹק"
     english: "I gave my back to those who strike, and my cheeks to those who pull out the beard; I did not hide my face from insult and spitting."
   fulfilment:
     - ref: Matthew 26:67
@@ -1138,6 +1161,7 @@
     ref: Isaiah 61:1-2
     lang: he
     text: "רוח אדני יהוה עלי יען משח יהוה אתי לבשר ענוים שלחני לחבש לנשברי לב לקרא לשבוים דרור ולאסורים פקח קוח לקרא שנת רצון ליהוה"
+    text_pointed: "רוּחַ אֲדֹנָי יֱהֹוִה עָלָי יַעַן מָשַׁח יְהֹוָה אֹתִי לְבַשֵּׂר עֲנָוִים שְׁלָחַנִי לַחֲבֹשׁ לְנִשְׁבְּרֵי־ לֵב לִקְרֹא לִשְׁבוּיִם דְּרוֹר וְלַאֲסוּרִים פְּקַח־ קוֹחַ לִקְרֹא שְׁנַת־ רָצוֹן לַיהֹוָה"
     english: "The Spirit of the Lord GOD is upon me, because the LORD has anointed me to bring good news to the poor; he has sent me to bind up the broken-hearted, to proclaim liberty to the captives and release to the prisoners, to proclaim the year of the LORD's favour."
   fulfilment:
     - ref: Luke 4:18-21
@@ -1160,6 +1184,7 @@
     ref: Jeremiah 23:5-6
     lang: he
     text: "הנה ימים באים נאם יהוה והקמתי לדוד צמח צדיק ומלך מלך והשכיל ועשה משפט וצדקה בארץ בימיו תושע יהודה וישראל ישכן לבטח וזה שמו אשר יקראו יהוה צדקנו"
+    text_pointed: "הִנֵּה יָמִים בָּאִים נְאֻם־ יְהֹוָה וַהֲקִמֹתִי לְדָוִד צֶמַח צַדִּיק וּמָלַךְ מֶלֶךְ וְהִשְׂכִּיל וְעָשָׂה מִשְׁפָּט וּצְדָקָה בָּאָרֶץ בְּיָמָיו תִּוָּשַׁע יְהוּדָה וְיִשְׂרָאֵל יִשְׁכֹּן לָבֶטַח וְזֶה־ שְּׁמוֹ אֲשֶׁר־ יִקְרְאוֹ יְהֹוָה צִדְקֵנוּ"
     english: "Behold, the days are coming, declares the LORD, when I will raise up for David a righteous Branch; he shall reign as king and deal wisely, and do justice and righteousness in the land. In his days Judah will be saved and Israel will dwell securely. And this is the name by which he will be called: The LORD is our righteousness."
   fulfilment:
     - ref: Matthew 1:1
@@ -1182,6 +1207,7 @@
     ref: Jeremiah 31:31-33
     lang: he
     text: "הנה ימים באים נאם יהוה וכרתי את בית ישראל ואת בית יהודה ברית חדשה ... נתתי את תורתי בקרבם ועל לבם אכתבנה"
+    text_pointed: "הִנֵּה יָמִים בָּאִים נְאֻם־ יְהֹוָה וְכָרַתִּי אֶת־ בֵּית יִשְׂרָאֵל וְאֶת־ בֵּית יְהוּדָה בְּרִית חֲדָשָׁה ... נָתַתִּי אֶת־ תּוֹרָתִי בְּקִרְבָּם וְעַל־ לִבָּם אֶכְתְּבֶנָּה"
     english: "Behold, the days are coming, declares the LORD, when I will make a new covenant with the house of Israel and the house of Judah ... I will put my Torah within them, and I will write it on their hearts."
   fulfilment:
     - ref: Luke 22:20
@@ -1208,6 +1234,7 @@
     ref: Daniel 7:13-14
     lang: arc
     text: "חזה הוית בחזוי ליליא וארו עם ענני שמיא כבר אנש אתה הוא ועד עתיק יומיא מטה וקדמוהי הקרבוהי ולה יהב שלטן ויקר ומלכו וכל עממיא אמיא ולשניא לה יפלחון שלטנה שלטן עלם די לא יעדה ומלכותה די לא תתחבל"
+    text_pointed: "חָזֵה הֲוֵית בְּחֶזְוֵי לֵילְיָא וַאֲרוּ עִם־ עֲנָנֵי שְׁמַיָּא כְּבַר אֱנָשׁ אָתֵה הֲוָא וְעַד־ עַתִּיק יוֹמַיָּא מְטָה וּקְדָמוֹהִי הַקְרְבוּהִי וְלֵהּ יְהִב שׇׁלְטָן וִיקָר וּמַלְכוּ וְכֹל עַמְמַיָּא אֻמַּיָּא וְלִשָּׁנַיָּא לֵהּ יִפְלְחוּן שׇׁלְטָנֵהּ שׇׁלְטָן עָלַם דִּי־ לָא יֶעְדֵּה וּמַלְכוּתֵהּ דִּי־ לָא תִתְחַבַּל"
     english: "I saw in the night visions, and behold, with the clouds of heaven there came one like a son of man, and he came to the Ancient of Days and was presented before him. And to him was given dominion and glory and a kingdom, that all peoples, nations, and languages should serve him; his dominion is an everlasting dominion that shall not pass away, and his kingdom one that shall not be destroyed."
   fulfilment:
     - ref: Mark 14:62
@@ -1234,6 +1261,7 @@
     ref: Hosea 11:1
     lang: he
     text: "כי נער ישראל ואהבהו וממצרים קראתי לבני"
+    text_pointed: "כִּי נַעַר יִשְׂרָאֵל וָאֹהֲבֵהוּ וּמִמִּצְרַיִם קָרָאתִי לִבְנִי"
     english: "When Israel was a child, I loved him, and out of Egypt I called my son."
   fulfilment:
     - ref: Matthew 2:15
@@ -1256,6 +1284,7 @@
     ref: Zechariah 11:12-13
     lang: he
     text: "ואמר אליהם אם טוב בעיניכם הבו שכרי ואם לא חדלו וישקלו את שכרי שלשים כסף ויאמר יהוה אלי השליכהו אל היוצר אדר היקר אשר יקרתי מעליהם ואקחה שלשים הכסף ואשליך אתו בית יהוה אל היוצר"
+    text_pointed: "וָאֹמַר אֲלֵיהֶם אִם־ טוֹב בְּעֵינֵיכֶם הָבוּ שְׂכָרִי וְאִם־ לֹא חֲדָלוּ וַיִּשְׁקְלוּ אֶת־ שְׂכָרִי שְׁלֹשִׁים כָּסֶף וַיֹּאמֶר יְהֹוָה אֵלַי הַשְׁלִיכֵהוּ אֶל־ הַיּוֹצֵר אֶדֶר הַיְקָר אֲשֶׁר יָקַרְתִּי מֵעֲלֵיהֶם וָאֶקְחָה שְׁלֹשִׁים הַכֶּסֶף וָאַשְׁלִיךְ אֹתוֹ בֵּית יְהֹוָה אֶל־ הַיּוֹצֵר"
     english: "I said to them, If it seems good to you, give me my wages; but if not, keep them. And they weighed out as my wages thirty pieces of silver. Then the LORD said to me, Throw it to the potter, the lordly price at which I was valued by them. So I took the thirty pieces of silver and threw them into the house of the LORD, to the potter."
   fulfilment:
     - ref: Matthew 26:15
@@ -1278,6 +1307,7 @@
     ref: Zechariah 13:7
     lang: he
     text: "חרב עורי על רעי ועל גבר עמיתי נאם יהוה צבאות הך את הרעה ותפוצין הצאן והשבתי ידי על הצערים"
+    text_pointed: "חֶרֶב עוּרִי עַל־ רֹעִי וְעַל־ גֶּבֶר עֲמִיתִי נְאֻם יְהֹוָה צְבָאוֹת הַךְ אֶת־ הָרֹעֶה וּתְפוּצֶיןָ הַצֹּאן וַהֲשִׁבֹתִי יָדִי עַל־ הַצֹּעֲרִים"
     english: "Awake, O sword, against my shepherd, against the man who is my associate, declares the LORD of hosts. Strike the shepherd, and the sheep will be scattered; I will turn my hand against the little ones."
   fulfilment:
     - ref: Mark 14:27
@@ -1300,6 +1330,7 @@
     ref: Malachi 3:23 [4:5]
     lang: he
     text: "הנה אנכי שלח לכם את אליה הנביא לפני בוא יום יהוה הגדול והנורא"
+    text_pointed: "הִנֵּה אָנֹכִי שֹׁלֵחַ לָכֶם אֵת אֵלִיָּה הַנָּבִיא לִפְנֵי בּוֹא יוֹם יְהֹוָה הַגָּדוֹל וְהַנּוֹרָא"
     english: "Behold, I will send you Elijah the prophet before the great and terrible day of the LORD comes."
   fulfilment:
     - ref: Matthew 11:14
@@ -1327,6 +1358,7 @@
     ref: Targum Jonathan on Isaiah 52:13
     lang: arc
     text: "הא יצלח עבדי משיחא ירום ויסגי ויתקוף לחדא"
+    text_pointed: "הָא יַצְלַח עַבְדִי מְשִׁיחָא יְרוּם וְיִסְגֵי וְיִתְקוֹף לַחֲדָא"
     english: "Behold, my servant the Messiah shall prosper; he shall be exalted and increase, and shall be very strong."
   fulfilment:
     - ref: Philippians 2:9
@@ -1347,6 +1379,7 @@
     ref: Sanhedrin 98b
     lang: arc
     text: "מה שמו ... דבי רבי שילא אמרי שילה שמו שנאמר עד כי יבא שילה ... ורבנן אמרי חיוורא דבי רבי שמו שנאמר אכן חליינו הוא נשא ומכאבינו סבלם"
+    text_pointed: "מָה שְׁמוֹ ... דְּבֵי רַבִּי שֵׁילָא אָמְרִי שִׁילֹה שְׁמוֹ שֶׁנֶּאֱמַר עַד כִּי יָבֹא שִׁילֹה ... וְרַבָּנַן אָמְרִי חִיוּוֹרָא דְּבֵי רַבִּי שְׁמוֹ שֶׁנֶּאֱמַר אָכֵן חֳלָיֵינוּ הוּא נָשָׂא וּמַכְאֹבֵינוּ סְבָלָם"
     english: "What is the Messiah's name? ... The school of Rabbi Shila say: Shiloh is his name, as it is said, 'until Shiloh comes'. ... The Rabbis say: the leper of the house of Rabbi is his name, as it is said, 'surely he has borne our sicknesses and carried our pains'."
   relates_to: [gen-49-10, isa-53-5]
   jewish_reading: "A rabbinic voice applying Isaiah 53:4 to the Messiah as one who suffers, alongside the mainstream reading of the servant as Israel. Both readings coexist in the tradition."
@@ -1362,6 +1395,7 @@
     ref: Sukkah 52a
     lang: arc
     text: "חד אמר על משיח בן יוסף שנהרג וחד אמר על יצר הרע שנהרג"
+    text_pointed: "חַד אָמַר עַל מָשִׁיחַ בֶּן יוֹסֵף שֶׁנֶּהֱרַג וְחַד אָמַר עַל יֵצֶר הָרַע שֶׁנֶּהֱרַג"
     english: "One said: [the mourning of Zechariah 12:10 is] for Messiah son of Joseph, who is killed; and one said: for the evil inclination, which is killed."
   relates_to: [zech-12-10, ps-2-7]
   jewish_reading: "The tradition of two Messiahs: ben Joseph who dies in battle, ben David who then reigns. The passage goes on to have Messiah ben David ask God for life, and God answer with Psalm 2:7-8 and Psalm 21:5."

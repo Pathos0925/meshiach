@@ -73,6 +73,7 @@
     <div id="controls">
       <input id="q" type="search" placeholder="Search ref, title, text…" aria-label="Search">
       <div id="chips"></div>
+      <span class="chip" id="vowels" title="Show vowel points (niqqud)">vowels</span>
     </div>
     <svg id="svg" role="img" aria-label="Prophecy graph"></svg>
     <div id="legend">
@@ -84,7 +85,7 @@
     </div>
   </div>
   <aside id="panel">
-    <p class="empty">Click a passage node to read it. Hover an underlined word to see its gloss. Words with a double underline are read differently by Jewish and Christian tradition.</p>
+    <p class="empty">Click a passage node to read it. Hover an underlined word to see its gloss. Words with a double underline are read differently by Jewish and Christian tradition. Toggle <b>vowels</b> for pointed Hebrew.</p>
   </aside>
 </div>
 <div id="tip" role="tooltip"></div>
@@ -196,22 +197,38 @@
   }
   window.selectId = id => { const n = nodes.find(x => x.id === id); if (n) select(n); };
 
+  let showVowels = false;
+  try { showVowels = localStorage.getItem("meshiach.vowels") === "1"; } catch (e) {}
+  const vowelsBtn = document.getElementById("vowels");
+  vowelsBtn.classList.toggle("off", !showVowels);
+  vowelsBtn.addEventListener("click", () => {
+    showVowels = !showVowels;
+    vowelsBtn.classList.toggle("off", !showVowels);
+    try { localStorage.setItem("meshiach.vowels", showVowels ? "1" : "0"); } catch (e) {}
+    if (current) renderEntry(current);
+  });
+  let current = null;
+
   function origHTML(src, words) {
     const rtl = src.lang === "he" || src.lang === "arc";
+    const usePointed = showVowels && src.text_pointed && src.text_pointed.split(/\s+/).length === src.text.split(/\s+/).length;
+    const display = (usePointed ? src.text_pointed : src.text).split(/\s+/);
     const tokens = src.text.split(/\s+/);
     let wi = 0;
-    const spans = tokens.map(t => {
+    const spans = tokens.map((t, i) => {
+      const shown = display[i];
       if (t === "...") return "…";
       const w = words && words[wi] && words[wi].w === t ? words[wi] : null;
       if (words) wi++;
-      if (!w) return esc(t);
+      if (!w) return esc(shown);
       const diff = w.readings ? " diff" : "";
-      return `<span class="w${diff}" data-w='${esc(JSON.stringify(w))}'>${esc(t)}</span>`;
+      return `<span class="w${diff}" data-w='${esc(JSON.stringify(w))}'>${esc(shown)}</span>`;
     });
     return `<p class="orig ${src.lang}" lang="${src.lang}" dir="${rtl ? "rtl" : "ltr"}">${spans.join(" ")}</p>`;
   }
 
   function renderEntry(e) {
+    current = e;
     const kind = e.source.kind || "tanakh";
     const rels = (e.relates_to || []).map(id => byId[id]).filter(Boolean);
     const backRels = entries.filter(x => (x.relates_to || []).includes(e.id));

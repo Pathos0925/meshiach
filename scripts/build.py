@@ -54,6 +54,9 @@ def validate(entries: list[dict]) -> list[str]:
         for rid in e.get("relates_to", []):
             if rid not in ids:
                 sys.exit(f"{e['id']}: relates_to unknown id {rid}")
+        tp = src.get("text_pointed")
+        if tp and len(tp.split()) != len(src["text"].split()):
+            warnings.append(f"{e['id']}: text_pointed token count differs from text")
         words = e.get("words")
         if words:
             tokens = [t for t in src["text"].split() if t != "..."]
