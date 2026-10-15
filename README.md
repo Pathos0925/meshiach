@@ -23,7 +23,8 @@ meshiach/
 │   ├── graph.md         Mermaid graph, generated from the catalogue
 │   └── sources.md       texts, editions, and how we cite them
 ├── scripts/
-│   └── build.py         regenerates docs/graph.md and web/data.js from the YAML
+│   ├── build.py         regenerates docs/graph.md and web/data.js from the YAML
+│   └── verify.py        checks every quotation against Sefaria and SBLGNT
 ├── web/
 │   ├── index.html       interactive graph viewer (open directly in a browser)
 │   └── data.js          generated; do not edit
@@ -34,6 +35,12 @@ The YAML file is the single source of truth. The Mermaid graph and the web viewe
 
 ```bash
 python scripts/build.py
+```
+
+To check every Hebrew, Aramaic and Greek quotation against its published edition (Sefaria for the Tanakh, Targum and Talmud; SBLGNT for the New Testament):
+
+```bash
+python scripts/verify.py
 ```
 
 Then open `web/index.html` in a browser. Click a node to see the original text and English side by side; hover a word that has a gloss to see its meaning.
@@ -139,7 +146,7 @@ See [docs/sources.md](docs/sources.md) for editions and licensing.
 
 ## Contributing
 
-- Keep original-language text **exact**; quote the edition you copied from.
+- Keep original-language text **exact**; quote the edition you copied from, and run `scripts/verify.py` before committing.
 - Every entry needs the `jewish_reading` field. Disagreement is the point of the project, not a bug.
 - Prefer primary sources over apologetics sites in either direction.
 

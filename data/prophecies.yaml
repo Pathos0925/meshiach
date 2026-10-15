@@ -68,6 +68,75 @@
   christian_reading: "Judah will hold the royal line until the one to whom it belongs arrives. Jesus is the Lion of Judah; the end of Judah's independent rule under Rome marks the time of his coming."
   notes: "שילה 'Shiloh' is textually uncertain; readings include 'he whose it is' (שלו) and 'tribute to him' (שי לה)."
   tags: [judah, targum, sanhedrin-98]
+  words:
+    - w: לא
+      lemma: לֹא
+      gloss: "not"
+      context: "negates 'depart'"
+    - w: יסור
+      lemma: סוּר
+      gloss: "it will turn aside, depart"
+      context: "the sceptre will not leave Judah"
+    - w: שבט
+      lemma: שֵׁבֶט
+      gloss: "rod, staff; tribe; sceptre"
+      context: "the sceptre of rule"
+      readings:
+        jewish: "kingship or authority in general; Rashi: the exilarchs of Babylon and patriarchs of the Land still 'ruled' after the monarchy ended"
+        christian: "royal sovereignty, which Judah retained in some form until the first century and then lost"
+    - w: מיהודה
+      lemma: יְהוּדָה
+      gloss: "from Judah"
+      context: "the tribe of Judah, from which David came"
+    - w: ומחקק
+      lemma: מְחֹקֵק
+      gloss: "and a ruler's staff; a lawgiver"
+      context: "the commander's staff, parallel to sceptre"
+    - w: מבין
+      lemma: בֵּין
+      gloss: "from between"
+      context: "from between his feet, i.e. from his descendants"
+    - w: רגליו
+      lemma: רֶגֶל
+      gloss: "his feet"
+      context: "his loins / offspring, or the staff planted between a seated ruler's feet"
+    - w: עד
+      lemma: עַד
+      gloss: "until"
+      context: "marks the limit of Judah's rule"
+      readings:
+        jewish: "'until' need not mean rule ends then; it may mean 'even when', so Judah's rule continues forever through the Messiah"
+        christian: "Judah's rule lasts until the Messiah arrives, so the Messiah must have come before Judah lost all sovereignty (70 CE)"
+    - w: כי
+      lemma: כִּי
+      gloss: "that, when"
+      context: "with 'until': until the time that"
+    - w: יבא
+      lemma: בּוֹא
+      gloss: "he comes"
+      context: "arrives"
+    - w: שילה
+      lemma: שִׁילֹה
+      gloss: "Shiloh (uncertain)"
+      context: "the one who is to come; also the town Shiloh"
+      readings:
+        jewish: "Onkelos: 'the Messiah, whose is the kingdom'; Rashi: 'King Messiah, to whom the kingdom belongs' (reading שֶׁלּוֹ, 'his'); Sanhedrin 98b lists Shiloh as the Messiah's name"
+        christian: "a name or title of the Messiah, 'he whose it is' or 'the one who brings peace', identified with Jesus"
+    - w: ולו
+      lemma: לְ + הוּא
+      gloss: "and to him"
+      context: "and to him belongs"
+    - w: יקהת
+      lemma: יִקְּהָה
+      gloss: "obedience, gathering"
+      context: "the obedience or assembling of peoples"
+    - w: עמים
+      lemma: עַם
+      gloss: "peoples, nations"
+      context: "the nations, not Israel alone"
+      readings:
+        jewish: "the peoples gather to the Messiah in the end of days (Isaiah 11:10)"
+        christian: "the Gentile nations gathered to Christ"
 
 - id: deut-18-15
   theme: ministry
@@ -130,6 +199,46 @@
   christian_reading: "The psalm describes crucifixion in detail centuries before the practice: pierced hands and feet, mocking, divided garments, thirst. Jesus quotes its opening line from the cross, and its ending ('he has done it') matches 'it is finished'."
   notes: "Key text-critical case: MT כארי vs LXX ὤρυξαν 'they dug/pierced' (reading כארו). Nahal Hever Psalms scroll supports כארו."
   tags: [text-criticism, crucifixion, septuagint, dead-sea-scrolls]
+  words:
+    - w: כי
+      lemma: כִּי
+      gloss: "for"
+      context: "gives the reason for the plea in v.16"
+    - w: סבבוני
+      lemma: סָבַב
+      gloss: "they have surrounded me"
+      context: "enemies encircle the speaker"
+    - w: כלבים
+      lemma: כֶּלֶב
+      gloss: "dogs"
+      context: "a pack of enemies, pictured as scavenging dogs"
+    - w: עדת
+      lemma: עֵדָה
+      gloss: "company, assembly of"
+      context: "a band of"
+    - w: מרעים
+      lemma: רָעַע
+      gloss: "evildoers"
+      context: "the wicked who do harm"
+    - w: הקיפוני
+      lemma: נָקַף
+      gloss: "they have encircled me"
+      context: "closed in around me"
+    - w: כארי
+      lemma: אֲרִי / כָּרָה (?)
+      gloss: "like a lion (MT); they pierced / dug (LXX, Nahal Hever)"
+      context: "the most disputed word in the psalm"
+      readings:
+        jewish: "כָּאֲרִי 'like a lion': the enemies maul my hands and feet as a lion would (Rashi, Ibn Ezra); the verb must be supplied"
+        christian: "כָּארוּ 'they pierced', reading with the Septuagint ὤρυξαν and the Nahal Hever Psalms scroll (5/6HevPs), where a vav rather than a yod is visible; seen as describing crucifixion"
+    - w: ידי
+      lemma: יָד
+      gloss: "my hands"
+      context: "my hands"
+    - w: ורגלי
+      lemma: רֶגֶל
+      gloss: "and my feet"
+      context: "and my feet"
 
 - id: ps-110-1
   theme: exaltation
@@ -308,6 +417,109 @@
   christian_reading: "The child born is given divine titles, Mighty God and Everlasting Father, and an unending reign on David's throne. No ordinary king, including Hezekiah, fits; Jesus does."
   notes: "Punctuation of the throne-names is the interpretive hinge."
   tags: [hezekiah, targum, throne-names]
+  words:
+    - w: כי
+      lemma: כִּי
+      gloss: "for"
+      context: "explains the joy of vv.1-4"
+    - w: ילד
+      lemma: יֶלֶד
+      gloss: "a child"
+      context: "a child"
+    - w: ילד
+      lemma: יָלַד
+      gloss: "has been born / is born"
+      context: "perfect tense"
+      readings:
+        jewish: "past: a child has already been born, namely Hezekiah (Sanhedrin 94a)"
+        christian: "prophetic perfect: a future birth spoken of as certain"
+    - w: לנו
+      lemma: לְ + אֲנַחְנוּ
+      gloss: "to us"
+      context: "for us, for our benefit"
+    - w: בן
+      lemma: בֵּן
+      gloss: "a son"
+      context: "a son"
+    - w: נתן
+      lemma: נָתַן
+      gloss: "has been given"
+      context: "parallel to 'born'"
+    - w: לנו
+      lemma: לְ + אֲנַחְנוּ
+      gloss: "to us"
+      context: "to us"
+    - w: ותהי
+      lemma: הָיָה
+      gloss: "and it was / shall be"
+      context: "and the government came to rest"
+    - w: המשרה
+      lemma: מִשְׂרָה
+      gloss: "the rule, government"
+      context: "authority to govern; a word found only here and v.6"
+    - w: על
+      lemma: עַל
+      gloss: "upon"
+      context: "upon"
+    - w: שכמו
+      lemma: שְׁכֶם
+      gloss: "his shoulder"
+      context: "he bears the burden of rule"
+    - w: ויקרא
+      lemma: קָרָא
+      gloss: "and he called / his name is called"
+      context: "active 3rd person: 'he (God) called'; or impersonal 'one calls'"
+      readings:
+        jewish: "active: God, who is 'Wonderful Counsellor, Mighty God, Everlasting Father', called the child's name 'Prince of Peace' (Rashi, Targum)"
+        christian: "impersonal passive, 'his name shall be called', so all four titles belong to the child"
+    - w: שמו
+      lemma: שֵׁם
+      gloss: "his name"
+      context: "his name"
+    - w: פלא
+      lemma: פֶּלֶא
+      gloss: "wonder, miracle"
+      context: "first element of the name"
+      readings:
+        jewish: "God is the Wonder-Counsellor; a name element describing God, as in many Hebrew names"
+        christian: "Wonderful (Counsellor): the child himself is wondrous"
+    - w: יועץ
+      lemma: יָעַץ
+      gloss: "counsellor"
+      context: "one who gives counsel"
+    - w: אל
+      lemma: אֵל
+      gloss: "God; mighty one"
+      context: "El, the divine name"
+      readings:
+        jewish: "refers to God the namer, not the child; or 'mighty one', a title used of men (Ezekiel 32:21)"
+        christian: "Mighty God, applied to the child: a statement of the Messiah's divinity"
+    - w: גבור
+      lemma: גִּבּוֹר
+      gloss: "mighty, hero"
+      context: "El Gibbor, 'Mighty God', used of God himself in 10:21"
+    - w: אבי
+      lemma: אָב
+      gloss: "father of"
+      context: "construct: father of"
+    - w: עד
+      lemma: עַד
+      gloss: "eternity, perpetuity"
+      context: "'Father of eternity': everlasting, or the one who fathers the ages"
+      readings:
+        jewish: "a title of God, the eternal Father"
+        christian: "the child is Everlasting Father: eternal, fatherly protector of his people"
+    - w: שר
+      lemma: שַׂר
+      gloss: "prince, ruler"
+      context: "prince of"
+    - w: שלום
+      lemma: שָׁלוֹם
+      gloss: "peace"
+      context: "Prince of Peace"
+      readings:
+        jewish: "the one title that names the child: Hezekiah, in whose days there was peace"
+        christian: "the Messiah who brings peace with God and among people"
 
 - id: isa-53-5
   theme: suffering
@@ -402,6 +614,88 @@
   christian_reading: "The Messiah's birthplace is Bethlehem, yet his origins are 'from ancient days', pointing to pre-existence. Herod's own scribes cite it when the magi ask where the Christ is born."
   notes: "Matthew's wording differs from both MT and LXX."
   tags: [bethlehem, targum]
+  words:
+    - w: ואתה
+      lemma: אַתָּה
+      gloss: "and you"
+      context: "addressed to the town"
+    - w: בית
+      lemma: בַּיִת
+      gloss: "house of"
+      context: "Beth-"
+    - w: לחם
+      lemma: לֶחֶם
+      gloss: "bread"
+      context: "Bethlehem, 'house of bread', David's birthplace"
+    - w: אפרתה
+      lemma: אֶפְרָתָה
+      gloss: "Ephrathah"
+      context: "the clan or district name distinguishing this Bethlehem from the one in Zebulun"
+    - w: צעיר
+      lemma: צָעִיר
+      gloss: "small, young, least"
+      context: "too small to count"
+    - w: להיות
+      lemma: הָיָה
+      gloss: "to be"
+      context: "to be (reckoned)"
+    - w: באלפי
+      lemma: אֶלֶף
+      gloss: "among the thousands / clans of"
+      context: "military-clan units of a tribe"
+    - w: יהודה
+      lemma: יְהוּדָה
+      gloss: "Judah"
+      context: "the tribe"
+    - w: ממך
+      lemma: מִן + אַתָּה
+      gloss: "from you"
+      context: "out of you, Bethlehem"
+      readings:
+        jewish: "from you, i.e. from David's line that began in Bethlehem; the Messiah's family origin, not necessarily his birthplace"
+        christian: "the Messiah will be born in Bethlehem, as Jesus was (Matthew 2)"
+    - w: לי
+      lemma: לְ + אֲנִי
+      gloss: "for me"
+      context: "for God's purposes"
+    - w: יצא
+      lemma: יָצָא
+      gloss: "he will come forth"
+      context: "will go out, arise"
+    - w: להיות
+      lemma: הָיָה
+      gloss: "to be"
+      context: "to become"
+    - w: מושל
+      lemma: מָשַׁל
+      gloss: "ruler"
+      context: "one who rules"
+    - w: בישראל
+      lemma: יִשְׂרָאֵל
+      gloss: "in Israel"
+      context: "over Israel"
+    - w: ומוצאתיו
+      lemma: מוֹצָאָה
+      gloss: "and his goings forth, origins"
+      context: "his origins or his activities"
+      readings:
+        jewish: "his lineage, going back to David and Ruth in Bethlehem long ago; or the Messiah's name existing before creation (Pesachim 54a)"
+        christian: "his goings forth from eternity: the Messiah's pre-existence"
+    - w: מקדם
+      lemma: קֶדֶם
+      gloss: "from of old, from the east"
+      context: "from ancient time"
+    - w: מימי
+      lemma: יוֹם
+      gloss: "from the days of"
+      context: "from days of"
+    - w: עולם
+      lemma: עוֹלָם
+      gloss: "antiquity; eternity"
+      context: "long ago, or everlasting"
+      readings:
+        jewish: "ancient days, i.e. the time of David (so Radak); עולם often means a long past age, not eternity"
+        christian: "eternity: the ruler's origins are eternal, so he is divine"
 
 - id: dan-9-26
   theme: death
@@ -420,6 +714,78 @@
   christian_reading: "An anointed one is cut off, having nothing, before the destruction of the city and sanctuary in 70 CE. The chronology of the seventy weeks, however reckoned, lands in the first century, so the Messiah must have come and died before the Temple fell."
   notes: "The 'seventy weeks' chronology is the most contested calculation in the whole field; record the competing start dates rather than one answer."
   tags: [seventy-weeks, temple, chronology]
+  words:
+    - w: ואחרי
+      lemma: אַחַר
+      gloss: "and after"
+      context: "after the period just named"
+    - w: השבעים
+      lemma: שָׁבוּעַ
+      gloss: "the weeks (sevens)"
+      context: "weeks of years, i.e. seven-year units"
+    - w: ששים
+      lemma: שִׁשִּׁים
+      gloss: "sixty"
+      context: "sixty"
+    - w: ושנים
+      lemma: שְׁנַיִם
+      gloss: "and two"
+      context: "sixty-two weeks, 434 years, following the first seven weeks of v.25"
+      readings:
+        jewish: "the Masoretic accents separate 'seven weeks' from 'sixty-two weeks' in v.25: two anointed figures, Cyrus or Joshua the high priest after seven weeks, and another after sixty-two"
+        christian: "seven plus sixty-two weeks run together, 483 years from a decree to rebuild Jerusalem to the Messiah's public appearance"
+    - w: יכרת
+      lemma: כָּרַת
+      gloss: "he will be cut off"
+      context: "killed, or removed from office; the verb used for the death penalty and for making a covenant"
+      readings:
+        jewish: "the anointed one, a high priest (Onias III, murdered 171 BCE) or King Agrippa, is removed or killed"
+        christian: "the Messiah is executed: the crucifixion"
+    - w: משיח
+      lemma: מָשִׁיחַ
+      gloss: "an anointed one"
+      context: "no definite article: 'an anointed one', priest or king"
+      readings:
+        jewish: "an anointed priest or king of the Second Temple period, not the Messiah of the end of days"
+        christian: "the Messiah, Jesus, anointed king and priest"
+    - w: ואין
+      lemma: אַיִן
+      gloss: "and there is not"
+      context: "and he has nothing / and no one is for him"
+    - w: לו
+      lemma: לְ + הוּא
+      gloss: "to him"
+      context: "'and has nothing': no successor, no help, no guilt"
+      readings:
+        jewish: "and he has no successor, or the people has no more anointed ones"
+        christian: "and not for himself: he dies for others, or he is left with nothing, abandoned"
+    - w: והעיר
+      lemma: עִיר
+      gloss: "and the city"
+      context: "Jerusalem"
+    - w: והקדש
+      lemma: קֹדֶשׁ
+      gloss: "and the sanctuary"
+      context: "the Temple"
+    - w: ישחית
+      lemma: שָׁחַת
+      gloss: "he / it will destroy"
+      context: "will be destroyed by"
+    - w: עם
+      lemma: עַם
+      gloss: "the people of"
+      context: "the people of the prince"
+    - w: נגיד
+      lemma: נָגִיד
+      gloss: "a prince, leader"
+      context: "a ruler"
+      readings:
+        jewish: "Titus, whose army destroyed Jerusalem in 70 CE (Rashi); or Antiochus"
+        christian: "Titus and Rome, fulfilling the prophecy after the Messiah's death; or a future antichrist figure"
+    - w: הבא
+      lemma: בּוֹא
+      gloss: "who is to come"
+      context: "the coming prince"
 
 - id: zech-9-9
   theme: ministry
@@ -464,6 +830,96 @@
   christian_reading: "God speaks of being pierced, and Jerusalem mourning for him as for an only son. Fulfilled at the cross (John 19:37) and awaiting a final fulfilment when Israel looks on him at his return (Revelation 1:7)."
   notes: "The shift from 'to me' (אלי) to 'for him' (עליו) is discussed by every commentator."
   tags: [messiah-ben-joseph, sukkah-52, pierced]
+  words:
+    - w: ושפכתי
+      lemma: שָׁפַךְ
+      gloss: "and I will pour out"
+      context: "God speaks in the first person"
+    - w: על
+      lemma: עַל
+      gloss: "upon"
+      context: "upon"
+    - w: בית
+      lemma: בַּיִת
+      gloss: "the house of"
+      context: "the dynasty of"
+    - w: דויד
+      lemma: דָּוִד
+      gloss: "David"
+      context: "the royal family"
+    - w: ועל
+      lemma: עַל
+      gloss: "and upon"
+      context: "and upon"
+    - w: יושב
+      lemma: יָשַׁב
+      gloss: "the inhabitant(s) of"
+      context: "collective singular: those who dwell in"
+    - w: ירושלם
+      lemma: יְרוּשָׁלַיִם
+      gloss: "Jerusalem"
+      context: "Jerusalem"
+    - w: רוח
+      lemma: רוּחַ
+      gloss: "a spirit"
+      context: "a disposition given by God"
+    - w: חן
+      lemma: חֵן
+      gloss: "grace, favour"
+      context: "grace"
+    - w: ותחנונים
+      lemma: תַּחֲנוּן
+      gloss: "and supplications"
+      context: "pleading for mercy"
+    - w: והביטו
+      lemma: נָבַט
+      gloss: "and they will look"
+      context: "they will gaze toward"
+    - w: אלי
+      lemma: אֶל + אֲנִי
+      gloss: "to me"
+      context: "to me, God, the speaker"
+      readings:
+        jewish: "they will look to me (God) in prayer concerning the one whom they (the nations) have pierced, i.e. the slain of Israel or Messiah ben Joseph (Sukkah 52a); some manuscripts read אֵלָיו 'to him'"
+        christian: "God himself is the one pierced, so the pierced one shares God's identity; John 19:37 and Revelation 1:7 apply it to Jesus"
+    - w: את
+      lemma: אֵת
+      gloss: "(object marker)"
+      context: "marks 'whom' as the object"
+    - w: אשר
+      lemma: אֲשֶׁר
+      gloss: "whom, which"
+      context: "the one whom"
+    - w: דקרו
+      lemma: דָּקַר
+      gloss: "they pierced, thrust through"
+      context: "a fatal stabbing, as with a sword or spear"
+      readings:
+        jewish: "the enemies pierced him: those killed in the wars of Gog, or Messiah ben Joseph"
+        christian: "Jesus pierced by the spear at the crucifixion, by the people's own doing"
+    - w: וספדו
+      lemma: סָפַד
+      gloss: "and they will mourn, wail"
+      context: "ritual lament"
+    - w: עליו
+      lemma: עַל + הוּא
+      gloss: "for him"
+      context: "the shift from 'to me' to 'for him'"
+      readings:
+        jewish: "confirms that the pierced one is distinct from God the speaker"
+        christian: "God speaks of himself in the third person, or Father speaks of Son"
+    - w: כמספד
+      lemma: מִסְפֵּד
+      gloss: "like the mourning"
+      context: "as one mourns"
+    - w: על
+      lemma: עַל
+      gloss: "for"
+      context: "for"
+    - w: היחיד
+      lemma: יָחִיד
+      gloss: "the only (son)"
+      context: "an only child, the bitterest loss"
 
 - id: mal-3-1
   theme: forerunner
@@ -930,5 +1386,5 @@
   relates_to: [isa-61-1-2]
   jewish_reading: "A pre-Christian Jewish text (c. 100 BCE) combining Psalm 146 and Isaiah 61 into a list of what will happen when the Messiah comes, including raising the dead. It shows the expectation Jesus' answer to John the Baptist was addressing."
   christian_reading: "A pre-Christian Jewish expectation that the Messiah's age brings healing of the blind, raising of the dead, and good news to the poor. Jesus' reply to John the Baptist (Matthew 11:5) lists exactly these signs as proof of who he is."
-  notes: "Whether the healer is God or the Messiah is debated; the grammar favours God acting in the Messiah's time."
+  notes: "Whether the healer is God or the Messiah is debated; the grammar favours God acting in the Messiah's time. Text checked against the Hebrew Wikisource transcription of 4Q521 (lines 1, 8, 12 of the main fragment); the end of line 8, כפופים, is a bracketed reconstruction."
   tags: [qumran, dead-sea-scrolls, miracles]
