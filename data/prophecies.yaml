@@ -5,6 +5,7 @@
 
 - id: gen-3-15
   theme: lineage
+  date: {traditional: -1400, critical: -600}
   title: The seed of the woman
   source:
     ref: Genesis 3:15
@@ -101,6 +102,7 @@
 
 - id: gen-12-3
   theme: covenant
+  date: {traditional: -1400, critical: -600}
   title: All families blessed through Abraham
   source:
     ref: Genesis 12:3
@@ -164,6 +166,7 @@
 
 - id: gen-49-10
   theme: lineage
+  date: {traditional: -1400, critical: -600}
   title: The sceptre of Judah until Shiloh comes
   source:
     ref: Genesis 49:10
@@ -256,6 +259,7 @@
 
 - id: deut-18-15
   theme: ministry
+  date: {traditional: -1400, critical: -600}
   title: A prophet like Moses
   source:
     ref: Deuteronomy 18:15
@@ -323,6 +327,7 @@
 
 - id: 2sam-7-12-13
   theme: covenant
+  date: {traditional: -1000, critical: -560}
   title: David's throne established forever
   source:
     ref: 2 Samuel 7:12-13
@@ -429,6 +434,7 @@
 
 - id: ps-22-17
   theme: death
+  date: {traditional: -1000, critical: -500}
   title: They pierced my hands and feet
   source:
     ref: Psalm 22:17 [16]
@@ -859,6 +865,7 @@
 
 - id: ps-110-1
   theme: exaltation
+  date: {traditional: -1000, critical: -500}
   title: Sit at my right hand
   source:
     ref: Psalm 110:1
@@ -926,6 +933,7 @@
 
 - id: isa-7-14
   theme: birth
+  date: -735
   title: Born of the almah
   source:
     ref: Isaiah 7:14
@@ -1021,6 +1029,7 @@
 
 - id: isa-9-5
   theme: birth
+  date: -735
   title: Unto us a child is born
   source:
     ref: Isaiah 9:5 [6]
@@ -1143,6 +1152,7 @@
 
 - id: isa-53-5
   theme: suffering
+  date: {traditional: -700, critical: -540}
   title: The suffering servant
   source:
     ref: Isaiah 53:5
@@ -2167,6 +2177,7 @@
 
 - id: mic-5-1
   theme: birth
+  date: -720
   title: Ruler from Bethlehem
   source:
     ref: Micah 5:1 [2]
@@ -2268,6 +2279,7 @@
 
 - id: dan-9-26
   theme: death
+  date: {traditional: -535, critical: -165}
   title: An anointed one cut off
   source:
     ref: Daniel 9:26
@@ -2771,6 +2783,7 @@
 
 - id: zech-9-9
   theme: ministry
+  date: {traditional: -500, critical: -300}
   title: King riding on a donkey
   source:
     ref: Zechariah 9:9
@@ -2892,6 +2905,7 @@
 
 - id: zech-12-10
   theme: death
+  date: {traditional: -500, critical: -300}
   title: They shall look on him whom they pierced
   source:
     ref: Zechariah 12:10
@@ -3188,6 +3202,7 @@
 
 - id: mal-3-1
   theme: forerunner
+  date: -450
   title: The messenger who prepares the way
   source:
     ref: Malachi 3:1
@@ -3304,6 +3319,7 @@
 
 - id: ps-2-7
   theme: exaltation
+  date: {traditional: -1000, critical: -500}
   title: You are my son
   source:
     ref: Psalm 2:7
@@ -3381,6 +3397,7 @@
 
 - id: ps-16-10
   theme: resurrection
+  date: {traditional: -1000, critical: -500}
   title: You will not abandon my soul to Sheol
   source:
     ref: Psalm 16:10
@@ -3451,6 +3468,7 @@
 
 - id: ps-69-22
   theme: death
+  date: {traditional: -1000, critical: -500}
   title: Vinegar for my thirst
   source:
     ref: Psalm 69:22 [21]
@@ -3506,6 +3524,7 @@
 
 - id: isa-11-1-2
   theme: lineage
+  date: -735
   title: A shoot from the stump of Jesse
   source:
     ref: Isaiah 11:1-2
@@ -3621,6 +3640,7 @@
 
 - id: isa-40-3
   theme: forerunner
+  date: {traditional: -700, critical: -540}
   title: A voice crying in the wilderness
   source:
     ref: Isaiah 40:3
@@ -3691,6 +3711,7 @@
 
 - id: isa-42-1
   theme: ministry
+  date: {traditional: -700, critical: -540}
   title: Behold my servant
   source:
     ref: Isaiah 42:1
@@ -3770,6 +3791,7 @@
 
 - id: isa-49-6
   theme: kingdom
+  date: {traditional: -700, critical: -540}
   title: A light to the nations
   source:
     ref: Isaiah 49:6
@@ -3829,6 +3851,7 @@
 
 - id: isa-50-6
   theme: suffering
+  date: {traditional: -700, critical: -540}
   title: I gave my back to those who strike
   source:
     ref: Isaiah 50:6
@@ -3896,6 +3919,7 @@
 
 - id: isa-61-1-2
   theme: ministry
+  date: {traditional: -700, critical: -540}
   title: The Spirit of the Lord is upon me
   source:
     ref: Isaiah 61:1-2
@@ -4022,6 +4046,7 @@
 
 - id: jer-23-5-6
   theme: kingdom
+  date: -600
   title: A righteous Branch for David
   source:
     ref: Jeremiah 23:5-6
@@ -4167,6 +4192,7 @@
 
 - id: jer-31-31
   theme: covenant
+  date: -600
   title: A new covenant
   source:
     ref: Jeremiah 31:31-33
@@ -4285,6 +4311,7 @@
 
 - id: dan-7-13-14
   theme: exaltation
+  date: {traditional: -535, critical: -165}
   title: One like a son of man
   source:
     ref: Daniel 7:13-14
@@ -4478,6 +4505,7 @@
 
 - id: hos-11-1
   theme: birth
+  date: -750
   title: Out of Egypt I called my son
   source:
     ref: Hosea 11:1
@@ -4533,6 +4561,7 @@
 
 - id: zech-11-12-13
   theme: death
+  date: {traditional: -500, critical: -300}
   title: Thirty pieces of silver
   source:
     ref: Zechariah 11:12-13
@@ -4703,6 +4732,7 @@
 
 - id: zech-13-7
   theme: death
+  date: {traditional: -500, critical: -300}
   title: Strike the shepherd
   source:
     ref: Zechariah 13:7
@@ -5068,6 +5098,7 @@
 
 - id: mal-3-23
   theme: forerunner
+  date: -450
   title: Elijah before the great day
   source:
     ref: Malachi 3:23 [4:5]
@@ -5154,6 +5185,7 @@
 
 - id: tg-isa-52-13
   theme: suffering
+  date: {traditional: 100, critical: 400}
   title: Targum Jonathan names the servant as Messiah
   source:
     kind: targum
@@ -5211,6 +5243,7 @@
 
 - id: san-98b-name
   theme: suffering
+  date: 500
   title: The Messiah's names, including the leper scholar
   source:
     kind: talmud
@@ -5338,6 +5371,7 @@
 
 - id: suk-52a
   theme: death
+  date: 500
   title: Messiah ben Joseph is slain
   source:
     kind: talmud
@@ -5410,6 +5444,7 @@
 
 - id: 4q521
   theme: ministry
+  date: -100
   title: The Messianic Apocalypse
   source:
     kind: qumran
@@ -5502,3 +5537,402 @@
       lemma: בָּשַׂר
       gloss: "he will bring good news"
       context: "proclaim glad tidings (Isaiah 61:1)"
+
+- id: pr-36
+  theme: suffering
+  date: 800
+  title: Messiah Ephraim accepts suffering before creation
+  source:
+    kind: midrash
+    ref: Pesikta Rabbati 36
+    lang: he
+    text: "משיח ושמו אפרים משיח צדקי ... אמר לו הקדוש ברוך הוא אפרים משיח צדקי כבר קיבלת עליך מששת ימי בראשית עכשיו יהא צער שלך כצער שלי"
+    english: "'[He is] the Messiah, and his name is Ephraim, my righteous Messiah' ... The Holy One, blessed be he, said to him: Ephraim, my righteous Messiah, you already accepted it upon yourself from the six days of creation; now let your pain be like my pain."
+  fulfilment:
+    - ref: 1 Peter 1:20
+      lang: el
+      text: "προεγνωσμένου μὲν πρὸ καταβολῆς κόσμου"
+      english: "He was foreknown before the foundation of the world."
+  relates_to: [isa-53-5, ps-22-17, isa-42-1]
+  jewish_reading: "A late midrash (6th-9th century) in which the Messiah, named Ephraim, agrees before creation to suffer for Israel's sake, and David weeps Psalm 22:16 over him. It shows a suffering-Messiah tradition inside Judaism, but as homily, not binding doctrine, and the Messiah remains a human figure who has not yet come."
+  christian_reading: "A Jewish text describing a pre-existent Messiah who willingly accepts suffering to atone for his generation, applying Isaiah 42:1 and Psalm 22 to him. Read as close to the Christian picture of Jesus, foreknown before the foundation of the world and suffering for others."
+  notes: "The homily quotes Isaiah 42:1 ('behold my servant whom I uphold') and Psalm 22:16 of the Messiah. Text from the Sefaria edition; square brackets in the printed text mark editorial readings."
+  tags: [midrash, pesikta-rabbati, messiah-ephraim, suffering-messiah]
+  words:
+    - w: משיח
+      lemma: מָשִׁיחַ
+      gloss: "Messiah"
+      context: "the Messiah"
+    - w: ושמו
+      lemma: שֵׁם
+      gloss: "and his name"
+      context: "his name is"
+    - w: אפרים
+      lemma: אֶפְרַיִם
+      gloss: "Ephraim"
+      context: "Ephraim: the northern tribe; so a Messiah son of Joseph"
+      readings:
+        jewish: "Messiah ben Joseph, who suffers and dies before Messiah ben David"
+        christian: "both Messiahs are one, Jesus; 'Ephraim' recalls the 'dear son' of Jeremiah 31:20"
+    - w: משיח
+      lemma: מָשִׁיחַ
+      gloss: "Messiah"
+      context: "my Messiah"
+    - w: צדקי
+      lemma: צֶדֶק
+      gloss: "my righteousness"
+      context: "my righteous one"
+    - w: אמר
+      lemma: אָמַר
+      gloss: "said"
+      context: "said"
+    - w: לו
+      lemma: לְ + הוּא
+      gloss: "to him"
+      context: "to him"
+    - w: הקדוש
+      lemma: קָדוֹשׁ
+      gloss: "the Holy One"
+      context: "God"
+    - w: ברוך
+      lemma: בָּרַךְ
+      gloss: "blessed"
+      context: "blessed"
+    - w: הוא
+      lemma: הוּא
+      gloss: "be he"
+      context: "be he"
+    - w: אפרים
+      lemma: אֶפְרַיִם
+      gloss: "Ephraim"
+      context: "Ephraim"
+    - w: משיח
+      lemma: מָשִׁיחַ
+      gloss: "Messiah"
+      context: "Messiah"
+    - w: צדקי
+      lemma: צֶדֶק
+      gloss: "my righteous one"
+      context: "my righteous one"
+    - w: כבר
+      lemma: כְּבָר
+      gloss: "already"
+      context: "already"
+    - w: קיבלת
+      lemma: קִבֵּל
+      gloss: "you accepted"
+      context: "took upon yourself"
+    - w: עליך
+      lemma: עַל
+      gloss: "upon yourself"
+      context: "on yourself"
+    - w: מששת
+      lemma: שֵׁשׁ
+      gloss: "from the six"
+      context: "from the six"
+    - w: ימי
+      lemma: יוֹם
+      gloss: "days of"
+      context: "days of"
+    - w: בראשית
+      lemma: בְּרֵאשִׁית
+      gloss: "creation"
+      context: "the beginning"
+      readings:
+        jewish: "the Messiah's name or soul existed before creation (Pesachim 54a); not a divine pre-existence"
+        christian: "the Messiah's pre-existence and his consent to suffer, as in Philippians 2:6-8"
+    - w: עכשיו
+      lemma: עַכְשָׁו
+      gloss: "now"
+      context: "now"
+    - w: יהא
+      lemma: הָיָה
+      gloss: "let it be"
+      context: "let"
+    - w: צער
+      lemma: צַעַר
+      gloss: "the pain of"
+      context: "suffering"
+    - w: שלך
+      lemma: שֶׁל
+      gloss: "yours"
+      context: "your"
+    - w: כצער
+      lemma: צַעַר
+      gloss: "like the pain"
+      context: "like the suffering"
+    - w: שלי
+      lemma: שֶׁל
+      gloss: "mine"
+      context: "of mine: God shares the Messiah's grief"
+
+- id: pr-37
+  theme: suffering
+  date: 800
+  title: The patriarchs praise Messiah Ephraim for bearing their children's sins
+  source:
+    kind: midrash
+    ref: Pesikta Rabbati 37
+    lang: he
+    text: "אפרים משיח צדקנו אע\"פ שאנו אבותיך אתה גדול ממנו מפני שסבלת עונות בנינו"
+    english: "Ephraim, our righteous Messiah, although we are your fathers, you are greater than we, because you bore the iniquities of our children."
+  fulfilment:
+    - ref: John 8:58
+      lang: el
+      text: "πρὶν Ἀβραὰμ γενέσθαι ἐγὼ εἰμί"
+      english: "Before Abraham was, I am."
+    - ref: Hebrews 9:28
+      lang: el
+      text: "ὁ Χριστός, ἅπαξ προσενεχθεὶς εἰς τὸ πολλῶν ἀνενεγκεῖν ἁμαρτίας"
+      english: "Christ, having been offered once to bear the sins of many."
+  relates_to: [isa-53-5, pr-36]
+  jewish_reading: "The patriarchs greet the Messiah in the month of Nisan and acknowledge that he has suffered for Israel's sins, in the language of Isaiah 53:11-12 ('he shall bear their iniquities'). The Messiah is still a future, human deliverer; the homily dramatises his reward."
+  christian_reading: "A Jewish homily that applies the bearing of iniquities in Isaiah 53 to the Messiah and ranks him above Abraham, Isaac and Jacob. Christians see here the same claims made for Jesus: greater than Abraham, and bearing the sins of many."
+  notes: "אע\"פ is the standard abbreviation for אף על פי, 'even though'. Text from the Sefaria edition."
+  tags: [midrash, pesikta-rabbati, messiah-ephraim, servant-songs]
+  words:
+    - w: אפרים
+      lemma: אֶפְרַיִם
+      gloss: "Ephraim"
+      context: "Ephraim"
+    - w: משיח
+      lemma: מָשִׁיחַ
+      gloss: "Messiah"
+      context: "Messiah"
+    - w: צדקנו
+      lemma: צֶדֶק
+      gloss: "our righteousness"
+      context: "our righteous one; cf. Jeremiah 23:6"
+    - w: אע"פ
+      lemma: אַף עַל פִּי
+      gloss: "even though"
+      context: "although (abbreviation)"
+    - w: שאנו
+      lemma: אֲנַחְנוּ
+      gloss: "that we"
+      context: "we"
+    - w: אבותיך
+      lemma: אָב
+      gloss: "your fathers"
+      context: "your ancestors: Abraham, Isaac and Jacob"
+    - w: אתה
+      lemma: אַתָּה
+      gloss: "you"
+      context: "you"
+    - w: גדול
+      lemma: גָּדוֹל
+      gloss: "greater"
+      context: "greater"
+    - w: ממנו
+      lemma: מִן
+      gloss: "than we"
+      context: "than us"
+      readings:
+        jewish: "greater in merit, because of his sufferings"
+        christian: "greater in nature as well: 'before Abraham was, I am'"
+    - w: מפני
+      lemma: פָּנִים
+      gloss: "because"
+      context: "because"
+    - w: שסבלת
+      lemma: סָבַל
+      gloss: "you bore"
+      context: "you carried; the verb of Isaiah 53:4, 11"
+    - w: עונות
+      lemma: עָוֹן
+      gloss: "the iniquities of"
+      context: "the sins of"
+      readings:
+        jewish: "the Messiah's suffering has atoning value for Israel, alongside the merit of the fathers"
+        christian: "vicarious atonement by the Messiah, as in Isaiah 53 read of Jesus"
+    - w: בנינו
+      lemma: בֵּן
+      gloss: "our children"
+      context: "our descendants, Israel"
+
+- id: mid-teh-2
+  theme: exaltation
+  date: 900
+  title: Midrash Tehillim gathers the messianic texts around Psalm 2:7
+  source:
+    kind: midrash
+    ref: Midrash Tehillim 2
+    lang: he
+    text: "מסופרים הם בחוקה של תורה ובחוקן של נביאים וכתובים ... בני בכורי ישראל ... הנה ישכיל עבדי ירום ונשא ... הן עבדי אתמך בו ... נאם ה' לאדוני ה' אמר אלי בני אתה ... וארו עם ענני שמיא ... מכאן תשובה לאומרים יש לו בן"
+    english: "They are recounted in the statute of the Torah, and in the statute of the Prophets and the Writings: ... 'Israel is my firstborn son' (Exodus 4:22) ... 'Behold, my servant shall prosper, he shall be exalted and lifted up' (Isaiah 52:13) ... 'Behold my servant, whom I uphold' (Isaiah 42:1) ... 'The LORD says to my lord' (Psalm 110:1); 'The LORD said to me, You are my son' (Psalm 2:7) ... 'and behold, with the clouds of heaven' (Daniel 7:13) ... From here is a reply to those who say he has a son."
+  fulfilment:
+    - ref: Hebrews 1:5
+      lang: el
+      text: "Υἱός μου εἶ σύ, ἐγὼ σήμερον γεγέννηκά σε"
+      english: "You are my Son, today I have begotten you."
+  relates_to: [ps-2-7, isa-42-1, ps-110-1, dan-7-13-14, isa-53-5]
+  jewish_reading: "The midrash reads Psalm 2:7 of King Messiah and strings together Exodus 4:22, Isaiah 52:13, Isaiah 42:1, Psalm 110:1 and Daniel 7:13 as the 'decree' about him. It then adds an explicit polemic: 'my son' means a beloved servant, 'as a master says to his slave, I love you like my son', and refutes 'those who say he has a son', i.e. Christians."
+  christian_reading: "A rabbinic source that applies to the Messiah the same cluster of texts the New Testament applies to Jesus (Hebrews 1 cites Psalm 2:7, 2 Samuel 7:14 and Psalm 110:1 together). The polemic against 'those who say he has a son' is taken as evidence that the plain sense of 'my son' was felt to need explaining away."
+  notes: "Midrash Tehillim (Shocher Tov) is a compilation whose material ranges from the 3rd to the 13th century. Text from the Sefaria edition; the quoted phrases are drawn from one paragraph, with omissions marked."
+  tags: [midrash, midrash-tehillim, son-of-god, polemic]
+  words:
+    - w: מסופרים
+      lemma: סָפַר
+      gloss: "they are recounted"
+      context: "told; a play on 'I will recount' (Psalm 2:7)"
+    - w: הם
+      lemma: הֵם
+      gloss: "they"
+      context: "they, the things decreed about the Messiah"
+    - w: בחוקה
+      lemma: חֹק
+      gloss: "in the statute of"
+      context: "in the decree of"
+    - w: של
+      lemma: שֶׁל
+      gloss: "of"
+      context: "of"
+    - w: תורה
+      lemma: תּוֹרָה
+      gloss: "the Torah"
+      context: "the Pentateuch"
+    - w: ובחוקן
+      lemma: חֹק
+      gloss: "and in the statute of"
+      context: "and in the decree of"
+    - w: של
+      lemma: שֶׁל
+      gloss: "of"
+      context: "of"
+    - w: נביאים
+      lemma: נָבִיא
+      gloss: "the Prophets"
+      context: "the Prophets"
+    - w: וכתובים
+      lemma: כָּתוּב
+      gloss: "and the Writings"
+      context: "and the Writings"
+    - w: בני
+      lemma: בֵּן
+      gloss: "my son"
+      context: "my son"
+    - w: בכורי
+      lemma: בְּכוֹר
+      gloss: "my firstborn"
+      context: "my firstborn"
+    - w: ישראל
+      lemma: יִשְׂרָאֵל
+      gloss: "Israel"
+      context: "Israel (Exodus 4:22)"
+      readings:
+        jewish: "Israel as God's son is the model for the Messiah as God's son: a title of favour"
+        christian: "Israel's sonship is fulfilled in the Messiah's (Hosea 11:1, Matthew 2:15)"
+    - w: הנה
+      lemma: הִנֵּה
+      gloss: "behold"
+      context: "behold"
+    - w: ישכיל
+      lemma: שָׂכַל
+      gloss: "will prosper"
+      context: "will prosper"
+    - w: עבדי
+      lemma: עֶבֶד
+      gloss: "my servant"
+      context: "my servant (Isaiah 52:13)"
+      readings:
+        jewish: "the midrash reads the servant of Isaiah 52:13 as the Messiah"
+        christian: "Jewish confirmation that the fourth Servant Song opens with the Messiah"
+    - w: ירום
+      lemma: רוּם
+      gloss: "will be high"
+      context: "exalted"
+    - w: ונשא
+      lemma: נָשָׂא
+      gloss: "and lifted up"
+      context: "lifted up"
+    - w: הן
+      lemma: הֵן
+      gloss: "behold"
+      context: "behold"
+    - w: עבדי
+      lemma: עֶבֶד
+      gloss: "my servant"
+      context: "my servant (Isaiah 42:1)"
+    - w: אתמך
+      lemma: תָּמַךְ
+      gloss: "I uphold"
+      context: "I uphold"
+    - w: בו
+      lemma: בְּ + הוּא
+      gloss: "him"
+      context: "him"
+    - w: נאם
+      lemma: נְאֻם
+      gloss: "utterance of"
+      context: "oracle of"
+    - w: ה'
+      lemma: יהוה
+      gloss: "the LORD"
+      context: "the LORD (abbreviated)"
+    - w: לאדוני
+      lemma: אָדוֹן
+      gloss: "to my lord"
+      context: "to my lord (Psalm 110:1): the Messiah"
+    - w: ה'
+      lemma: יהוה
+      gloss: "the LORD"
+      context: "the LORD"
+    - w: אמר
+      lemma: אָמַר
+      gloss: "said"
+      context: "said"
+    - w: אלי
+      lemma: אֶל
+      gloss: "to me"
+      context: "to me"
+    - w: בני
+      lemma: בֵּן
+      gloss: "my son"
+      context: "my son (Psalm 2:7)"
+    - w: אתה
+      lemma: אַתָּה
+      gloss: "you are"
+      context: "you are"
+    - w: וארו
+      lemma: אֲרוּ
+      gloss: "and behold"
+      context: "and behold (Aramaic, Daniel 7:13)"
+    - w: עם
+      lemma: עִם
+      gloss: "with"
+      context: "with"
+    - w: ענני
+      lemma: עֲנָן
+      gloss: "the clouds of"
+      context: "the clouds of"
+    - w: שמיא
+      lemma: שְׁמַיָּא
+      gloss: "heaven"
+      context: "heaven: the son of man vision read of the Messiah"
+    - w: מכאן
+      lemma: כָּאן
+      gloss: "from here"
+      context: "from this verse"
+    - w: תשובה
+      lemma: תְּשׁוּבָה
+      gloss: "a reply, refutation"
+      context: "an answer"
+    - w: לאומרים
+      lemma: אָמַר
+      gloss: "to those who say"
+      context: "to those who claim"
+    - w: יש
+      lemma: יֵשׁ
+      gloss: "there is"
+      context: "he has"
+    - w: לו
+      lemma: לְ + הוּא
+      gloss: "to him"
+      context: "to him (God)"
+    - w: בן
+      lemma: בֵּן
+      gloss: "a son"
+      context: "a son"
+      readings:
+        jewish: "'my son' is a term of affection for a servant, not literal sonship; a direct rebuttal of the Christian claim"
+        christian: "the rebuttal shows the text was read, by Christians and perhaps by some Jews, as speaking of a divine Son"

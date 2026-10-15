@@ -72,6 +72,18 @@
   .link.rel { stroke-dasharray: 4 3; stroke: var(--jew); stroke-opacity: .8; }
   .node.selected circle { stroke: var(--fg); stroke-width: 3px; }
   .node.dim, .link.dim { opacity: .12; }
+  #tl { cursor: default; }
+  #tl .axis text { font-size: 11px; fill: var(--muted); }
+  #tl .axis line, #tl .axis path { stroke: var(--line); }
+  #tl .row text { font-size: 10px; fill: var(--fg); }
+  #tl .theme-label { font-size: 11px; font-weight: 600; fill: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  #tl .span { stroke: var(--muted); stroke-width: 2; stroke-dasharray: 3 3; }
+  #tl .dot { cursor: pointer; stroke: var(--panel); stroke-width: 1.5; }
+  #tl .dot.trad { fill: none; stroke: var(--fg); stroke-dasharray: 2 2; }
+  #tl .marker line { stroke: var(--grk); stroke-width: 1.5; }
+  #tl .marker text { font-size: 11px; fill: var(--grk); font-weight: 600; }
+  #tl .dot.dim, #tl .span.dim, #tl .row text.dim { opacity: .12; }
+  #tl .dot.selected { stroke: var(--fg); stroke-width: 3; }
 </style>
 </head>
 <body>
@@ -81,8 +93,10 @@
       <input id="q" type="search" placeholder="Search ref, title, text…" aria-label="Search">
       <div id="chips"></div>
       <span class="chip" id="vowels" title="Show vowel points (niqqud)">vowels</span>
+      <span class="chip view" id="view-timeline" title="Switch between graph and timeline">timeline</span>
     </div>
     <svg id="svg" role="img" aria-label="Prophecy graph"></svg>
+    <svg id="tl" role="img" aria-label="Prophecy timeline" hidden></svg>
     <div id="legend">
       <span style="--c:var(--theme)">theme</span>
       <span style="--c:var(--heb)">Hebrew</span>
@@ -193,12 +207,14 @@
     const ok = new Map(nodes.map(n => [n.id, matches(n, q)]));
     node.classed("dim", d => !ok.get(d.id));
     link.classed("dim", d => !(ok.get(d.source.id) && ok.get(d.target.id)));
+    tlSvg.selectAll(".row").each(function (e) { d3.select(this).selectAll(".dot, .span, text").classed("dim", !ok.get(e.id)); });
   }
 
   // ---- panel ---------------------------------------------------------------
   const panel = document.getElementById("panel");
   function select(d) {
     node.classed("selected", n => n === d);
+    tlSvg.selectAll(".dot.crit").classed("selected", function () { return d3.select(this.parentNode).datum() === d.entry; });
     if (d.entry) renderEntry(d.entry);
     else if (d.nt) renderNT(d);
     else renderTheme(d.theme);
@@ -284,6 +300,69 @@
       <h2>${list.length} passages</h2>
       ${list.map(e => `<p><a class="rel" onclick="selectId('${e.id}')">${esc(e.source.ref)}</a> — ${esc(e.title)}</p>`).join("")}`;
   }
+
+  // ---- timeline ------------------------------------------------------------
+  const tlSvg = d3.select("#tl");
+  const tlBtn = document.getElementById("view-timeline");
+  let showTimeline = false;
+  function dateOf(e) {
+    const d = e.date;
+    if (d == null) return null;
+    if (typeof d === "number") return { crit: d, trad: d };
+    return { crit: d.critical, trad: d.traditional };
+  }
+  const fmtYear = y => y < 0 ? `${-y} BCE` : `${y} CE`;
+  function drawTimeline() {
+    const b = box();
+    tlSvg.attr("viewBox", `0 0 ${b.width} ${b.height}`).selectAll("*").remove();
+    const dated = entries.filter(e => dateOf(e));
+    const years = dated.flatMap(e => { const d = dateOf(e); return [d.crit, d.trad]; });
+    const left = 110, right = 24, top = 80, bottom = 36;
+    const x = d3.scaleLinear().domain([Math.min(...years) - 60, Math.max(...years, 100) + 60]).range([left, b.width - right]);
+    const themesHere = THEMES.filter(t => dated.some(e => e.theme === t));
+    const rowH = Math.max(14, (b.height - top - bottom) / dated.length);
+    const g = tlSvg.append("g");
+    // axis
+    const axis = d3.axisTop(x).ticks(8).tickFormat(fmtYear);
+    g.append("g").attr("class", "axis").attr("transform", `translate(0,${top - 14})`).call(axis);
+    // markers
+    [[30, "Jesus' ministry and death, c. 30 CE"], [70, "Temple destroyed, 70 CE"]].forEach(([y, label], i) => {
+      const m = g.append("g").attr("class", "marker");
+      m.append("line").attr("x1", x(y)).attr("x2", x(y)).attr("y1", top - 4).attr("y2", b.height - bottom + 8);
+      m.append("text").attr("x", x(y) + 4).attr("y", b.height - bottom + 20 + i * 0).attr("text-anchor", i ? "start" : "end").attr("dx", i ? 4 : -8).text(label);
+    });
+    // rows grouped by theme
+    let yi = 0;
+    themesHere.forEach(t => {
+      g.append("text").attr("class", "theme-label").attr("x", 8).attr("y", top + yi * rowH + 10).text(t);
+      dated.filter(e => e.theme === t).forEach(e => {
+        const d = dateOf(e), cy = top + yi * rowH + 10;
+        const row = g.append("g").attr("class", "row").datum(e);
+        if (d.crit !== d.trad) row.append("line").attr("class", "span").attr("x1", x(d.trad)).attr("x2", x(d.crit)).attr("y1", cy).attr("y2", cy);
+        const kind = (e.source.kind || "tanakh") !== "tanakh" ? "jew" : e.source.lang;
+        if (d.crit !== d.trad) row.append("circle").attr("class", "dot trad").attr("r", 4).attr("cx", x(d.trad)).attr("cy", cy)
+          .append("title").text(`${e.source.ref}: traditional dating c. ${fmtYear(d.trad)}`);
+        row.append("circle").attr("class", "dot crit").attr("r", 5).attr("cx", x(d.crit)).attr("cy", cy).attr("fill", color[kind])
+          .on("click", () => select(nodes.find(n => n.id === e.id)))
+          .append("title").text(`${e.source.ref}: ${e.title} (${d.crit === d.trad ? "c. " + fmtYear(d.crit) : "critical dating c. " + fmtYear(d.crit)})`);
+        row.append("text").attr("x", Math.max(x(d.crit), x(d.trad)) + 9).attr("y", cy + 3.5).text(shortRef(e.source.ref))
+          .on("click", () => select(nodes.find(n => n.id === e.id))).style("cursor", "pointer");
+        yi++;
+      });
+    });
+    g.append("text").attr("class", "theme-label").attr("x", left).attr("y", top - 40)
+      .text("filled dot: critical dating · dashed dot: traditional dating · dashed line joins them when they differ");
+    applyFilter();
+  }
+  tlBtn.addEventListener("click", () => {
+    showTimeline = !showTimeline;
+    tlBtn.classList.toggle("off", !showTimeline);
+    document.getElementById("svg").toggleAttribute("hidden", showTimeline);
+    document.getElementById("tl").toggleAttribute("hidden", !showTimeline);
+    if (showTimeline) drawTimeline();
+  });
+  tlBtn.classList.add("off");
+  window.addEventListener("resize", () => { if (showTimeline) drawTimeline(); });
 
   // ---- word tooltip --------------------------------------------------------
   const tip = document.getElementById("tip");

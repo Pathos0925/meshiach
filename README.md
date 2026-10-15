@@ -24,11 +24,13 @@ meshiach/
 │   └── sources.md       texts, editions, and how we cite them
 ├── scripts/
 │   ├── build.py         regenerates docs/graph.md and web/data.js from the YAML
+│   ├── fetch_passage.py prints a passage skeleton (consonantal + pointed) from Sefaria
 │   ├── verify.py        checks every quotation against Sefaria and SBLGNT
 │   └── pointed.py       fills in vowel-pointed text from Sefaria
 ├── web/
 │   ├── index.html       interactive graph viewer (open directly in a browser)
 │   └── data.js          generated; do not edit
+├── .github/workflows/   deploys web/ to GitHub Pages on every push to main
 └── .gitattributes       keeps Hebrew/Greek files in UTF-8 with LF endings
 ```
 
@@ -44,7 +46,7 @@ To check every Hebrew, Aramaic and Greek quotation against its published edition
 python scripts/verify.py
 ```
 
-Then open `web/index.html` in a browser. Click a node to see the original text and English side by side; hover a word that has a gloss to see its meaning.
+Then open `web/index.html` in a browser, or use the published copy at **https://pathos0925.github.io/meshiach/**. Click a node to see the original text and English side by side; hover a word to see its gloss; toggle **vowels** for pointed Hebrew and **timeline** to see every passage on a dated axis.
 
 ## Entry format
 
@@ -85,6 +87,8 @@ Fields:
 | `words` | optional per-word glosses for the original text (see below) |
 | `relates_to` | ids of other entries this one comments on (used by Targum/Talmud/Qumran entries) |
 | `source.kind` | `tanakh` (default), `targum`, `talmud`, `midrash`, `qumran` |
+| `passage` | optional list of whole verses (`ref`, `text`, `text_pointed`, `english`, `words`) when the entry covers a passage rather than a verse; `source` stays the key verse |
+| `date` | approximate composition date, a year (negative = BCE), or `{traditional, critical}` where the two datings differ (Torah, Davidic psalms, Isaiah 40-66, Daniel, Zechariah 9-14). Drives the timeline view. |
 
 ### Word-level glosses
 
@@ -143,9 +147,12 @@ See [docs/sources.md](docs/sources.md) for editions and licensing.
 - [x] **Word hover**: hovering a word of the original text shows (a) the word's translation and (b) its meaning in the context of the sentence. Where Jewish and Christian tradition differ on the contextual meaning, both are shown. All 35 entries have glosses; they still need a second reader.
 - [ ] Review pass on all glosses and readings by someone other than the first author
 - [x] Add vowel pointing (niqqud) to the Hebrew, with a toggle in the viewer
-- [ ] Catalogue whole passages, not single verses (Isaiah 52:13-53:12, Psalm 22 entire, Daniel 9:24-27)
-- [ ] Midrash entries (Pesikta Rabbati 36-37, Midrash Tehillim)
-- [ ] Timeline view (prophecy date → fulfilment date)
+- [x] Catalogue whole passages, not single verses (Isaiah 52:13-53:12, Psalm 22, Daniel 9:24-27, Zechariah 12:10-13:1, 13:7-9)
+- [x] Midrash entries (Pesikta Rabbati 36-37, Midrash Tehillim 2)
+- [x] Timeline view with traditional and critical datings
+- [x] Published on GitHub Pages
+- [ ] Glosses for the remaining passage verses (Psalm 22 has 6 of 32 glossed; Zechariah 12:11-14 none)
+- [ ] Textual notes: decide whether to keep the collapsed section or fold the material into the glosses
 
 ## Contributing
 

@@ -64,6 +64,9 @@ flowchart LR
         san_98b_name["Sanhedrin 98b<br/>מה שמו דבי …<br/>The Messiah's names, including the leper scholar"]:::jew
         suk_52a["Sukkah 52a<br/>חד אמר על …<br/>Messiah ben Joseph is slain"]:::jew
         4q521["4Q521 frag. 2 col. ii, lines 1, 8, 12<br/>כי השמים והארץ …<br/>The Messianic Apocalypse"]:::jew
+        pr_36["Pesikta Rabbati 36<br/>משיח ושמו אפרים …<br/>Messiah Ephraim accepts suffering before creation"]:::jew
+        pr_37["Pesikta Rabbati 37<br/>אפרים משיח צדקנו …<br/>The patriarchs praise Messiah Ephraim for bearing their children's sins"]:::jew
+        mid_teh_2["Midrash Tehillim 2<br/>מסופרים הם בחוקה …<br/>Midrash Tehillim gathers the messianic texts around Psalm 2:7"]:::jew
     end
 
     subgraph NT ["New Testament (Greek)"]
@@ -124,6 +127,9 @@ flowchart LR
         nt_Matthew_17_12["Matthew 17:12<br/>Ἠλίας ἤδη ἦλθεν, καὶ"]:::grk
         nt_Philippians_2_9["Philippians 2:9<br/>διὸ καὶ ὁ θεὸς"]:::grk
         nt_Matthew_11_4_5["Matthew 11:4-5<br/>τυφλοὶ ἀναβλέπουσιν καὶ χωλοὶ"]:::grk
+        nt_1_Peter_1_20["1 Peter 1:20<br/>προεγνωσμένου μὲν πρὸ καταβολῆς"]:::grk
+        nt_John_8_58["John 8:58<br/>πρὶν Ἀβραὰμ γενέσθαι ἐγὼ"]:::grk
+        nt_Hebrews_9_28["Hebrews 9:28<br/>ὁ Χριστός, ἅπαξ προσενεχθεὶς"]:::grk
     end
 
     T_lineage --> gen_3_15 & gen_49_10 & isa_11_1_2
@@ -131,10 +137,10 @@ flowchart LR
     T_birth --> isa_7_14 & isa_9_5 & mic_5_1 & hos_11_1
     T_forerunner --> mal_3_1 & isa_40_3 & mal_3_23
     T_ministry --> deut_18_15 & zech_9_9 & isa_42_1 & isa_61_1_2 & 4q521
-    T_suffering --> isa_53_5 & isa_50_6 & tg_isa_52_13 & san_98b_name
+    T_suffering --> isa_53_5 & isa_50_6 & tg_isa_52_13 & san_98b_name & pr_36 & pr_37
     T_death --> ps_22_17 & dan_9_26 & zech_12_10 & ps_69_22 & zech_11_12_13 & zech_13_7 & suk_52a
     T_resurrection --> ps_16_10
-    T_exaltation --> ps_110_1 & ps_2_7 & dan_7_13_14
+    T_exaltation --> ps_110_1 & ps_2_7 & dan_7_13_14 & mid_teh_2
     T_kingdom --> isa_49_6 & jer_23_5_6
 
     gen_3_15 --> nt_Romans_16_20
@@ -194,6 +200,10 @@ flowchart LR
     mal_3_23 --> nt_Matthew_17_12
     tg_isa_52_13 --> nt_Philippians_2_9
     4q521 --> nt_Matthew_11_4_5
+    pr_36 --> nt_1_Peter_1_20
+    pr_37 --> nt_John_8_58
+    pr_37 --> nt_Hebrews_9_28
+    mid_teh_2 --> nt_Hebrews_1_5
 
     tg_isa_52_13 -.-> isa_53_5
     tg_isa_52_13 -.-> isa_42_1
@@ -202,6 +212,16 @@ flowchart LR
     suk_52a -.-> zech_12_10
     suk_52a -.-> ps_2_7
     4q521 -.-> isa_61_1_2
+    pr_36 -.-> isa_53_5
+    pr_36 -.-> ps_22_17
+    pr_36 -.-> isa_42_1
+    pr_37 -.-> isa_53_5
+    pr_37 -.-> pr_36
+    mid_teh_2 -.-> ps_2_7
+    mid_teh_2 -.-> isa_42_1
+    mid_teh_2 -.-> ps_110_1
+    mid_teh_2 -.-> dan_7_13_14
+    mid_teh_2 -.-> isa_53_5
 ```
 
 ## Reading the graph
