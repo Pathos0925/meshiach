@@ -145,6 +145,50 @@
   jewish_reading: "Spoken by a court poet about David, or by David about Abraham (Nedarim 32b); some midrashim do apply it to the Messiah."
   notes: "Most-quoted OT verse in the NT. אדני here is adoni (my lord, human), not Adonai."
   tags: [right-hand, melchizedek]
+  words:
+    - w: נאם
+      lemma: נְאֻם
+      gloss: "utterance, oracle of"
+      context: "formal prophetic formula introducing divine speech"
+    - w: יהוה
+      lemma: יהוה
+      gloss: "the LORD (the Tetragrammaton)"
+      context: "God, the speaker"
+    - w: לאדני
+      lemma: אָדוֹן
+      gloss: "to my lord"
+      context: "pointed adoni (my lord, a human superior), not Adonai (the Lord, God)"
+      readings:
+        jewish: "David's lord, i.e. Abraham (Nedarim 32b) or the king addressed by a court poet; a human title"
+        christian: "David's lord: a figure greater than David, so the Messiah (Matthew 22:43-45)"
+    - w: שב
+      lemma: יָשַׁב
+      gloss: "sit"
+      context: "imperative: be enthroned"
+    - w: לימיני
+      lemma: יָמִין
+      gloss: "at my right hand"
+      context: "the place of honour beside the throne"
+    - w: עד
+      lemma: עַד
+      gloss: "until"
+      context: "until"
+    - w: אשית
+      lemma: שִׁית
+      gloss: "I set, make"
+      context: "God acts for the enthroned one"
+    - w: איביך
+      lemma: אֹיֵב
+      gloss: "your enemies"
+      context: "your enemies"
+    - w: הדם
+      lemma: הֲדֹם
+      gloss: "footstool"
+      context: "image of total subjection"
+    - w: לרגליך
+      lemma: רֶגֶל
+      gloss: "for your feet"
+      context: "for your feet"
 
 - id: isa-7-14
   theme: birth
@@ -162,6 +206,82 @@
   jewish_reading: "A sign for King Ahaz in his own lifetime; עלמה means a young woman, not specifically a virgin (בתולה). Rashi: Isaiah's wife; others: Hezekiah."
   notes: "The LXX, translated by Jews before Jesus, chose παρθένος 'virgin'. Matthew quotes the LXX."
   tags: [immanuel, septuagint, virgin-birth]
+  words:
+    - w: לכן
+      lemma: לָכֵן
+      gloss: "therefore"
+      context: "because Ahaz refused to ask for a sign (7:12)"
+    - w: יתן
+      lemma: נָתַן
+      gloss: "he will give"
+      context: "future; the sign is still to come when spoken"
+    - w: אדני
+      lemma: אֲדֹנָי
+      gloss: "the Lord"
+      context: "God himself, as the giver of the sign"
+    - w: הוא
+      lemma: הוּא
+      gloss: "he, himself"
+      context: "emphatic: the Lord himself, unasked"
+    - w: לכם
+      lemma: לְ + אַתֶּם
+      gloss: "to you (plural)"
+      context: "addressed to the house of David, not to Ahaz alone (7:13)"
+    - w: אות
+      lemma: אוֹת
+      gloss: "a sign"
+      context: "a confirming token"
+      readings:
+        jewish: "a sign Ahaz can see within a few years (7:16), so it must be near-term"
+        christian: "a sign for the house of David, so it may be remote; or a double fulfilment"
+    - w: הנה
+      lemma: הִנֵּה
+      gloss: "behold"
+      context: "points to something present or vividly imagined"
+    - w: העלמה
+      lemma: עַלְמָה
+      gloss: "the young woman (of marriageable age)"
+      context: "a specific young woman, marked by the definite article"
+      readings:
+        jewish: "a young woman; virginity neither asserted nor denied (that word is בתולה). Rashi: Isaiah's wife"
+        christian: "a virgin, following the Septuagint's παρθένος and Matthew 1:23; the article points to Mary"
+    - w: הרה
+      lemma: הָרָה
+      gloss: "pregnant / shall conceive"
+      context: "an adjective: 'is pregnant'; or predictive"
+      readings:
+        jewish: "present: the young woman is already pregnant"
+        christian: "future, with the LXX ἕξει 'shall have'"
+    - w: וילדת
+      lemma: יָלַד
+      gloss: "and bearing / and shall bear"
+      context: "participle continuing the previous clause"
+    - w: בן
+      lemma: בֵּן
+      gloss: "a son"
+      context: "a son"
+    - w: וקראת
+      lemma: קָרָא
+      gloss: "and she shall call / you shall call"
+      context: "2nd fem. sg. or archaic 3rd fem. sg.: the mother names the child"
+      readings:
+        jewish: "she (the mother) will name him"
+        christian: "Matthew reads 'they shall call'; the LXX has 'you shall call'"
+    - w: שמו
+      lemma: שֵׁם
+      gloss: "his name"
+      context: "his name"
+    - w: עמנו
+      lemma: עִמָּנוּ
+      gloss: "with us"
+      context: "first half of the name Immanuel"
+    - w: אל
+      lemma: אֵל
+      gloss: "God"
+      context: "second half of the name: 'God is with us'"
+      readings:
+        jewish: "a sentence-name expressing God's protection, like Isaiah's own name or Hezekiah's"
+        christian: "a name describing the child: God present among us"
 
 - id: isa-9-5
   theme: birth
@@ -200,6 +320,60 @@
   jewish_reading: "The servant is Israel, suffering among the nations (Rashi, Ibn Ezra, Radak). But Targum Jonathan on 52:13 opens 'Behold my servant the Messiah', and Sanhedrin 98b applies 53:4 to the Messiah ('the leper scholar')."
   notes: "The fourth Servant Song, Isaiah 52:13-53:12. The whole song should be catalogued, not only v.5."
   tags: [servant-songs, targum, sanhedrin-98]
+  words:
+    - w: והוא
+      lemma: הוּא
+      gloss: "and he"
+      context: "emphatic contrast with 'we' of v.4: he, not we"
+      readings:
+        jewish: "the servant, Israel, personified in the singular as throughout Isaiah 40-55"
+        christian: "an individual, the Messiah"
+    - w: מחלל
+      lemma: חָלַל
+      gloss: "pierced, wounded; or profaned"
+      context: "participle, 'pierced through' (as a sword wound)"
+      readings:
+        jewish: "wounded, i.e. afflicted by the nations"
+        christian: "pierced, with Zechariah 12:10 and the crucifixion"
+    - w: מפשענו
+      lemma: פֶּשַׁע
+      gloss: "from / because of our transgressions"
+      context: "the preposition מ marks cause"
+      readings:
+        jewish: "the nations speak: because of our (the nations') sins against Israel"
+        christian: "the prophet speaks for Israel: because of our sins, borne by him"
+    - w: מדכא
+      lemma: דָּכָא
+      gloss: "crushed"
+      context: "passive participle, parallel to 'pierced'"
+    - w: מעונתינו
+      lemma: עָוֹן
+      gloss: "from / because of our iniquities"
+      context: "parallel to 'our transgressions'"
+    - w: מוסר
+      lemma: מוּסָר
+      gloss: "chastisement, discipline"
+      context: "the punishment that produces"
+    - w: שלומנו
+      lemma: שָׁלוֹם
+      gloss: "our peace, wholeness"
+      context: "the chastisement that brings us peace"
+    - w: עליו
+      lemma: עַל
+      gloss: "upon him"
+      context: "was laid upon him"
+    - w: ובחברתו
+      lemma: חַבּוּרָה
+      gloss: "and by his stripe / wound (sing.)"
+      context: "a welt from a blow"
+    - w: נרפא
+      lemma: רָפָא
+      gloss: "it was healed / there is healing"
+      context: "niphal perfect"
+    - w: לנו
+      lemma: לְ + אֲנַחְנוּ
+      gloss: "for us"
+      context: "healing for us"
 
 - id: mic-5-1
   theme: birth
@@ -297,3 +471,429 @@
   jewish_reading: "The messenger is Elijah (Malachi 3:23 [4:5]), who precedes the day of the LORD; the 'Lord' coming to his temple is God himself."
   notes: "Pairs with Isaiah 40:3. Jesus identifies John the Baptist as the Elijah figure (Matthew 11:14)."
   tags: [elijah, john-the-baptist]
+
+# ---------------------------------------------------------------------------
+# Psalms
+# ---------------------------------------------------------------------------
+
+- id: ps-2-7
+  theme: exaltation
+  title: You are my son
+  source:
+    ref: Psalm 2:7
+    lang: he
+    text: "אספרה אל חק יהוה אמר אלי בני אתה אני היום ילדתיך"
+    english: "I will tell of the decree: the LORD said to me, You are my son; today I have begotten you."
+  fulfilment:
+    - ref: Acts 13:33
+      lang: el
+      text: "Υἱός μου εἶ σύ, ἐγὼ σήμερον γεγέννηκά σε"
+      english: "You are my Son, today I have begotten you."
+    - ref: Hebrews 1:5
+      lang: el
+      text: "Τίνι γὰρ εἶπέν ποτε τῶν ἀγγέλων· Υἱός μου εἶ σύ"
+      english: "For to which of the angels did God ever say, You are my Son?"
+  jewish_reading: "A coronation psalm for the Davidic king; 'son' is the adoptive language of 2 Samuel 7:14. Rashi relates it to David; Sukkah 52a, however, has God say this verse to Messiah ben David."
+  notes: "Paul applies 'today' to the resurrection, not the birth."
+  tags: [son-of-god, coronation, sukkah-52]
+
+- id: ps-16-10
+  theme: resurrection
+  title: You will not abandon my soul to Sheol
+  source:
+    ref: Psalm 16:10
+    lang: he
+    text: "כי לא תעזב נפשי לשאול לא תתן חסידך לראות שחת"
+    english: "For you will not abandon my soul to Sheol, nor let your faithful one see the pit."
+  fulfilment:
+    - ref: Acts 2:27
+      lang: el
+      text: "οὐκ ἐγκαταλείψεις τὴν ψυχήν μου εἰς ᾅδην, οὐδὲ δώσεις τὸν ὅσιόν σου ἰδεῖν διαφθοράν"
+      english: "You will not abandon my soul to Hades, nor let your Holy One see corruption."
+    - ref: Acts 13:35
+      lang: el
+      text: "Οὐ δώσεις τὸν ὅσιόν σου ἰδεῖν διαφθοράν"
+      english: "You will not let your Holy One see corruption."
+  jewish_reading: "David's confidence that God will preserve his life from premature death; שחת is 'the pit' (grave), not 'corruption'."
+  notes: "Peter's argument in Acts 2 turns on the LXX διαφθορά 'corruption' and on David's tomb still being in Jerusalem."
+  tags: [resurrection, septuagint]
+
+- id: ps-69-22
+  theme: death
+  title: Vinegar for my thirst
+  source:
+    ref: Psalm 69:22 [21]
+    lang: he
+    text: "ויתנו בברותי ראש ולצמאי ישקוני חמץ"
+    english: "They put gall in my food, and for my thirst they gave me vinegar to drink."
+  fulfilment:
+    - ref: John 19:28-29
+      lang: el
+      text: "ἵνα τελειωθῇ ἡ γραφή, λέγει· Διψῶ. σκεῦος ἔκειτο ὄξους μεστόν"
+      english: "To fulfil the Scripture he said, I thirst. A jar full of sour wine stood there."
+    - ref: Matthew 27:34
+      lang: el
+      text: "ἔδωκαν αὐτῷ πιεῖν οἶνον μετὰ χολῆς μεμιγμένον"
+      english: "They offered him wine mixed with gall to drink."
+  jewish_reading: "A lament of David (or of Israel in exile, Rashi) over enemies who return cruelty for kindness."
+  notes: "Psalm 69 is quoted in the NT more than any psalm except 22 and 110."
+  tags: [crucifixion, lament]
+
+# ---------------------------------------------------------------------------
+# Isaiah
+# ---------------------------------------------------------------------------
+
+- id: isa-11-1-2
+  theme: lineage
+  title: A shoot from the stump of Jesse
+  source:
+    ref: Isaiah 11:1-2
+    lang: he
+    text: "ויצא חטר מגזע ישי ונצר משרשיו יפרה ונחה עליו רוח יהוה רוח חכמה ובינה רוח עצה וגבורה רוח דעת ויראת יהוה"
+    english: "A shoot shall come out from the stump of Jesse, and a branch from his roots shall bear fruit. The Spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and the fear of the LORD."
+  fulfilment:
+    - ref: Romans 15:12
+      lang: el
+      text: "Ἔσται ἡ ῥίζα τοῦ Ἰεσσαί, καὶ ὁ ἀνιστάμενος ἄρχειν ἐθνῶν· ἐπ᾽ αὐτῷ ἔθνη ἐλπιοῦσιν"
+      english: "The root of Jesse will come, he who rises to rule the nations; in him the nations will hope."
+    - ref: Matthew 2:23
+      lang: el
+      text: "ὅπως πληρωθῇ τὸ ῥηθὲν διὰ τῶν προφητῶν ὅτι Ναζωραῖος κληθήσεται"
+      english: "So that what was spoken by the prophets might be fulfilled: He shall be called a Nazarene."
+    - ref: Revelation 22:16
+      lang: el
+      text: "ἐγώ εἰμι ἡ ῥίζα καὶ τὸ γένος Δαυίδ"
+      english: "I am the root and the offspring of David."
+  jewish_reading: "Unambiguously messianic in Jewish tradition. Targum Jonathan: 'a king shall come forth from the sons of Jesse, and the Messiah from his sons' sons'. The chapter's peace among animals (11:6-9) is the main Jewish objection to it being already fulfilled."
+  notes: "Matthew 2:23 is usually taken as wordplay on נצר (netzer, branch) and Nazareth."
+  tags: [jesse, branch, targum, spirit]
+
+- id: isa-40-3
+  theme: forerunner
+  title: A voice crying in the wilderness
+  source:
+    ref: Isaiah 40:3
+    lang: he
+    text: "קול קורא במדבר פנו דרך יהוה ישרו בערבה מסלה לאלהינו"
+    english: "A voice cries: In the wilderness prepare the way of the LORD; make straight in the desert a highway for our God."
+  fulfilment:
+    - ref: Mark 1:3
+      lang: el
+      text: "φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Ἑτοιμάσατε τὴν ὁδὸν κυρίου"
+      english: "The voice of one crying in the wilderness: Prepare the way of the Lord."
+    - ref: John 1:23
+      lang: el
+      text: "Ἐγὼ φωνὴ βοῶντος ἐν τῇ ἐρήμῳ"
+      english: "I am the voice of one crying in the wilderness."
+  jewish_reading: "Comfort to the Babylonian exiles: a road for God to lead them home. The Qumran community (1QS 8:13-14) applied it to itself, going to the desert to study Torah."
+  notes: "Masoretic accents put 'in the wilderness' with 'prepare', not with 'a voice cries'. The LXX, followed by the gospels, moves it."
+  tags: [john-the-baptist, qumran, exile]
+
+- id: isa-42-1
+  theme: ministry
+  title: Behold my servant
+  source:
+    ref: Isaiah 42:1
+    lang: he
+    text: "הן עבדי אתמך בו בחירי רצתה נפשי נתתי רוחי עליו משפט לגוים יוציא"
+    english: "Behold my servant, whom I uphold, my chosen, in whom my soul delights; I have put my Spirit upon him, he will bring forth justice to the nations."
+  fulfilment:
+    - ref: Matthew 12:18
+      lang: el
+      text: "Ἰδοὺ ὁ παῖς μου ὃν ᾑρέτισα, ὁ ἀγαπητός μου εἰς ὃν εὐδόκησεν ἡ ψυχή μου· θήσω τὸ πνεῦμά μου ἐπ᾽ αὐτόν"
+      english: "Behold my servant whom I have chosen, my beloved in whom my soul is well pleased; I will put my Spirit upon him."
+    - ref: Matthew 3:17
+      lang: el
+      text: "Οὗτός ἐστιν ὁ υἱός μου ὁ ἀγαπητός, ἐν ᾧ εὐδόκησα"
+      english: "This is my beloved Son, with whom I am well pleased."
+  jewish_reading: "The first Servant Song. Targum Jonathan reads 'Behold my servant the Messiah'; Rashi and Radak read the servant as Israel (cf. 41:8, 'Israel my servant')."
+  notes: "The voice at Jesus' baptism combines this verse with Psalm 2:7."
+  tags: [servant-songs, targum, baptism]
+
+- id: isa-49-6
+  theme: kingdom
+  title: A light to the nations
+  source:
+    ref: Isaiah 49:6
+    lang: he
+    text: "ונתתיך לאור גוים להיות ישועתי עד קצה הארץ"
+    english: "I will make you a light to the nations, that my salvation may reach to the end of the earth."
+  fulfilment:
+    - ref: Acts 13:47
+      lang: el
+      text: "Τέθεικά σε εἰς φῶς ἐθνῶν τοῦ εἶναί σε εἰς σωτηρίαν ἕως ἐσχάτου τῆς γῆς"
+      english: "I have made you a light for the Gentiles, that you may bring salvation to the ends of the earth."
+    - ref: Luke 2:32
+      lang: el
+      text: "φῶς εἰς ἀποκάλυψιν ἐθνῶν καὶ δόξαν λαοῦ σου Ἰσραήλ"
+      english: "A light for revelation to the Gentiles, and the glory of your people Israel."
+  jewish_reading: "The second Servant Song; the servant is Israel, or the prophet himself, with a mission to the nations. Verse 3 names the servant 'Israel' explicitly."
+  notes: "Paul applies it to the apostles, not only to Jesus (Acts 13:47)."
+  tags: [servant-songs, nations]
+
+- id: isa-50-6
+  theme: suffering
+  title: I gave my back to those who strike
+  source:
+    ref: Isaiah 50:6
+    lang: he
+    text: "גוי נתתי למכים ולחיי למרטים פני לא הסתרתי מכלמות ורק"
+    english: "I gave my back to those who strike, and my cheeks to those who pull out the beard; I did not hide my face from insult and spitting."
+  fulfilment:
+    - ref: Matthew 26:67
+      lang: el
+      text: "Τότε ἐνέπτυσαν εἰς τὸ πρόσωπον αὐτοῦ καὶ ἐκολάφισαν αὐτόν"
+      english: "Then they spat in his face and struck him."
+    - ref: Matthew 27:30
+      lang: el
+      text: "καὶ ἐμπτύσαντες εἰς αὐτὸν ἔλαβον τὸν κάλαμον καὶ ἔτυπτον εἰς τὴν κεφαλὴν αὐτοῦ"
+      english: "And they spat on him and took the reed and struck him on the head."
+  jewish_reading: "The third Servant Song; the prophet speaks of his own persecution, or Israel of its sufferings in exile."
+  notes: "No NT writer quotes this verse directly; the passion narratives echo it."
+  tags: [servant-songs, passion]
+
+- id: isa-61-1-2
+  theme: ministry
+  title: The Spirit of the Lord is upon me
+  source:
+    ref: Isaiah 61:1-2
+    lang: he
+    text: "רוח אדני יהוה עלי יען משח יהוה אתי לבשר ענוים שלחני לחבש לנשברי לב לקרא לשבוים דרור ולאסורים פקח קוח לקרא שנת רצון ליהוה"
+    english: "The Spirit of the Lord GOD is upon me, because the LORD has anointed me to bring good news to the poor; he has sent me to bind up the broken-hearted, to proclaim liberty to the captives and release to the prisoners, to proclaim the year of the LORD's favour."
+  fulfilment:
+    - ref: Luke 4:18-21
+      lang: el
+      text: "Πνεῦμα κυρίου ἐπ᾽ ἐμέ, οὗ εἵνεκεν ἔχρισέν με εὐαγγελίσασθαι πτωχοῖς ... Σήμερον πεπλήρωται ἡ γραφὴ αὕτη ἐν τοῖς ὠσὶν ὑμῶν"
+      english: "The Spirit of the Lord is upon me, because he has anointed me to proclaim good news to the poor ... Today this Scripture has been fulfilled in your hearing."
+  jewish_reading: "The prophet speaks of his own commission to comfort Zion. Note that the speaker is literally 'anointed' (משח), which is why Qumran's 11Q13 (Melchizedek) reads it eschatologically."
+  notes: "Jesus stops reading before 'the day of vengeance of our God' (61:2b)."
+  tags: [anointing, jubilee, qumran, nazareth]
+
+# ---------------------------------------------------------------------------
+# Jeremiah
+# ---------------------------------------------------------------------------
+
+- id: jer-23-5-6
+  theme: kingdom
+  title: A righteous Branch for David
+  source:
+    ref: Jeremiah 23:5-6
+    lang: he
+    text: "הנה ימים באים נאם יהוה והקמתי לדוד צמח צדיק ומלך מלך והשכיל ועשה משפט וצדקה בארץ בימיו תושע יהודה וישראל ישכן לבטח וזה שמו אשר יקראו יהוה צדקנו"
+    english: "Behold, the days are coming, declares the LORD, when I will raise up for David a righteous Branch; he shall reign as king and deal wisely, and do justice and righteousness in the land. In his days Judah will be saved and Israel will dwell securely. And this is the name by which he will be called: The LORD is our righteousness."
+  fulfilment:
+    - ref: Matthew 1:1
+      lang: el
+      text: "Βίβλος γενέσεως Ἰησοῦ Χριστοῦ υἱοῦ Δαυὶδ υἱοῦ Ἀβραάμ"
+      english: "The book of the genealogy of Jesus Christ, the son of David, the son of Abraham."
+    - ref: 1 Corinthians 1:30
+      lang: el
+      text: "ὃς ἐγενήθη σοφία ἡμῖν ἀπὸ θεοῦ, δικαιοσύνη τε καὶ ἁγιασμὸς καὶ ἀπολύτρωσις"
+      english: "Who became to us wisdom from God, righteousness and sanctification and redemption."
+  jewish_reading: "Messianic in Targum Jonathan ('I will raise up for David the Messiah of the righteous'). The name 'the LORD is our righteousness' is read as a sentence-name like Jerusalem's in 33:16, not a claim of divinity."
+  notes: "'Branch' (צמח) becomes a messianic title in Zechariah 3:8, 6:12."
+  tags: [branch, david, targum]
+
+- id: jer-31-31
+  theme: covenant
+  title: A new covenant
+  source:
+    ref: Jeremiah 31:31-33
+    lang: he
+    text: "הנה ימים באים נאם יהוה וכרתי את בית ישראל ואת בית יהודה ברית חדשה ... נתתי את תורתי בקרבם ועל לבם אכתבנה"
+    english: "Behold, the days are coming, declares the LORD, when I will make a new covenant with the house of Israel and the house of Judah ... I will put my Torah within them, and I will write it on their hearts."
+  fulfilment:
+    - ref: Luke 22:20
+      lang: el
+      text: "Τοῦτο τὸ ποτήριον ἡ καινὴ διαθήκη ἐν τῷ αἵματί μου"
+      english: "This cup is the new covenant in my blood."
+    - ref: Hebrews 8:8-12
+      lang: el
+      text: "Ἰδοὺ ἡμέραι ἔρχονται, λέγει κύριος, καὶ συντελέσω ἐπὶ τὸν οἶκον Ἰσραὴλ καὶ ἐπὶ τὸν οἶκον Ἰούδα διαθήκην καινήν"
+      english: "Behold, the days are coming, says the Lord, when I will establish a new covenant with the house of Israel and the house of Judah."
+  jewish_reading: "A renewal of the Sinai covenant with the same Torah, now internalised, in the messianic age; not a replacement of the Torah. Verses 35-36 immediately promise Israel's permanence."
+  notes: "Only occurrence of the phrase 'new covenant' in the Tanakh. The longest OT quotation in the NT (Hebrews 8)."
+  tags: [new-covenant, torah]
+
+# ---------------------------------------------------------------------------
+# Daniel
+# ---------------------------------------------------------------------------
+
+- id: dan-7-13-14
+  theme: exaltation
+  title: One like a son of man
+  source:
+    ref: Daniel 7:13-14
+    lang: arc
+    text: "חזה הוית בחזוי ליליא וארו עם ענני שמיא כבר אנש אתה הוה ועד עתיק יומיא מטה וקדמוהי הקרבוהי ולה יהיב שלטן ויקר ומלכו וכל עממיא אמיא ולשניא לה יפלחון שלטנה שלטן עלם די לא יעדה ומלכותה די לא תתחבל"
+    english: "I saw in the night visions, and behold, with the clouds of heaven there came one like a son of man, and he came to the Ancient of Days and was presented before him. And to him was given dominion and glory and a kingdom, that all peoples, nations, and languages should serve him; his dominion is an everlasting dominion that shall not pass away, and his kingdom one that shall not be destroyed."
+  fulfilment:
+    - ref: Mark 14:62
+      lang: el
+      text: "ὄψεσθε τὸν υἱὸν τοῦ ἀνθρώπου ἐκ δεξιῶν καθήμενον τῆς δυνάμεως καὶ ἐρχόμενον μετὰ τῶν νεφελῶν τοῦ οὐρανοῦ"
+      english: "You will see the Son of Man seated at the right hand of Power and coming with the clouds of heaven."
+    - ref: Matthew 28:18
+      lang: el
+      text: "Ἐδόθη μοι πᾶσα ἐξουσία ἐν οὐρανῷ καὶ ἐπὶ τῆς γῆς"
+      english: "All authority in heaven and on earth has been given to me."
+  jewish_reading: "In the chapter's own interpretation (7:18, 27) the 'son of man' stands for 'the holy ones of the Most High', Israel. Yet Sanhedrin 98a reads the clouds as the Messiah's coming 'if they are worthy', and Rashi says plainly 'this is King Messiah'. 1 Enoch 46-48 and 4 Ezra 13 also read it of an individual."
+  notes: "The book of Daniel switches to Aramaic from 2:4b to 7:28. Jesus' self-title 'Son of Man' comes from here."
+  tags: [son-of-man, aramaic, sanhedrin-98, clouds]
+
+# ---------------------------------------------------------------------------
+# Hosea
+# ---------------------------------------------------------------------------
+
+- id: hos-11-1
+  theme: birth
+  title: Out of Egypt I called my son
+  source:
+    ref: Hosea 11:1
+    lang: he
+    text: "כי נער ישראל ואהבהו וממצרים קראתי לבני"
+    english: "When Israel was a child, I loved him, and out of Egypt I called my son."
+  fulfilment:
+    - ref: Matthew 2:15
+      lang: el
+      text: "Ἐξ Αἰγύπτου ἐκάλεσα τὸν υἱόν μου"
+      english: "Out of Egypt I called my son."
+  jewish_reading: "Plainly about the Exodus, in the past tense; 'my son' is Israel (Exodus 4:22). Not a prediction."
+  notes: "The clearest case of typology rather than prediction: Matthew reads Jesus as re-living Israel's story. Record it as such."
+  tags: [typology, exodus, egypt]
+
+# ---------------------------------------------------------------------------
+# Zechariah
+# ---------------------------------------------------------------------------
+
+- id: zech-11-12-13
+  theme: death
+  title: Thirty pieces of silver
+  source:
+    ref: Zechariah 11:12-13
+    lang: he
+    text: "ואמר אליהם אם טוב בעיניכם הבו שכרי ואם לא חדלו וישקלו את שכרי שלשים כסף ויאמר יהוה אלי השליכהו אל היוצר אדר היקר אשר יקרתי מעליהם ואקחה שלשים הכסף ואשליך אתו בית יהוה אל היוצר"
+    english: "I said to them, If it seems good to you, give me my wages; but if not, keep them. And they weighed out as my wages thirty pieces of silver. Then the LORD said to me, Throw it to the potter, the lordly price at which I was valued by them. So I took the thirty pieces of silver and threw them into the house of the LORD, to the potter."
+  fulfilment:
+    - ref: Matthew 26:15
+      lang: el
+      text: "οἱ δὲ ἔστησαν αὐτῷ τριάκοντα ἀργύρια"
+      english: "And they paid him thirty pieces of silver."
+    - ref: Matthew 27:9-10
+      lang: el
+      text: "Καὶ ἔλαβον τὰ τριάκοντα ἀργύρια, τὴν τιμὴν τοῦ τετιμημένου ... καὶ ἔδωκαν αὐτὰ εἰς τὸν ἀγρὸν τοῦ κεραμέως"
+      english: "And they took the thirty pieces of silver, the price of him on whom a price had been set ... and they gave them for the potter's field."
+  jewish_reading: "The prophet, acting out the role of shepherd, is paid an insulting wage (thirty shekels is the price of a slave, Exodus 21:32) and throws it back. Nothing messianic in context."
+  notes: "Matthew attributes the quotation to Jeremiah, probably conflating with Jeremiah 19 and 32. Syriac reads אוצר 'treasury' for היוצר 'potter'."
+  tags: [judas, thirty-silver, text-criticism]
+
+- id: zech-13-7
+  theme: death
+  title: Strike the shepherd
+  source:
+    ref: Zechariah 13:7
+    lang: he
+    text: "חרב עורי על רעי ועל גבר עמיתי נאם יהוה צבאות הך את הרעה ותפוצין הצאן והשבתי ידי על הצערים"
+    english: "Awake, O sword, against my shepherd, against the man who is my associate, declares the LORD of hosts. Strike the shepherd, and the sheep will be scattered; I will turn my hand against the little ones."
+  fulfilment:
+    - ref: Mark 14:27
+      lang: el
+      text: "Πατάξω τὸν ποιμένα, καὶ τὰ πρόβατα διασκορπισθήσονται"
+      english: "I will strike the shepherd, and the sheep will be scattered."
+  jewish_reading: "The shepherd is a bad ruler (the worthless shepherd of 11:17) whose fall leads to Israel's refining; Ibn Ezra and Radak take the whole of chapters 12-14 as the wars of Gog."
+  notes: "The Damascus Document (CD-B 19:7-9) at Qumran quotes this verse of the coming of the Messiah of Aaron and Israel."
+  tags: [shepherd, qumran, gethsemane]
+
+# ---------------------------------------------------------------------------
+# Malachi
+# ---------------------------------------------------------------------------
+
+- id: mal-3-23
+  theme: forerunner
+  title: Elijah before the great day
+  source:
+    ref: Malachi 3:23 [4:5]
+    lang: he
+    text: "הנה אנכי שלח לכם את אליה הנביא לפני בוא יום יהוה הגדול והנורא"
+    english: "Behold, I will send you Elijah the prophet before the great and terrible day of the LORD comes."
+  fulfilment:
+    - ref: Matthew 11:14
+      lang: el
+      text: "καὶ εἰ θέλετε δέξασθαι, αὐτός ἐστιν Ἠλίας ὁ μέλλων ἔρχεσθαι"
+      english: "And if you are willing to accept it, he is Elijah who is to come."
+    - ref: Matthew 17:12
+      lang: el
+      text: "Ἠλίας ἤδη ἦλθεν, καὶ οὐκ ἐπέγνωσαν αὐτόν"
+      english: "Elijah has already come, and they did not recognise him."
+  jewish_reading: "Elijah himself, bodily, returns before the Messiah; hence the cup of Elijah at Passover and the chair of Elijah at circumcision. Eruvin 43b: Elijah comes the day before the Messiah."
+  notes: "The Gospel of John has John the Baptist deny being Elijah (John 1:21); Matthew has Jesus affirm it."
+  tags: [elijah, john-the-baptist, day-of-the-lord]
+
+# ---------------------------------------------------------------------------
+# Jewish texts as sources in their own right
+# ---------------------------------------------------------------------------
+
+- id: tg-isa-52-13
+  theme: suffering
+  title: Targum Jonathan names the servant as Messiah
+  source:
+    kind: targum
+    ref: Targum Jonathan on Isaiah 52:13
+    lang: arc
+    text: "הא יצלח עבדי משיחא יתרם ויסגי ויתקף לחדא"
+    english: "Behold, my servant the Messiah shall prosper; he shall be exalted and increase, and shall be very strong."
+  fulfilment:
+    - ref: Philippians 2:9
+      lang: el
+      text: "διὸ καὶ ὁ θεὸς αὐτὸν ὑπερύψωσεν"
+      english: "Therefore God has highly exalted him."
+  relates_to: [isa-53-5, isa-42-1]
+  jewish_reading: "The Targum applies the exaltation to the Messiah but systematically rewrites the suffering of chapter 53 onto Israel and the nations. So it is evidence that the servant was read messianically, not that his suffering was."
+  notes: "Dated roughly 1st-2nd century CE in its core; the text we have is later."
+  tags: [targum, servant-songs]
+
+- id: san-98b-name
+  theme: suffering
+  title: The Messiah's names, including the leper scholar
+  source:
+    kind: talmud
+    ref: Sanhedrin 98b
+    lang: arc
+    text: "משיח מה שמו ... דבי רבי שילא אמרי שילה שמו שנאמר עד כי יבא שילה ... ורבנן אמרי חיוורא דבי רבי שמו שנאמר אכן חלינו הוא נשא ומכאבינו סבלם"
+    english: "What is the Messiah's name? ... The school of Rabbi Shila say: Shiloh is his name, as it is said, 'until Shiloh comes'. ... The Rabbis say: the leper of the house of Rabbi is his name, as it is said, 'surely he has borne our sicknesses and carried our pains'."
+  relates_to: [gen-49-10, isa-53-5]
+  jewish_reading: "A rabbinic voice applying Isaiah 53:4 to the Messiah as one who suffers, alongside the mainstream reading of the servant as Israel. Both readings coexist in the tradition."
+  notes: "Mixed Hebrew and Aramaic, as the Talmud usually is."
+  tags: [talmud, sanhedrin-98, servant-songs]
+
+- id: suk-52a
+  theme: death
+  title: Messiah ben Joseph is slain
+  source:
+    kind: talmud
+    ref: Sukkah 52a
+    lang: arc
+    text: "חד אמר על משיח בן יוסף שנהרג וחד אמר על יצר הרע שנהרג"
+    english: "One said: [the mourning of Zechariah 12:10 is] for Messiah son of Joseph, who is killed; and one said: for the evil inclination, which is killed."
+  relates_to: [zech-12-10, ps-2-7]
+  jewish_reading: "The tradition of two Messiahs: ben Joseph who dies in battle, ben David who then reigns. The passage goes on to have Messiah ben David ask God for life, and God answer with Psalm 2:7-8 and Psalm 21:5."
+  notes: "This is the main rabbinic text for a dying Messiah. Christian readers see Jesus in both roles; Jewish readers see two distinct figures."
+  tags: [talmud, messiah-ben-joseph, sukkah-52]
+
+- id: 4q521
+  theme: ministry
+  title: The Messianic Apocalypse
+  source:
+    kind: qumran
+    ref: 4Q521 frag. 2 col. ii, lines 1, 8, 12
+    lang: he
+    text: "כי השמים והארץ ישמעו למשיחו ... מתיר אסורים פוקח עורים זוקף כפופים ... ירפא חללים ומתים יחיה ענוים יבשר"
+    english: "For the heavens and the earth will listen to his Messiah ... freeing prisoners, giving sight to the blind, raising up those who are bowed down ... he will heal the wounded, revive the dead, and bring good news to the poor."
+  fulfilment:
+    - ref: Matthew 11:4-5
+      lang: el
+      text: "τυφλοὶ ἀναβλέπουσιν καὶ χωλοὶ περιπατοῦσιν, λεπροὶ καθαρίζονται καὶ κωφοὶ ἀκούουσιν, καὶ νεκροὶ ἐγείρονται καὶ πτωχοὶ εὐαγγελίζονται"
+      english: "The blind receive their sight and the lame walk, lepers are cleansed and the deaf hear, and the dead are raised up and the poor have good news preached to them."
+  relates_to: [isa-61-1-2]
+  jewish_reading: "A pre-Christian Jewish text (c. 100 BCE) combining Psalm 146 and Isaiah 61 into a list of what will happen when the Messiah comes, including raising the dead. It shows the expectation Jesus' answer to John the Baptist was addressing."
+  notes: "Whether the healer is God or the Messiah is debated; the grammar favours God acting in the Messiah's time."
+  tags: [qumran, dead-sea-scrolls, miracles]

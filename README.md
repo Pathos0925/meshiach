@@ -20,12 +20,23 @@ meshiach/
 ├── data/
 │   └── prophecies.yaml  the catalogue (one entry per passage)
 ├── docs/
-│   ├── graph.md         Mermaid graph generated from the catalogue
+│   ├── graph.md         Mermaid graph, generated from the catalogue
 │   └── sources.md       texts, editions, and how we cite them
+├── scripts/
+│   └── build.py         regenerates docs/graph.md and web/data.js from the YAML
+├── web/
+│   ├── index.html       interactive graph viewer (open directly in a browser)
+│   └── data.js          generated; do not edit
 └── .gitattributes       keeps Hebrew/Greek files in UTF-8 with LF endings
 ```
 
-The YAML file is the single source of truth. The graph and any future website or app are built from it.
+The YAML file is the single source of truth. The Mermaid graph and the web viewer are built from it:
+
+```bash
+python scripts/build.py
+```
+
+Then open `web/index.html` in a browser. Click a node to see the original text and English side by side; hover a word that has a gloss to see its meaning.
 
 ## Entry format
 
@@ -61,6 +72,32 @@ Fields:
 | `jewish_reading` | how classical Jewish interpretation (Targum, Talmud, Rashi, Radak, etc.) takes the passage |
 | `notes` | textual or translation issues |
 | `tags` | free keywords |
+| `words` | optional per-word glosses for the original text (see below) |
+| `relates_to` | ids of other entries this one comments on (used by Targum/Talmud/Qumran entries) |
+| `source.kind` | `tanakh` (default), `targum`, `talmud`, `midrash`, `qumran` |
+
+### Word-level glosses
+
+Entries may carry a `words` list, one item per word of `source.text`, in order. This drives the hover feature in the web graph: hover a Hebrew or Greek word to see its dictionary meaning and its meaning in this sentence. Where Jewish and Christian tradition read the word differently in context, both are given.
+
+```yaml
+  words:
+    - w: העלמה
+      lemma: עַלְמָה
+      gloss: "young woman of marriageable age"
+      context: "the specific young woman known to Isaiah and Ahaz"
+      readings:
+        jewish: "a young woman; virginity is neither asserted nor denied (that word would be בתולה)"
+        christian: "a virgin, following the Septuagint's παρθένος and Matthew 1:23"
+```
+
+| field | meaning |
+|---|---|
+| `w` | the word exactly as it appears in `source.text` |
+| `lemma` | dictionary form, pointed |
+| `gloss` | plain dictionary meaning |
+| `context` | what it means in this sentence, where both traditions agree |
+| `readings` | `jewish` and `christian` contextual meanings, only when they differ |
 
 Verse numbers follow the **Hebrew (Masoretic) numbering**; where Christian Bibles differ, the English number is given in brackets, e.g. `Psalm 22:17 [16]`.
 
@@ -89,11 +126,14 @@ See [docs/sources.md](docs/sources.md) for editions and licensing.
 ## Roadmap
 
 - [x] Repo, data format, first entries, first graph
-- [ ] Fill in the remaining classic passages (Psalms 2, 16, 22, 69, 110; Isaiah 11, 42, 49, 50, 61; Jeremiah 23, 31; Daniel 7, 9; Hosea 11; Zechariah 11-13; Malachi 3-4)
-- [ ] Add Targum / Talmud / Midrash entries as first-class sources, not just notes
+- [x] Fill in the classic passages (Psalms 2, 16, 22, 69, 110; Isaiah 7, 9, 11, 40, 42, 49, 50, 53, 61; Jeremiah 23, 31; Daniel 7, 9; Hosea 11; Micah 5; Zechariah 9, 11-13; Malachi 3)
+- [x] Add Targum / Talmud / Qumran entries as first-class sources, not just notes
+- [x] Script to regenerate `docs/graph.md` and the web data from the YAML
+- [x] Interactive web graph (click a node, see both languages side by side)
+- [ ] **Word hover**: hovering a word of the original text shows (a) the word's translation and (b) its meaning in the context of the sentence. Where Jewish and Christian tradition differ on the contextual meaning, both are shown. The `words` field and the web viewer already support this; the work is filling in glosses for every entry.
 - [ ] Add vowel pointing (niqqud) and cantillation to the Hebrew
-- [ ] Script to regenerate `docs/graph.md` from the YAML
-- [ ] Interactive web graph (click a node, see both languages side by side)
+- [ ] Catalogue whole passages, not single verses (Isaiah 52:13-53:12, Psalm 22 entire, Daniel 9:24-27)
+- [ ] Midrash entries (Pesikta Rabbati 36-37, Midrash Tehillim)
 - [ ] Timeline view (prophecy date → fulfilment date)
 
 ## Contributing

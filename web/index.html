@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meshiach graph</title>
+<style>
+  :root {
+    --bg: #faf8f3; --fg: #1f1d1a; --muted: #6b655c; --panel: #ffffff; --line: #e2ddd3;
+    --theme: #2b2d42; --heb: #e9b949; --arc: #e4863a; --grk: #4a7bd8; --jew: #4c9a5a;
+    --jewish: #2e7d32; --christian: #1d4ed8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17161a; --fg: #ece8e0; --muted: #a39d92; --panel: #221f25; --line: #39353d;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  #app { display: grid; grid-template-columns: 1fr minmax(320px, 460px); height: 100vh; }
+  @media (max-width: 800px) { #app { grid-template-columns: 1fr; grid-template-rows: 55vh 45vh; } }
+  #graph { position: relative; overflow: hidden; }
+  svg { width: 100%; height: 100%; display: block; cursor: grab; }
+  svg:active { cursor: grabbing; }
+  #controls { position: absolute; top: 12px; left: 12px; display: flex; flex-wrap: wrap; gap: 6px; max-width: calc(100% - 24px); }
+  #controls input { padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--fg); font: inherit; }
+  .chip { padding: 3px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); font-size: 12px; cursor: pointer; user-select: none; }
+  .chip.off { opacity: .4; }
+  #legend { position: absolute; bottom: 12px; left: 12px; font-size: 12px; color: var(--muted); display: flex; gap: 12px; flex-wrap: wrap; }
+  #legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; background: var(--c); vertical-align: -1px; }
+  #panel { border-left: 1px solid var(--line); background: var(--panel); overflow-y: auto; padding: 20px 24px 40px; }
+  @media (max-width: 800px) { #panel { border-left: 0; border-top: 1px solid var(--line); } }
+  #panel h1 { font-size: 20px; margin: 0 0 2px; }
+  #panel h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 22px 0 6px; }
+  .ref { color: var(--muted); font-size: 13px; }
+  .orig { font-size: 22px; line-height: 1.7; margin: 8px 0 4px; }
+  .orig[dir="rtl"] { font-family: "SBL Hebrew", "Ezra SIL", "Times New Roman", serif; }
+  .orig.el { font-family: "SBL Greek", "Gentium Plus", "Times New Roman", serif; font-size: 19px; }
+  .eng { margin: 0 0 6px; }
+  .w { cursor: help; border-bottom: 1px dotted var(--muted); border-radius: 2px; padding: 0 1px; }
+  .w:hover { background: color-mix(in srgb, var(--heb) 35%, transparent); }
+  .w.diff { border-bottom: 2px solid var(--arc); }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 16px; align-items: start; padding: 10px 0; border-top: 1px solid var(--line); }
+  .pair:first-of-type { border-top: 0; }
+  .pair .orig { font-size: 17px; margin: 0; }
+  .pair .eng { font-size: 14px; color: var(--muted); }
+  .tag { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); margin: 2px 3px 0 0; color: var(--muted); }
+  .theme-pill { display: inline-block; font-size: 11px; padding: 1px 8px; border-radius: 999px; background: var(--theme); color: #fff; margin-left: 6px; vertical-align: 2px; }
+  a.rel { color: var(--grk); cursor: pointer; text-decoration: underline dotted; }
+  .empty { color: var(--muted); margin-top: 40px; }
+  #tip { position: fixed; z-index: 10; pointer-events: none; display: none; max-width: 340px;
+    background: var(--panel); color: var(--fg); border: 1px solid var(--line); border-radius: 8px;
+    padding: 10px 12px; font-size: 13px; line-height: 1.45; box-shadow: 0 6px 24px rgba(0,0,0,.18); }
+  #tip .lemma { font-size: 18px; font-weight: 600; }
+  #tip .gloss { margin: 2px 0 6px; }
+  #tip .ctx { color: var(--muted); }
+  #tip .rd { margin-top: 6px; padding-left: 8px; border-left: 3px solid; }
+  #tip .rd.j { border-color: var(--jewish); }
+  #tip .rd.c { border-color: var(--christian); }
+  #tip .rd b { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; }
+  .node text { font-size: 10px; fill: var(--fg); cursor: pointer; }
+  .node.theme text { font-size: 12px; font-weight: 600; }
+  .link { stroke: var(--muted); stroke-opacity: .35; }
+  .link.rel { stroke-dasharray: 4 3; stroke: var(--jew); stroke-opacity: .8; }
+  .node.selected circle { stroke: var(--fg); stroke-width: 3px; }
+  .node.dim, .link.dim { opacity: .12; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="graph">
+    <div id="controls">
+      <input id="q" type="search" placeholder="Search ref, title, text…" aria-label="Search">
+      <div id="chips"></div>
+    </div>
+    <svg id="svg" role="img" aria-label="Prophecy graph"></svg>
+    <div id="legend">
+      <span style="--c:var(--theme)">theme</span>
+      <span style="--c:var(--heb)">Hebrew</span>
+      <span style="--c:var(--arc)">Aramaic</span>
+      <span style="--c:var(--jew)">Targum / Talmud / Qumran</span>
+      <span style="--c:var(--grk)">Greek NT</span>
+    </div>
+  </div>
+  <aside id="panel">
+    <p class="empty">Click a passage node to read it. Hover an underlined word to see its gloss. Words with a double underline are read differently by Jewish and Christian tradition.</p>
+  </aside>
+</div>
+<div id="tip" role="tooltip"></div>
+
+<script src="data.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+(function () {
+  const entries = window.MESHIACH || [];
+  const byId = Object.fromEntries(entries.map(e => [e.id, e]));
+  const THEMES = ["lineage","covenant","birth","forerunner","ministry","suffering","death","resurrection","exaltation","kingdom","return"]
+    .filter(t => entries.some(e => e.theme === t));
+  const color = { theme: "var(--theme)", he: "var(--heb)", arc: "var(--arc)", jew: "var(--jew)", nt: "var(--grk)" };
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const shortRef = r => r.replace(/\s*\[[^\]]*\]/, "").replace("Targum Jonathan on ", "Tg ");
+
+  // ---- build nodes / links -------------------------------------------------
+  const nodes = [], links = [];
+  THEMES.forEach(t => nodes.push({ id: "theme:" + t, kind: "theme", label: t[0].toUpperCase() + t.slice(1), theme: t }));
+  const ntSeen = new Map();
+  entries.forEach(e => {
+    const kind = (e.source.kind || "tanakh") !== "tanakh" ? "jew" : e.source.lang;
+    nodes.push({ id: e.id, kind, label: shortRef(e.source.ref), entry: e, theme: e.theme });
+    links.push({ source: "theme:" + e.theme, target: e.id, type: "theme" });
+    (e.fulfilment || []).forEach(f => {
+      const nid = "nt:" + f.ref;
+      if (!ntSeen.has(nid)) { ntSeen.set(nid, { id: nid, kind: "nt", label: f.ref, nt: f, sources: [] }); nodes.push(ntSeen.get(nid)); }
+      ntSeen.get(nid).sources.push(e.id);
+      links.push({ source: e.id, target: nid, type: "fulfil" });
+    });
+    (e.relates_to || []).forEach(r => links.push({ source: e.id, target: r, type: "rel" }));
+  });
+
+  // ---- svg -----------------------------------------------------------------
+  const svg = d3.select("#svg");
+  const g = svg.append("g");
+  const box = () => document.getElementById("graph").getBoundingClientRect();
+
+  const zoom = d3.zoom().scaleExtent([0.2, 4]).on("zoom", ev => g.attr("transform", ev.transform));
+  svg.call(zoom);
+
+  const sim = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id(d => d.id).distance(l => l.type === "theme" ? 70 : 40).strength(l => l.type === "rel" ? .3 : .7))
+    .force("charge", d3.forceManyBody().strength(d => d.kind === "theme" ? -350 : d.kind === "nt" ? -60 : -140))
+    .force("x", d3.forceX(() => box().width / 2).strength(.06))
+    .force("y", d3.forceY(() => box().height / 2).strength(.06))
+    .force("collide", d3.forceCollide(d => r(d) + 8))
+    .on("end", fit);
+
+  function fit() {
+    const b = box();
+    const xs = nodes.map(n => n.x), ys = nodes.map(n => n.y);
+    const x0 = Math.min(...xs) - 40, x1 = Math.max(...xs) + 40, y0 = Math.min(...ys) - 40, y1 = Math.max(...ys) + 40;
+    const k = Math.min(b.width / (x1 - x0), b.height / (y1 - y0), 1.5);
+    const t = d3.zoomIdentity.translate(b.width / 2 - k * (x0 + x1) / 2, b.height / 2 - k * (y0 + y1) / 2).scale(k);
+    svg.transition().duration(500).call(zoom.transform, t);
+  }
+
+  function r(d) { return d.kind === "theme" ? 18 : d.kind === "nt" ? 6 : 10; }
+
+  const link = g.append("g").selectAll("line").data(links).join("line")
+    .attr("class", d => "link " + d.type).attr("stroke-width", d => d.type === "theme" ? 1 : 1.5);
+  const node = g.append("g").selectAll("g").data(nodes).join("g")
+    .attr("class", d => "node " + d.kind)
+    .call(d3.drag().clickDistance(6).on("start", (ev, d) => { if (!ev.active) sim.alphaTarget(.3).restart(); d.fx = d.x; d.fy = d.y; })
+      .on("drag", (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
+      .on("end", (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx = d.fy = null; }))
+    .on("click", (ev, d) => select(d));
+  node.append("circle").attr("r", r).attr("fill", d => color[d.kind]).attr("stroke", "var(--panel)").attr("stroke-width", 1.5);
+  node.append("text").attr("dy", d => r(d) + 11).attr("text-anchor", "middle").text(d => d.label);
+  node.append("title").text(d => d.entry ? d.entry.title : d.nt ? d.nt.english : d.label);
+
+  sim.on("tick", () => {
+    link.attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+    node.attr("transform", d => `translate(${d.x},${d.y})`);
+  });
+  window.addEventListener("resize", () => { sim.alpha(.3).restart(); });
+
+  // ---- filters -------------------------------------------------------------
+  const active = new Set(THEMES);
+  const chips = d3.select("#chips").selectAll("span").data(THEMES).join("span").attr("class", "chip").text(d => d)
+    .on("click", (ev, t) => { active.has(t) ? active.delete(t) : active.add(t); chips.classed("off", d => !active.has(d)); applyFilter(); });
+  document.getElementById("q").addEventListener("input", applyFilter);
+
+  function matches(n, q) {
+    if (n.kind === "theme") return active.has(n.theme);
+    if (n.kind === "nt") return n.sources.some(id => matches(nodes.find(x => x.id === id), q));
+    const e = n.entry;
+    if (!active.has(e.theme)) return false;
+    if (!q) return true;
+    const hay = [e.title, e.source.ref, e.source.text, e.source.english, e.jewish_reading, e.notes, (e.tags || []).join(" "),
+      ...(e.fulfilment || []).flatMap(f => [f.ref, f.text, f.english])].join(" ").toLowerCase();
+    return hay.includes(q);
+  }
+  function applyFilter() {
+    const q = document.getElementById("q").value.trim().toLowerCase();
+    const ok = new Map(nodes.map(n => [n.id, matches(n, q)]));
+    node.classed("dim", d => !ok.get(d.id));
+    link.classed("dim", d => !(ok.get(d.source.id) && ok.get(d.target.id)));
+  }
+
+  // ---- panel ---------------------------------------------------------------
+  const panel = document.getElementById("panel");
+  function select(d) {
+    node.classed("selected", n => n === d);
+    if (d.entry) renderEntry(d.entry);
+    else if (d.nt) renderNT(d);
+    else renderTheme(d.theme);
+  }
+  window.selectId = id => { const n = nodes.find(x => x.id === id); if (n) select(n); };
+
+  function origHTML(src, words) {
+    const rtl = src.lang === "he" || src.lang === "arc";
+    const tokens = src.text.split(/\s+/);
+    let wi = 0;
+    const spans = tokens.map(t => {
+      if (t === "...") return "…";
+      const w = words && words[wi] && words[wi].w === t ? words[wi] : null;
+      if (words) wi++;
+      if (!w) return esc(t);
+      const diff = w.readings ? " diff" : "";
+      return `<span class="w${diff}" data-w='${esc(JSON.stringify(w))}'>${esc(t)}</span>`;
+    });
+    return `<p class="orig ${src.lang}" lang="${src.lang}" dir="${rtl ? "rtl" : "ltr"}">${spans.join(" ")}</p>`;
+  }
+
+  function renderEntry(e) {
+    const kind = e.source.kind || "tanakh";
+    const rels = (e.relates_to || []).map(id => byId[id]).filter(Boolean);
+    const backRels = entries.filter(x => (x.relates_to || []).includes(e.id));
+    panel.innerHTML = `
+      <div class="ref">${esc(e.source.ref)}${kind !== "tanakh" ? " · " + esc(kind) : ""}<span class="theme-pill">${esc(e.theme)}</span></div>
+      <h1>${esc(e.title)}</h1>
+      <h2>Original</h2>
+      ${origHTML(e.source, e.words)}
+      <p class="eng">${esc(e.source.english)}</p>
+      ${e.words ? "" : `<p class="ref">No word glosses yet for this entry.</p>`}
+      ${(e.fulfilment || []).length ? `<h2>New Testament</h2>` : ""}
+      ${(e.fulfilment || []).map(f => `
+        <div class="pair">
+          <div><div class="ref">${esc(f.ref)}</div><p class="orig el" lang="el">${esc(f.text)}</p></div>
+          <div class="eng">${esc(f.english)}</div>
+        </div>`).join("")}
+      <h2>Jewish reading</h2><p>${esc(e.jewish_reading || "—")}</p>
+      ${e.notes ? `<h2>Notes</h2><p>${esc(e.notes)}</p>` : ""}
+      ${rels.length ? `<h2>Comments on</h2><p>${rels.map(x => `<a class="rel" onclick="selectId('${x.id}')">${esc(x.source.ref)}</a>`).join(" · ")}</p>` : ""}
+      ${backRels.length ? `<h2>Read messianically by</h2><p>${backRels.map(x => `<a class="rel" onclick="selectId('${x.id}')">${esc(x.source.ref)}</a>`).join(" · ")}</p>` : ""}
+      ${(e.tags || []).length ? `<h2>Tags</h2>${e.tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}` : ""}`;
+    panel.scrollTop = 0;
+  }
+  function renderNT(n) {
+    panel.innerHTML = `
+      <div class="ref">New Testament</div><h1>${esc(n.nt.ref)}</h1>
+      <p class="orig el" lang="el">${esc(n.nt.text)}</p><p class="eng">${esc(n.nt.english)}</p>
+      <h2>Claims fulfilment of</h2>
+      <p>${n.sources.map(id => `<a class="rel" onclick="selectId('${id}')">${esc(byId[id].source.ref)}</a>`).join(" · ")}</p>`;
+  }
+  function renderTheme(t) {
+    const list = entries.filter(e => e.theme === t);
+    panel.innerHTML = `<div class="ref">Theme</div><h1>${esc(t[0].toUpperCase() + t.slice(1))}</h1>
+      <h2>${list.length} passages</h2>
+      ${list.map(e => `<p><a class="rel" onclick="selectId('${e.id}')">${esc(e.source.ref)}</a> — ${esc(e.title)}</p>`).join("")}`;
+  }
+
+  // ---- word tooltip --------------------------------------------------------
+  const tip = document.getElementById("tip");
+  panel.addEventListener("mouseover", ev => {
+    const el = ev.target.closest(".w"); if (!el) return;
+    const w = JSON.parse(el.dataset.w);
+    tip.innerHTML = `<div class="lemma">${esc(w.lemma || w.w)}</div>
+      <div class="gloss">${esc(w.gloss)}</div>
+      ${w.context ? `<div class="ctx">In context: ${esc(w.context)}</div>` : ""}
+      ${w.readings ? `<div class="rd j"><b>Jewish reading</b><br>${esc(w.readings.jewish)}</div>
+                      <div class="rd c"><b>Christian reading</b><br>${esc(w.readings.christian)}</div>` : ""}`;
+    tip.style.display = "block";
+    place(ev);
+  });
+  panel.addEventListener("mousemove", ev => { if (tip.style.display === "block" && ev.target.closest(".w")) place(ev); });
+  panel.addEventListener("mouseout", ev => { if (ev.target.closest(".w")) tip.style.display = "none"; });
+  function place(ev) {
+    const pad = 14, W = tip.offsetWidth, H = tip.offsetHeight;
+    let x = ev.clientX + pad, y = ev.clientY + pad;
+    if (x + W > innerWidth - 8) x = ev.clientX - W - pad;
+    if (y + H > innerHeight - 8) y = ev.clientY - H - pad;
+    tip.style.left = x + "px"; tip.style.top = y + "px";
+  }
+})();
+</script>
+</body>
+</html>
