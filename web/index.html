@@ -49,6 +49,13 @@
   .theme-pill { display: inline-block; font-size: 11px; padding: 1px 8px; border-radius: 999px; background: var(--theme); color: #fff; margin-left: 6px; vertical-align: 2px; }
   a.rel { color: var(--grk); cursor: pointer; text-decoration: underline dotted; }
   .empty { color: var(--muted); margin-top: 40px; }
+  .verse { display: grid; grid-template-columns: 2.2em 1fr; gap: 0 8px; padding: 8px 0; border-top: 1px solid var(--line); }
+  .verse .vref { color: var(--muted); font-size: 12px; padding-top: 10px; }
+  .verse .orig { grid-column: 2; font-size: 19px; margin: 0; }
+  .verse .eng { grid-column: 2; font-size: 14px; color: var(--muted); margin: 2px 0 0; }
+  .verse.key { background: color-mix(in srgb, var(--heb) 12%, transparent); border-radius: 6px; padding-left: 6px; padding-right: 6px; }
+  details.notes { margin-top: 24px; color: var(--muted); font-size: 13px; }
+  details.notes summary { cursor: pointer; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
   #tip { position: fixed; z-index: 10; pointer-events: none; display: none; max-width: 340px;
     background: var(--panel); color: var(--fg); border: 1px solid var(--line); border-radius: 8px;
     padding: 10px 12px; font-size: 13px; line-height: 1.45; box-shadow: 0 6px 24px rgba(0,0,0,.18); }
@@ -176,7 +183,8 @@
     const e = n.entry;
     if (!active.has(e.theme)) return false;
     if (!q) return true;
-    const hay = [e.title, e.source.ref, e.source.text, e.source.english, e.jewish_reading, e.notes, (e.tags || []).join(" "),
+    const hay = [e.title, e.source.ref, e.source.text, e.source.english, e.jewish_reading, e.christian_reading, e.notes, (e.tags || []).join(" "),
+      ...(e.passage || []).flatMap(v => [v.ref, v.text, v.english]),
       ...(e.fulfilment || []).flatMap(f => [f.ref, f.text, f.english])].join(" ").toLowerCase();
     return hay.includes(q);
   }
@@ -209,8 +217,9 @@
   });
   let current = null;
 
-  function origHTML(src, words) {
-    const rtl = src.lang === "he" || src.lang === "arc";
+  function origHTML(src, words, lang) {
+    lang = lang || src.lang;
+    const rtl = lang === "he" || lang === "arc";
     const usePointed = showVowels && src.text_pointed && src.text_pointed.split(/\s+/).length === src.text.split(/\s+/).length;
     const display = (usePointed ? src.text_pointed : src.text).split(/\s+/);
     const tokens = src.text.split(/\s+/);
@@ -224,7 +233,7 @@
       const diff = w.readings ? " diff" : "";
       return `<span class="w${diff}" data-w='${esc(JSON.stringify(w))}'>${esc(shown)}</span>`;
     });
-    return `<p class="orig ${src.lang}" lang="${src.lang}" dir="${rtl ? "rtl" : "ltr"}">${spans.join(" ")}</p>`;
+    return `<p class="orig ${lang}" lang="${lang}" dir="${rtl ? "rtl" : "ltr"}">${spans.join(" ")}</p>`;
   }
 
   function renderEntry(e) {
@@ -235,9 +244,19 @@
     panel.innerHTML = `
       <div class="ref">${esc(e.source.ref)}${kind !== "tanakh" ? " · " + esc(kind) : ""}<span class="theme-pill">${esc(e.theme)}</span></div>
       <h1>${esc(e.title)}</h1>
-      <h2>Original</h2>
-      ${origHTML(e.source, e.words)}
-      <p class="eng">${esc(e.source.english)}</p>
+      ${e.passage ? `
+        <h2>Passage · ${esc(e.passage[0].ref)} – ${esc(e.passage[e.passage.length - 1].ref.replace(/^\D+/, ""))}</h2>
+        <p class="ref">Key verse: ${esc(e.source.ref)}. Verses with glosses are underlined.</p>
+        ${e.passage.map(v => `
+          <div class="verse${v.ref === e.source.ref.replace(/\s*\[[^\]]*\]/, "").replace(/^Psalm /, "Psalms ") ? " key" : ""}">
+            <div class="vref">${esc(v.ref.replace(/^\D+/, ""))}</div>
+            ${origHTML(v, v.words, e.source.lang)}
+            <p class="eng">${esc(v.english)}</p>
+          </div>`).join("")}`
+      : `
+        <h2>Original</h2>
+        ${origHTML(e.source, e.words)}
+        <p class="eng">${esc(e.source.english)}</p>`}
       <h2>Jewish reading</h2><p>${esc(e.jewish_reading || "—")}</p>
       <h2>Christian reading</h2><p>${esc(e.christian_reading || "—")}</p>
       ${(e.fulfilment || []).length ? `<h2>Christian verses</h2>` : ""}
@@ -248,7 +267,8 @@
         </div>`).join("")}
       ${rels.length ? `<h2>Comments on</h2><p>${rels.map(x => `<a class="rel" onclick="selectId('${x.id}')">${esc(x.source.ref)}</a>`).join(" · ")}</p>` : ""}
       ${backRels.length ? `<h2>Read messianically by</h2><p>${backRels.map(x => `<a class="rel" onclick="selectId('${x.id}')">${esc(x.source.ref)}</a>`).join(" · ")}</p>` : ""}
-      ${(e.tags || []).length ? `<h2>Tags</h2>${e.tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}` : ""}`;
+      ${(e.tags || []).length ? `<h2>Tags</h2>${e.tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}` : ""}
+      ${e.notes ? `<details class="notes"><summary>Textual notes</summary><p>${esc(e.notes)}</p></details>` : ""}`;
     panel.scrollTop = 0;
   }
   function renderNT(n) {

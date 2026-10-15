@@ -489,6 +489,373 @@
       lemma: רֶגֶל
       gloss: "and my feet"
       context: "and my feet"
+  passage:
+    - ref: Psalms 22:1
+      text: "למנצח על אילת השחר מזמור לדוד"
+      text_pointed: "לַמְנַצֵּחַ עַל־ אַיֶּלֶת הַשַּׁחַר מִזְמוֹר לְדָוִד"
+      english: "For the leader; on 'the doe of the dawn'. A psalm of David."
+    - ref: Psalms 22:2
+      text: "אלי אלי למה עזבתני רחוק מישועתי דברי שאגתי"
+      text_pointed: "אֵלִי אֵלִי לָמָה עֲזַבְתָּנִי רָחוֹק מִישׁוּעָתִי דִּבְרֵי שַׁאֲגָתִי"
+      english: "My God, my God, why have you forsaken me? Far from my deliverance are the words of my groaning."
+      words:
+        - w: אלי
+          lemma: אֵל
+          gloss: "my God"
+          context: "my God"
+        - w: אלי
+          lemma: אֵל
+          gloss: "my God"
+          context: "my God; Jesus' cry in Aramaic, Eli Eli lema sabachthani (Matthew 27:46)"
+        - w: למה
+          lemma: לָמָה
+          gloss: "why"
+          context: "why"
+        - w: עזבתני
+          lemma: עָזַב
+          gloss: "have you forsaken me"
+          context: "abandoned me"
+          readings:
+            jewish: "David, or Israel in exile (Rashi reads the psalm of Esther and the Jews under Haman)"
+            christian: "Jesus on the cross, quoting the opening to invoke the whole psalm, which ends in vindication"
+        - w: רחוק
+          lemma: רָחוֹק
+          gloss: "far"
+          context: "distant"
+        - w: מישועתי
+          lemma: יְשׁוּעָה
+          gloss: "from my salvation"
+          context: "from saving me"
+        - w: דברי
+          lemma: דָּבָר
+          gloss: "the words of"
+          context: "the words of"
+        - w: שאגתי
+          lemma: שְׁאָגָה
+          gloss: "my roaring, groaning"
+          context: "my cry"
+    - ref: Psalms 22:3
+      text: "אלהי אקרא יומם ולא תענה ולילה ולא דמיה לי"
+      text_pointed: "אֱלֹהַי אֶקְרָא יוֹמָם וְלֹא תַעֲנֶה וְלַיְלָה וְלֹא־ דֻמִיָּה לִי"
+      english: "My God, I call by day and you do not answer, and by night, and there is no rest for me."
+    - ref: Psalms 22:4
+      text: "ואתה קדוש יושב תהלות ישראל"
+      text_pointed: "וְאַתָּה קָדוֹשׁ יוֹשֵׁב תְּהִלּוֹת יִשְׂרָאֵל"
+      english: "Yet you are holy, enthroned on the praises of Israel."
+    - ref: Psalms 22:5
+      text: "בך בטחו אבתינו בטחו ותפלטמו"
+      text_pointed: "בְּךָ בָּטְחוּ אֲבֹתֵינוּ בָּטְחוּ וַתְּפַלְּטֵמוֹ"
+      english: "In you our fathers trusted; they trusted, and you delivered them."
+    - ref: Psalms 22:6
+      text: "אליך זעקו ונמלטו בך בטחו ולא בושו"
+      text_pointed: "אֵלֶיךָ זָעֲקוּ וְנִמְלָטוּ בְּךָ בָטְחוּ וְלֹא־ בוֹשׁוּ"
+      english: "To you they cried and were rescued; in you they trusted and were not ashamed."
+    - ref: Psalms 22:7
+      text: "ואנכי תולעת ולא איש חרפת אדם ובזוי עם"
+      text_pointed: "וְאָנֹכִי תוֹלַעַת וְלֹא־ אִישׁ חֶרְפַּת אָדָם וּבְזוּי עָם"
+      english: "But I am a worm and not a man, scorned by mankind and despised by the people."
+    - ref: Psalms 22:8
+      text: "כל ראי ילעגו לי יפטירו בשפה יניעו ראש"
+      text_pointed: "כׇּל־ רֹאַי יַלְעִגוּ לִי יַפְטִירוּ בְשָׂפָה יָנִיעוּ רֹאשׁ"
+      english: "All who see me mock me; they part the lip, they shake the head:"
+      words:
+        - w: כל
+          lemma: כֹּל
+          gloss: "all"
+          context: "all"
+        - w: ראי
+          lemma: רָאָה
+          gloss: "who see me"
+          context: "onlookers"
+        - w: ילעגו
+          lemma: לָעַג
+          gloss: "mock"
+          context: "deride"
+        - w: לי
+          lemma: לְ + אֲנִי
+          gloss: "me"
+          context: "me"
+        - w: יפטירו
+          lemma: פָּטַר
+          gloss: "they part, open wide"
+          context: "they separate (the lip): sneer"
+        - w: בשפה
+          lemma: שָׂפָה
+          gloss: "with the lip"
+          context: "the lip"
+        - w: יניעו
+          lemma: נוּעַ
+          gloss: "they shake, wag"
+          context: "they wag"
+        - w: ראש
+          lemma: רֹאשׁ
+          gloss: "the head"
+          context: "the head; the passers-by at the cross 'wagging their heads' (Matthew 27:39)"
+    - ref: Psalms 22:9
+      text: "גל אל יהוה יפלטהו יצילהו כי חפץ בו"
+      text_pointed: "גֹּל אֶל־ יְהֹוָה יְפַלְּטֵהוּ יַצִּילֵהוּ כִּי־ חָפֵץ־ בּוֹ"
+      english: "'Commit it to the LORD; let him deliver him, let him rescue him, since he delights in him.'"
+      words:
+        - w: גל
+          lemma: גָּלַל
+          gloss: "commit, roll"
+          context: "roll it (on the LORD); or 'he trusted'"
+        - w: אל
+          lemma: אֶל
+          gloss: "to"
+          context: "to"
+        - w: יהוה
+          lemma: יהוה
+          gloss: "the LORD"
+          context: "God"
+        - w: יפלטהו
+          lemma: פָּלַט
+          gloss: "let him deliver him"
+          context: "rescue him"
+        - w: יצילהו
+          lemma: נָצַל
+          gloss: "let him rescue him"
+          context: "save him"
+        - w: כי
+          lemma: כִּי
+          gloss: "since"
+          context: "because"
+        - w: חפץ
+          lemma: חָפֵץ
+          gloss: "he delights"
+          context: "takes pleasure"
+        - w: בו
+          lemma: בְּ + הוּא
+          gloss: "in him"
+          context: "in him; the chief priests' taunt, 'he trusts in God; let God deliver him now, if he desires him' (Matthew 27:43)"
+    - ref: Psalms 22:10
+      text: "כי אתה גחי מבטן מבטיחי על שדי אמי"
+      text_pointed: "כִּי־ אַתָּה גֹחִי מִבָּטֶן מַבְטִיחִי עַל־ שְׁדֵי אִמִּי"
+      english: "Yet you are he who drew me from the womb, who made me trust at my mother's breasts."
+    - ref: Psalms 22:11
+      text: "עליך השלכתי מרחם מבטן אמי אלי אתה"
+      text_pointed: "עָלֶיךָ הׇשְׁלַכְתִּי מֵרָחֶם מִבֶּטֶן אִמִּי אֵלִי אָתָּה"
+      english: "On you I was cast from birth; from my mother's womb you have been my God."
+    - ref: Psalms 22:12
+      text: "אל תרחק ממני כי צרה קרובה כי אין עוזר"
+      text_pointed: "אַל־ תִּרְחַק מִמֶּנִּי כִּי־ צָרָה קְרוֹבָה כִּי־ אֵין עוֹזֵר"
+      english: "Be not far from me, for trouble is near, for there is none to help."
+    - ref: Psalms 22:13
+      text: "סבבוני פרים רבים אבירי בשן כתרוני"
+      text_pointed: "סְבָבוּנִי פָּרִים רַבִּים אַבִּירֵי בָשָׁן כִּתְּרוּנִי"
+      english: "Many bulls surround me; mighty ones of Bashan encircle me."
+    - ref: Psalms 22:14
+      text: "פצו עלי פיהם אריה טרף ושאג"
+      text_pointed: "פָּצוּ עָלַי פִּיהֶם אַרְיֵה טֹרֵף וְשֹׁאֵג"
+      english: "They open their mouths at me, like a lion tearing and roaring."
+    - ref: Psalms 22:15
+      text: "כמים נשפכתי והתפרדו כל עצמותי היה לבי כדונג נמס בתוך מעי"
+      text_pointed: "כַּמַּיִם נִשְׁפַּכְתִּי וְהִתְפָּרְדוּ כׇּל־ עַצְמוֹתָי הָיָה לִבִּי כַּדּוֹנָג נָמֵס בְּתוֹךְ מֵעָי"
+      english: "I am poured out like water, and all my bones are out of joint; my heart has become like wax, melting within my breast."
+    - ref: Psalms 22:16
+      text: "יבש כחרש כחי ולשוני מדבק מלקוחי ולעפר מות תשפתני"
+      text_pointed: "יָבֵשׁ כַּחֶרֶשׂ כֹּחִי וּלְשׁוֹנִי מֻדְבָּק מַלְקוֹחָי וְלַעֲפַר־ מָוֶת תִּשְׁפְּתֵנִי"
+      english: "My strength is dried up like a potsherd, and my tongue sticks to my jaws; you lay me in the dust of death."
+    - ref: Psalms 22:17
+      text: "כי סבבוני כלבים עדת מרעים הקיפוני כארי ידי ורגלי"
+      text_pointed: "כִּי סְבָבוּנִי כְּלָבִים עֲדַת מְרֵעִים הִקִּיפוּנִי כָּאֲרִי יָדַי וְרַגְלָי"
+      english: "For dogs surround me; a company of evildoers encircles me; like a lion [MT] / they pierced [LXX, DSS] my hands and feet."
+      words:
+        - w: כי
+          lemma: כִּי
+          gloss: "for"
+          context: "gives the reason for the plea in v.16"
+        - w: סבבוני
+          lemma: סָבַב
+          gloss: "they have surrounded me"
+          context: "enemies encircle the speaker"
+        - w: כלבים
+          lemma: כֶּלֶב
+          gloss: "dogs"
+          context: "a pack of enemies, pictured as scavenging dogs"
+        - w: עדת
+          lemma: עֵדָה
+          gloss: "company, assembly of"
+          context: "a band of"
+        - w: מרעים
+          lemma: רָעַע
+          gloss: "evildoers"
+          context: "the wicked who do harm"
+        - w: הקיפוני
+          lemma: נָקַף
+          gloss: "they have encircled me"
+          context: "closed in around me"
+        - w: כארי
+          lemma: אֲרִי / כָּרָה (?)
+          gloss: "like a lion (MT); they pierced / dug (LXX, Nahal Hever)"
+          context: "the most disputed word in the psalm"
+          readings:
+            jewish: "כָּאֲרִי 'like a lion': the enemies maul my hands and feet as a lion would (Rashi, Ibn Ezra); the verb must be supplied"
+            christian: "כָּארוּ 'they pierced', reading with the Septuagint ὤρυξαν and the Nahal Hever Psalms scroll (5/6HevPs), where a vav rather than a yod is visible; seen as describing crucifixion"
+        - w: ידי
+          lemma: יָד
+          gloss: "my hands"
+          context: "my hands"
+        - w: ורגלי
+          lemma: רֶגֶל
+          gloss: "and my feet"
+          context: "and my feet"
+    - ref: Psalms 22:18
+      text: "אספר כל עצמותי המה יביטו יראו בי"
+      text_pointed: "אֲסַפֵּר כׇּל־ עַצְמוֹתָי הֵמָּה יַבִּיטוּ יִרְאוּ־ בִי"
+      english: "I can count all my bones; they look, they stare at me."
+      words:
+        - w: אספר
+          lemma: סָפַר
+          gloss: "I can count"
+          context: "I count"
+        - w: כל
+          lemma: כֹּל
+          gloss: "all"
+          context: "all"
+        - w: עצמותי
+          lemma: עֶצֶם
+          gloss: "my bones"
+          context: "my bones: emaciated, or stretched out"
+          readings:
+            jewish: "starvation and emaciation in distress"
+            christian: "the body stretched on the cross, bones visible"
+        - w: המה
+          lemma: הֵמָּה
+          gloss: "they"
+          context: "they"
+        - w: יביטו
+          lemma: נָבַט
+          gloss: "look"
+          context: "gaze"
+        - w: יראו
+          lemma: רָאָה
+          gloss: "they stare"
+          context: "look"
+        - w: בי
+          lemma: בְּ + אֲנִי
+          gloss: "at me"
+          context: "at me"
+    - ref: Psalms 22:19
+      text: "יחלקו בגדי להם ועל לבושי יפילו גורל"
+      text_pointed: "יְחַלְּקוּ בְגָדַי לָהֶם וְעַל־ לְבוּשִׁי יַפִּילוּ גוֹרָל"
+      english: "They divide my garments among them, and for my clothing they cast lots."
+      words:
+        - w: יחלקו
+          lemma: חָלַק
+          gloss: "they divide"
+          context: "share out"
+        - w: בגדי
+          lemma: בֶּגֶד
+          gloss: "my garments"
+          context: "my clothes"
+        - w: להם
+          lemma: לְ + הֵם
+          gloss: "among them"
+          context: "among themselves"
+        - w: ועל
+          lemma: עַל
+          gloss: "and for"
+          context: "and over"
+        - w: לבושי
+          lemma: לְבוּשׁ
+          gloss: "my clothing"
+          context: "my robe"
+        - w: יפילו
+          lemma: נָפַל
+          gloss: "they cast"
+          context: "they throw"
+        - w: גורל
+          lemma: גּוֹרָל
+          gloss: "a lot"
+          context: "lots"
+          readings:
+            jewish: "the enemies already treat the sufferer as dead and plunder him: a figure for total loss"
+            christian: "fulfilled literally by the soldiers at the cross (John 19:23-24)"
+    - ref: Psalms 22:20
+      text: "ואתה יהוה אל תרחק אילותי לעזרתי חושה"
+      text_pointed: "וְאַתָּה יְהֹוָה אַל־ תִּרְחָק אֱיָלוּתִי לְעֶזְרָתִי חוּשָׁה"
+      english: "But you, O LORD, be not far; O my strength, hasten to my help."
+    - ref: Psalms 22:21
+      text: "הצילה מחרב נפשי מיד כלב יחידתי"
+      text_pointed: "הַצִּילָה מֵחֶרֶב נַפְשִׁי מִיַּד־ כֶּלֶב יְחִידָתִי"
+      english: "Deliver my soul from the sword, my only one from the power of the dog."
+    - ref: Psalms 22:22
+      text: "הושיעני מפי אריה ומקרני רמים עניתני"
+      text_pointed: "הוֹשִׁיעֵנִי מִפִּי אַרְיֵה וּמִקַּרְנֵי רֵמִים עֲנִיתָנִי"
+      english: "Save me from the mouth of the lion; and from the horns of the wild oxen you have answered me."
+    - ref: Psalms 22:23
+      text: "אספרה שמך לאחי בתוך קהל אהללך"
+      text_pointed: "אֲסַפְּרָה שִׁמְךָ לְאֶחָי בְּתוֹךְ קָהָל אֲהַלְלֶךָּ"
+      english: "I will tell of your name to my brothers; in the midst of the assembly I will praise you."
+    - ref: Psalms 22:24
+      text: "יראי יהוה הללוהו כל זרע יעקב כבדוהו וגורו ממנו כל זרע ישראל"
+      text_pointed: "יִרְאֵי יְהֹוָה הַלְלוּהוּ כׇּל־ זֶרַע יַעֲקֹב כַּבְּדוּהוּ וְגוּרוּ מִמֶּנּוּ כׇּל־ זֶרַע יִשְׂרָאֵל"
+      english: "You who fear the LORD, praise him; all you seed of Jacob, glorify him; and stand in awe of him, all you seed of Israel."
+    - ref: Psalms 22:25
+      text: "כי לא בזה ולא שקץ ענות עני ולא הסתיר פניו ממנו ובשועו אליו שמע"
+      text_pointed: "כִּי לֹא־ בָזָה וְלֹא שִׁקַּץ עֱנוּת עָנִי וְלֹא־ הִסְתִּיר פָּנָיו מִמֶּנּוּ וּבְשַׁוְּעוֹ אֵלָיו שָׁמֵעַ"
+      english: "For he has not despised nor abhorred the affliction of the afflicted, nor hidden his face from him; but when he cried to him, he heard."
+    - ref: Psalms 22:26
+      text: "מאתך תהלתי בקהל רב נדרי אשלם נגד יראיו"
+      text_pointed: "מֵאִתְּךָ תְּהִלָּתִי בְּקָהָל רָב נְדָרַי אֲשַׁלֵּם נֶגֶד יְרֵאָיו"
+      english: "From you comes my praise in the great assembly; my vows I will pay before those who fear him."
+    - ref: Psalms 22:27
+      text: "יאכלו ענוים וישבעו יהללו יהוה דרשיו יחי לבבכם לעד"
+      text_pointed: "יֹאכְלוּ עֲנָוִים וְיִשְׂבָּעוּ יְהַלְלוּ יְהֹוָה דֹּרְשָׁיו יְחִי לְבַבְכֶם לָעַד"
+      english: "The humble shall eat and be satisfied; those who seek him shall praise the LORD; may your hearts live forever."
+    - ref: Psalms 22:28
+      text: "יזכרו וישבו אל יהוה כל אפסי ארץ וישתחוו לפניך כל משפחות גוים"
+      text_pointed: "יִזְכְּרוּ וְיָשֻׁבוּ אֶל־ יְהֹוָה כׇּל־ אַפְסֵי־ אָרֶץ וְיִשְׁתַּחֲווּ לְפָנֶיךָ כׇּל־ מִשְׁפְּחוֹת גּוֹיִם"
+      english: "All the ends of the earth shall remember and turn to the LORD, and all the families of the nations shall worship before you."
+    - ref: Psalms 22:29
+      text: "כי ליהוה המלוכה ומשל בגוים"
+      text_pointed: "כִּי לַיהֹוָה הַמְּלוּכָה וּמֹשֵׁל בַּגּוֹיִם"
+      english: "For the kingdom is the LORD's, and he rules over the nations."
+    - ref: Psalms 22:30
+      text: "אכלו וישתחוו כל דשני ארץ לפניו יכרעו כל יורדי עפר ונפשו לא חיה"
+      text_pointed: "אָכְלוּ וַיִּשְׁתַּחֲווּ כׇּל־ דִּשְׁנֵי־ אֶרֶץ לְפָנָיו יִכְרְעוּ כׇּל־ יוֹרְדֵי עָפָר וְנַפְשׁוֹ לֹא חִיָּה"
+      english: "All the fat ones of the earth shall eat and worship; before him shall bow all who go down to the dust, and he who cannot keep his soul alive."
+    - ref: Psalms 22:31
+      text: "זרע יעבדנו יספר לאדני לדור"
+      text_pointed: "זֶרַע יַעַבְדֶנּוּ יְסֻפַּר לַאדֹנָי לַדּוֹר"
+      english: "A seed shall serve him; it shall be told of the Lord to the coming generation."
+    - ref: Psalms 22:32
+      text: "יבאו ויגידו צדקתו לעם נולד כי עשה"
+      text_pointed: "יָבֹאוּ וְיַגִּידוּ צִדְקָתוֹ לְעַם נוֹלָד כִּי עָשָׂה"
+      english: "They shall come and declare his righteousness to a people yet to be born, that he has done it."
+      words:
+        - w: יבאו
+          lemma: בּוֹא
+          gloss: "they will come"
+          context: "they will come"
+        - w: ויגידו
+          lemma: נָגַד
+          gloss: "and declare"
+          context: "tell"
+        - w: צדקתו
+          lemma: צְדָקָה
+          gloss: "his righteousness"
+          context: "his saving justice"
+        - w: לעם
+          lemma: עַם
+          gloss: "to a people"
+          context: "to a people"
+        - w: נולד
+          lemma: יָלַד
+          gloss: "yet to be born"
+          context: "to be born"
+        - w: כי
+          lemma: כִּי
+          gloss: "that"
+          context: "that"
+        - w: עשה
+          lemma: עָשָׂה
+          gloss: "he has done (it)"
+          context: "he has acted"
+          readings:
+            jewish: "God has accomplished deliverance; the psalm ends in praise"
+            christian: "'he has done it' echoes 'it is finished' (John 19:30): the psalm's last word as Jesus' last word"
 
 - id: ps-110-1
   theme: exaltation
@@ -850,6 +1217,953 @@
       lemma: לְ + אֲנַחְנוּ
       gloss: "for us"
       context: "healing for us"
+  passage:
+    - ref: Isaiah 52:13
+      text: "הנה ישכיל עבדי ירום ונשא וגבה מאד"
+      text_pointed: "הִנֵּה יַשְׂכִּיל עַבְדִּי יָרוּם וְנִשָּׂא וְגָבַהּ מְאֹד"
+      english: "Behold, my servant shall prosper; he shall be exalted and lifted up, and shall be very high."
+      words:
+        - w: הנה
+          lemma: הִנֵּה
+          gloss: "behold"
+          context: "look"
+        - w: ישכיל
+          lemma: שָׂכַל
+          gloss: "will prosper, act wisely"
+          context: "will succeed"
+        - w: עבדי
+          lemma: עֶבֶד
+          gloss: "my servant"
+          context: "God's servant"
+          readings:
+            jewish: "Israel, as in 41:8, 44:1, 49:3; or the righteous within Israel"
+            christian: "the Messiah; Targum Jonathan adds 'the Messiah' here, and the NT reads the whole song of Jesus"
+        - w: ירום
+          lemma: רוּם
+          gloss: "he will be high"
+          context: "raised"
+        - w: ונשא
+          lemma: נָשָׂא
+          gloss: "and lifted up"
+          context: "exalted; the same pair of verbs describes God's throne in 6:1"
+        - w: וגבה
+          lemma: גָּבַהּ
+          gloss: "and high"
+          context: "lofty"
+        - w: מאד
+          lemma: מְאֹד
+          gloss: "very"
+          context: "exceedingly"
+    - ref: Isaiah 52:14
+      text: "כאשר שממו עליך רבים כן משחת מאיש מראהו ותארו מבני אדם"
+      text_pointed: "כַּאֲשֶׁר שָׁמְמוּ עָלֶיךָ רַבִּים כֵּן־ מִשְׁחַת מֵאִישׁ מַרְאֵהוּ וְתֹאֲרוֹ מִבְּנֵי אָדָם"
+      english: "As many were appalled at you, so marred was his appearance beyond that of a man, and his form beyond the sons of men,"
+      words:
+        - w: כאשר
+          lemma: אֲשֶׁר
+          gloss: "just as"
+          context: "as"
+        - w: שממו
+          lemma: שָׁמֵם
+          gloss: "they were appalled"
+          context: "horrified"
+        - w: עליך
+          lemma: עַל
+          gloss: "at you"
+          context: "at you (2nd person; the servant addressed)"
+        - w: רבים
+          lemma: רַב
+          gloss: "many"
+          context: "many"
+        - w: כן
+          lemma: כֵּן
+          gloss: "so"
+          context: "so"
+        - w: משחת
+          lemma: מִשְׁחַת
+          gloss: "marred, disfigured"
+          context: "a disfigurement"
+        - w: מאיש
+          lemma: אִישׁ
+          gloss: "beyond a man"
+          context: "more than any man"
+        - w: מראהו
+          lemma: מַרְאֶה
+          gloss: "his appearance"
+          context: "his look"
+        - w: ותארו
+          lemma: תֹּאַר
+          gloss: "and his form"
+          context: "his figure"
+        - w: מבני
+          lemma: בֵּן
+          gloss: "beyond the sons of"
+          context: "more than"
+        - w: אדם
+          lemma: אָדָם
+          gloss: "man, humanity"
+          context: "mankind"
+          readings:
+            jewish: "Israel disfigured by the sufferings of exile"
+            christian: "Jesus disfigured by scourging and crucifixion"
+    - ref: Isaiah 52:15
+      text: "כן יזה גוים רבים עליו יקפצו מלכים פיהם כי אשר לא ספר להם ראו ואשר לא שמעו התבוננו"
+      text_pointed: "כֵּן יַזֶּה גּוֹיִם רַבִּים עָלָיו יִקְפְּצוּ מְלָכִים פִּיהֶם כִּי אֲשֶׁר לֹא־ סֻפַּר לָהֶם רָאוּ וַאֲשֶׁר לֹא־ שָׁמְעוּ הִתְבּוֹנָנוּ"
+      english: "so shall he sprinkle many nations; kings shall shut their mouths because of him, for what had not been told them they shall see, and what they had not heard they shall understand."
+      words:
+        - w: כן
+          lemma: כֵּן
+          gloss: "so"
+          context: "so"
+        - w: יזה
+          lemma: נָזָה
+          gloss: "he will sprinkle; startle"
+          context: "sprinkle (as a priest sprinkles blood) or cause to leap"
+          readings:
+            jewish: "'startle': the nations will be astonished at Israel's restoration"
+            christian: "'sprinkle': the servant acts as priest, cleansing the nations (Hebrews 12:24)"
+        - w: גוים
+          lemma: גּוֹי
+          gloss: "nations"
+          context: "nations"
+        - w: רבים
+          lemma: רַב
+          gloss: "many"
+          context: "many"
+        - w: עליו
+          lemma: עַל
+          gloss: "because of him"
+          context: "at him"
+        - w: יקפצו
+          lemma: קָפַץ
+          gloss: "they will shut"
+          context: "close"
+        - w: מלכים
+          lemma: מֶלֶךְ
+          gloss: "kings"
+          context: "kings"
+        - w: פיהם
+          lemma: פֶּה
+          gloss: "their mouths"
+          context: "in silence"
+        - w: כי
+          lemma: כִּי
+          gloss: "for"
+          context: "because"
+        - w: אשר
+          lemma: אֲשֶׁר
+          gloss: "what"
+          context: "that which"
+        - w: לא
+          lemma: לֹא
+          gloss: "not"
+          context: "not"
+        - w: ספר
+          lemma: סָפַר
+          gloss: "was told"
+          context: "recounted"
+        - w: להם
+          lemma: לְ + הֵם
+          gloss: "to them"
+          context: "to them"
+        - w: ראו
+          lemma: רָאָה
+          gloss: "they have seen"
+          context: "they see"
+        - w: ואשר
+          lemma: אֲשֶׁר
+          gloss: "and what"
+          context: "that which"
+        - w: לא
+          lemma: לֹא
+          gloss: "not"
+          context: "not"
+        - w: שמעו
+          lemma: שָׁמַע
+          gloss: "they heard"
+          context: "heard"
+        - w: התבוננו
+          lemma: בִּין
+          gloss: "they understand"
+          context: "they perceive"
+    - ref: Isaiah 53:1
+      text: "מי האמין לשמעתנו וזרוע יהוה על מי נגלתה"
+      text_pointed: "מִי הֶאֱמִין לִשְׁמֻעָתֵנוּ וּזְרוֹעַ יְהֹוָה עַל־ מִי נִגְלָתָה"
+      english: "Who has believed our report, and to whom has the arm of the LORD been revealed?"
+      words:
+        - w: מי
+          lemma: מִי
+          gloss: "who"
+          context: "who"
+        - w: האמין
+          lemma: אָמַן
+          gloss: "has believed"
+          context: "trusted"
+        - w: לשמעתנו
+          lemma: שְׁמוּעָה
+          gloss: "our report"
+          context: "what we have heard, or what we announce"
+          readings:
+            jewish: "the kings of the nations speak (52:15): who would have believed what we now see of Israel?"
+            christian: "the prophet speaks for Israel: who believed the message about the Messiah? (John 12:38, Romans 10:16)"
+        - w: וזרוע
+          lemma: זְרוֹעַ
+          gloss: "and the arm of"
+          context: "the power of"
+        - w: יהוה
+          lemma: יהוה
+          gloss: "the LORD"
+          context: "God"
+        - w: על
+          lemma: עַל
+          gloss: "upon"
+          context: "to"
+        - w: מי
+          lemma: מִי
+          gloss: "whom"
+          context: "whom"
+        - w: נגלתה
+          lemma: גָּלָה
+          gloss: "has been revealed"
+          context: "disclosed"
+    - ref: Isaiah 53:2
+      text: "ויעל כיונק לפניו וכשרש מארץ ציה לא תאר לו ולא הדר ונראהו ולא מראה ונחמדהו"
+      text_pointed: "וַיַּעַל כַּיּוֹנֵק לְפָנָיו וְכַשֹּׁרֶשׁ מֵאֶרֶץ צִיָּה לֹא־ תֹאַר לוֹ וְלֹא הָדָר וְנִרְאֵהוּ וְלֹא־ מַרְאֶה וְנֶחְמְדֵהוּ"
+      english: "For he grew up before him like a young plant, and like a root out of dry ground; he had no form or majesty that we should look at him, and no appearance that we should desire him."
+      words:
+        - w: ויעל
+          lemma: עָלָה
+          gloss: "and he grew up"
+          context: "he sprang up"
+        - w: כיונק
+          lemma: יוֹנֵק
+          gloss: "like a sapling, suckling plant"
+          context: "a tender shoot"
+        - w: לפניו
+          lemma: פָּנִים
+          gloss: "before him"
+          context: "before God, or before the observer"
+        - w: וכשרש
+          lemma: שֹׁרֶשׁ
+          gloss: "and like a root"
+          context: "a root"
+        - w: מארץ
+          lemma: אֶרֶץ
+          gloss: "from ground"
+          context: "out of land"
+        - w: ציה
+          lemma: צִיָּה
+          gloss: "dry, parched"
+          context: "arid"
+        - w: לא
+          lemma: לֹא
+          gloss: "no"
+          context: "no"
+        - w: תאר
+          lemma: תֹּאַר
+          gloss: "form"
+          context: "figure"
+        - w: לו
+          lemma: לְ + הוּא
+          gloss: "to him"
+          context: "he had"
+        - w: ולא
+          lemma: לֹא
+          gloss: "and no"
+          context: "nor"
+        - w: הדר
+          lemma: הָדָר
+          gloss: "majesty, splendour"
+          context: "beauty"
+        - w: ונראהו
+          lemma: רָאָה
+          gloss: "that we should look at him"
+          context: "we saw him"
+        - w: ולא
+          lemma: לֹא
+          gloss: "and no"
+          context: "and no"
+        - w: מראה
+          lemma: מַרְאֶה
+          gloss: "appearance"
+          context: "look"
+        - w: ונחמדהו
+          lemma: חָמַד
+          gloss: "that we should desire him"
+          context: "find him attractive"
+    - ref: Isaiah 53:3
+      text: "נבזה וחדל אישים איש מכאבות וידוע חלי וכמסתר פנים ממנו נבזה ולא חשבנהו"
+      text_pointed: "נִבְזֶה וַחֲדַל אִישִׁים אִישׁ מַכְאֹבוֹת וִידוּעַ חֹלִי וּכְמַסְתֵּר פָּנִים מִמֶּנּוּ נִבְזֶה וְלֹא חֲשַׁבְנֻהוּ"
+      english: "He was despised and rejected by men, a man of pains and acquainted with sickness; and as one from whom men hide their faces he was despised, and we did not esteem him."
+      words:
+        - w: נבזה
+          lemma: בָּזָה
+          gloss: "despised"
+          context: "held in contempt"
+        - w: וחדל
+          lemma: חָדֵל
+          gloss: "and rejected, forsaken of"
+          context: "shunned by"
+        - w: אישים
+          lemma: אִישׁ
+          gloss: "men"
+          context: "people"
+        - w: איש
+          lemma: אִישׁ
+          gloss: "a man of"
+          context: "a man of"
+        - w: מכאבות
+          lemma: מַכְאֹב
+          gloss: "pains, sorrows"
+          context: "suffering"
+        - w: וידוע
+          lemma: יָדַע
+          gloss: "and known to, acquainted with"
+          context: "familiar with"
+        - w: חלי
+          lemma: חֳלִי
+          gloss: "sickness"
+          context: "disease, weakness"
+        - w: וכמסתר
+          lemma: סֵתֶר
+          gloss: "and like a hiding of"
+          context: "as one who hides, or from whom one hides"
+        - w: פנים
+          lemma: פָּנִים
+          gloss: "face"
+          context: "the face"
+        - w: ממנו
+          lemma: מִן
+          gloss: "from him"
+          context: "from him"
+        - w: נבזה
+          lemma: בָּזָה
+          gloss: "despised"
+          context: "despised"
+        - w: ולא
+          lemma: לֹא
+          gloss: "and not"
+          context: "and not"
+        - w: חשבנהו
+          lemma: חָשַׁב
+          gloss: "we esteemed him"
+          context: "we reckoned him"
+          readings:
+            jewish: "'we' are the nations, confessing how they treated Israel"
+            christian: "'we' are Israel, or humanity, confessing how we treated the Messiah"
+    - ref: Isaiah 53:4
+      text: "אכן חלינו הוא נשא ומכאבינו סבלם ואנחנו חשבנהו נגוע מכה אלהים ומענה"
+      text_pointed: "אָכֵן חֳלָיֵנוּ הוּא נָשָׂא וּמַכְאֹבֵינוּ סְבָלָם וַאֲנַחְנוּ חֲשַׁבְנֻהוּ נָגוּעַ מֻכֵּה אֱלֹהִים וּמְעֻנֶּה"
+      english: "Surely he has borne our sicknesses and carried our pains; yet we considered him stricken, struck by God, and afflicted."
+      words:
+        - w: אכן
+          lemma: אָכֵן
+          gloss: "surely"
+          context: "truly"
+        - w: חלינו
+          lemma: חֳלִי
+          gloss: "our sicknesses"
+          context: "our diseases"
+        - w: הוא
+          lemma: הוּא
+          gloss: "he"
+          context: "he, emphatic"
+        - w: נשא
+          lemma: נָשָׂא
+          gloss: "has borne"
+          context: "carried; also 'forgiven'"
+          readings:
+            jewish: "Israel bore the sufferings the nations deserved; or Israel's suffering atones (Sanhedrin 98b applies it to the Messiah)"
+            christian: "Jesus bore our sicknesses in his healing ministry (Matthew 8:17) and our sins on the cross"
+        - w: ומכאבינו
+          lemma: מַכְאֹב
+          gloss: "and our pains"
+          context: "our sorrows"
+        - w: סבלם
+          lemma: סָבַל
+          gloss: "he carried them"
+          context: "bore them as a load"
+        - w: ואנחנו
+          lemma: אֲנַחְנוּ
+          gloss: "and we"
+          context: "yet we"
+        - w: חשבנהו
+          lemma: חָשַׁב
+          gloss: "we considered him"
+          context: "reckoned him"
+        - w: נגוע
+          lemma: נָגַע
+          gloss: "stricken"
+          context: "plagued; the word used for leprosy"
+        - w: מכה
+          lemma: נָכָה
+          gloss: "struck by"
+          context: "smitten by"
+        - w: אלהים
+          lemma: אֱלֹהִים
+          gloss: "God"
+          context: "God"
+        - w: ומענה
+          lemma: עָנָה
+          gloss: "and afflicted"
+          context: "humbled"
+    - ref: Isaiah 53:5
+      text: "והוא מחלל מפשענו מדכא מעונתינו מוסר שלומנו עליו ובחברתו נרפא לנו"
+      text_pointed: "וְהוּא מְחֹלָל מִפְּשָׁעֵנוּ מְדֻכָּא מֵעֲוֺנֹתֵינוּ מוּסַר שְׁלוֹמֵנוּ עָלָיו וּבַחֲבֻרָתוֹ נִרְפָּא־ לָנוּ"
+      english: "But he was pierced for our transgressions, crushed for our iniquities; the chastisement of our peace was upon him, and by his wounds we are healed."
+      words:
+        - w: והוא
+          lemma: הוּא
+          gloss: "and he"
+          context: "emphatic contrast with 'we' of v.4: he, not we"
+          readings:
+            jewish: "the servant, Israel, personified in the singular as throughout Isaiah 40-55"
+            christian: "an individual, the Messiah"
+        - w: מחלל
+          lemma: חָלַל
+          gloss: "pierced, wounded; or profaned"
+          context: "participle, 'pierced through' (as a sword wound)"
+          readings:
+            jewish: "wounded, i.e. afflicted by the nations"
+            christian: "pierced, with Zechariah 12:10 and the crucifixion"
+        - w: מפשענו
+          lemma: פֶּשַׁע
+          gloss: "from / because of our transgressions"
+          context: "the preposition מ marks cause"
+          readings:
+            jewish: "the nations speak: because of our (the nations') sins against Israel"
+            christian: "the prophet speaks for Israel: because of our sins, borne by him"
+        - w: מדכא
+          lemma: דָּכָא
+          gloss: "crushed"
+          context: "passive participle, parallel to 'pierced'"
+        - w: מעונתינו
+          lemma: עָוֹן
+          gloss: "from / because of our iniquities"
+          context: "parallel to 'our transgressions'"
+        - w: מוסר
+          lemma: מוּסָר
+          gloss: "chastisement, discipline"
+          context: "the punishment that produces"
+        - w: שלומנו
+          lemma: שָׁלוֹם
+          gloss: "our peace, wholeness"
+          context: "the chastisement that brings us peace"
+        - w: עליו
+          lemma: עַל
+          gloss: "upon him"
+          context: "was laid upon him"
+        - w: ובחברתו
+          lemma: חַבּוּרָה
+          gloss: "and by his stripe / wound (sing.)"
+          context: "a welt from a blow"
+        - w: נרפא
+          lemma: רָפָא
+          gloss: "it was healed / there is healing"
+          context: "niphal perfect"
+        - w: לנו
+          lemma: לְ + אֲנַחְנוּ
+          gloss: "for us"
+          context: "healing for us"
+    - ref: Isaiah 53:6
+      text: "כלנו כצאן תעינו איש לדרכו פנינו ויהוה הפגיע בו את עון כלנו"
+      text_pointed: "כֻּלָּנוּ כַּצֹּאן תָּעִינוּ אִישׁ לְדַרְכּוֹ פָּנִינוּ וַיהֹוָה הִפְגִּיעַ בּוֹ אֵת עֲוֺן כֻּלָּנוּ"
+      english: "All we like sheep have gone astray; we have turned every one to his own way; and the LORD has laid on him the iniquity of us all."
+      words:
+        - w: כלנו
+          lemma: כֹּל
+          gloss: "all of us"
+          context: "every one of us"
+        - w: כצאן
+          lemma: צֹאן
+          gloss: "like sheep"
+          context: "like a flock"
+        - w: תעינו
+          lemma: תָּעָה
+          gloss: "have gone astray"
+          context: "wandered"
+        - w: איש
+          lemma: אִישׁ
+          gloss: "each"
+          context: "each one"
+        - w: לדרכו
+          lemma: דֶּרֶךְ
+          gloss: "to his own way"
+          context: "his own path"
+        - w: פנינו
+          lemma: פָּנָה
+          gloss: "we have turned"
+          context: "turned"
+        - w: ויהוה
+          lemma: יהוה
+          gloss: "and the LORD"
+          context: "God"
+        - w: הפגיע
+          lemma: פָּגַע
+          gloss: "has caused to meet, laid"
+          context: "made to fall upon; also 'intercede' (v.12)"
+        - w: בו
+          lemma: בְּ + הוּא
+          gloss: "on him"
+          context: "on him"
+        - w: את
+          lemma: אֵת
+          gloss: "(object marker)"
+          context: "marks 'the iniquity'"
+        - w: עון
+          lemma: עָוֹן
+          gloss: "the iniquity of"
+          context: "the guilt of"
+        - w: כלנו
+          lemma: כֹּל
+          gloss: "all of us"
+          context: "us all"
+          readings:
+            jewish: "the nations' guilt falls on Israel in exile"
+            christian: "humanity's guilt is laid on Christ: substitutionary atonement"
+    - ref: Isaiah 53:7
+      text: "נגש והוא נענה ולא יפתח פיו כשה לטבח יובל וכרחל לפני גזזיה נאלמה ולא יפתח פיו"
+      text_pointed: "נִגַּשׂ וְהוּא נַעֲנֶה וְלֹא יִפְתַּח־ פִּיו כַּשֶּׂה לַטֶּבַח יוּבָל וּכְרָחֵל לִפְנֵי גֹזְזֶיהָ נֶאֱלָמָה וְלֹא יִפְתַּח פִּיו"
+      english: "He was oppressed, and he was afflicted, yet he did not open his mouth; like a lamb led to the slaughter, and like a ewe that before its shearers is silent, he did not open his mouth."
+      words:
+        - w: נגש
+          lemma: נָגַשׂ
+          gloss: "he was oppressed"
+          context: "driven, harassed"
+        - w: והוא
+          lemma: הוּא
+          gloss: "and he"
+          context: "he"
+        - w: נענה
+          lemma: עָנָה
+          gloss: "was afflicted; humbled himself"
+          context: "niphal: submitted"
+        - w: ולא
+          lemma: לֹא
+          gloss: "and not"
+          context: "and did not"
+        - w: יפתח
+          lemma: פָּתַח
+          gloss: "he opened"
+          context: "open"
+        - w: פיו
+          lemma: פֶּה
+          gloss: "his mouth"
+          context: "his mouth: silent"
+        - w: כשה
+          lemma: שֶׂה
+          gloss: "like a lamb"
+          context: "like a sheep"
+        - w: לטבח
+          lemma: טֶבַח
+          gloss: "to the slaughter"
+          context: "to be slaughtered"
+          readings:
+            jewish: "Israel led to slaughter by the nations, silent (Psalm 44:23)"
+            christian: "Jesus silent before Pilate and Herod (Matthew 27:14); the Lamb of God (John 1:29; Acts 8:32)"
+        - w: יובל
+          lemma: יָבַל
+          gloss: "is led"
+          context: "is brought"
+        - w: וכרחל
+          lemma: רָחֵל
+          gloss: "and like a ewe"
+          context: "a ewe"
+        - w: לפני
+          lemma: פָּנִים
+          gloss: "before"
+          context: "before"
+        - w: גזזיה
+          lemma: גָּזַז
+          gloss: "her shearers"
+          context: "those who shear her"
+        - w: נאלמה
+          lemma: אָלַם
+          gloss: "is silent, dumb"
+          context: "mute"
+        - w: ולא
+          lemma: לֹא
+          gloss: "and not"
+          context: "so he did not"
+        - w: יפתח
+          lemma: פָּתַח
+          gloss: "he opened"
+          context: "open"
+        - w: פיו
+          lemma: פֶּה
+          gloss: "his mouth"
+          context: "his mouth"
+    - ref: Isaiah 53:8
+      text: "מעצר וממשפט לקח ואת דורו מי ישוחח כי נגזר מארץ חיים מפשע עמי נגע למו"
+      text_pointed: "מֵעֹצֶר וּמִמִּשְׁפָּט לֻקָּח וְאֶת־ דּוֹרוֹ מִי יְשׂוֹחֵחַ כִּי נִגְזַר מֵאֶרֶץ חַיִּים מִפֶּשַׁע עַמִּי נֶגַע לָמוֹ"
+      english: "By oppression and judgement he was taken away; and his generation, who considered it? For he was cut off from the land of the living, for the transgression of my people a blow was to them."
+      words:
+        - w: מעצר
+          lemma: עֹצֶר
+          gloss: "from oppression, restraint"
+          context: "by coercion; or 'from prison'"
+        - w: וממשפט
+          lemma: מִשְׁפָּט
+          gloss: "and from judgement"
+          context: "and by a judicial sentence"
+        - w: לקח
+          lemma: לָקַח
+          gloss: "he was taken"
+          context: "taken away"
+        - w: ואת
+          lemma: אֵת
+          gloss: "and (object)"
+          context: "and"
+        - w: דורו
+          lemma: דּוֹר
+          gloss: "his generation"
+          context: "his contemporaries; or his descendants, his fate"
+        - w: מי
+          lemma: מִי
+          gloss: "who"
+          context: "who"
+        - w: ישוחח
+          lemma: שִׂיחַ
+          gloss: "considered, spoke of"
+          context: "pondered"
+        - w: כי
+          lemma: כִּי
+          gloss: "for"
+          context: "for"
+        - w: נגזר
+          lemma: גָּזַר
+          gloss: "he was cut off"
+          context: "severed"
+        - w: מארץ
+          lemma: אֶרֶץ
+          gloss: "from the land of"
+          context: "from the land of"
+        - w: חיים
+          lemma: חַי
+          gloss: "the living"
+          context: "the living: he died"
+          readings:
+            jewish: "Israel cut off from its land, 'the land of the living'; or 'cut off' figuratively, exile as death (Ezekiel 37)"
+            christian: "literal death: the servant dies"
+        - w: מפשע
+          lemma: פֶּשַׁע
+          gloss: "for the transgression of"
+          context: "because of the rebellion of"
+        - w: עמי
+          lemma: עַם
+          gloss: "my people"
+          context: "my people"
+          readings:
+            jewish: "the speaker is a Gentile king: 'for the transgression of my people (the nations) the blow fell on them (Israel)'"
+            christian: "the speaker is the prophet: 'for the transgression of my people (Israel) the blow fell on him'; לָמוֹ read as singular 'on him'"
+        - w: נגע
+          lemma: נֶגַע
+          gloss: "a blow, stroke"
+          context: "a plague-stroke"
+        - w: למו
+          lemma: לְ + הֵם
+          gloss: "to them / to him"
+          context: "an archaic form, plural or singular"
+          readings:
+            jewish: "plural: 'to them', Israel collectively, which fits a collective servant"
+            christian: "singular poetic form: 'to him', as in Isaiah 44:15; so the servant is one person"
+    - ref: Isaiah 53:9
+      text: "ויתן את רשעים קברו ואת עשיר במתיו על לא חמס עשה ולא מרמה בפיו"
+      text_pointed: "וַיִּתֵּן אֶת־ רְשָׁעִים קִבְרוֹ וְאֶת־ עָשִׁיר בְּמֹתָיו עַל לֹא־ חָמָס עָשָׂה וְלֹא מִרְמָה בְּפִיו"
+      english: "And they made his grave with the wicked, and with a rich man in his deaths, although he had done no violence, and there was no deceit in his mouth."
+      words:
+        - w: ויתן
+          lemma: נָתַן
+          gloss: "and he/one assigned"
+          context: "they made"
+        - w: את
+          lemma: אֵת
+          gloss: "(object marker)"
+          context: "with"
+        - w: רשעים
+          lemma: רָשָׁע
+          gloss: "the wicked"
+          context: "wicked men"
+        - w: קברו
+          lemma: קֶבֶר
+          gloss: "his grave"
+          context: "his burial"
+        - w: ואת
+          lemma: אֵת
+          gloss: "and with"
+          context: "and with"
+        - w: עשיר
+          lemma: עָשִׁיר
+          gloss: "a rich man"
+          context: "a rich man"
+          readings:
+            jewish: "the wicked and the rich are parallel: Israel buried among the wealthy oppressor nations"
+            christian: "Jesus crucified with criminals and buried in a rich man's tomb (Matthew 27:57-60)"
+        - w: במתיו
+          lemma: מָוֶת
+          gloss: "in his deaths"
+          context: "plural: his death, or 'his tomb' (reading במתו)"
+          readings:
+            jewish: "plural 'deaths': the many deaths of Israelites in exile"
+            christian: "intensive plural, or a textual variant 'his tomb' (1QIsa-a reads בומתו, 'his burial mound')"
+        - w: על
+          lemma: עַל
+          gloss: "although"
+          context: "because"
+        - w: לא
+          lemma: לֹא
+          gloss: "no"
+          context: "no"
+        - w: חמס
+          lemma: חָמָס
+          gloss: "violence"
+          context: "wrong"
+        - w: עשה
+          lemma: עָשָׂה
+          gloss: "he had done"
+          context: "he did"
+        - w: ולא
+          lemma: לֹא
+          gloss: "and no"
+          context: "and no"
+        - w: מרמה
+          lemma: מִרְמָה
+          gloss: "deceit"
+          context: "fraud"
+        - w: בפיו
+          lemma: פֶּה
+          gloss: "in his mouth"
+          context: "in his speech; quoted of Jesus in 1 Peter 2:22"
+    - ref: Isaiah 53:10
+      text: "ויהוה חפץ דכאו החלי אם תשים אשם נפשו יראה זרע יאריך ימים וחפץ יהוה בידו יצלח"
+      text_pointed: "וַיהֹוָה חָפֵץ דַּכְּאוֹ הֶחֱלִי אִם־ תָּשִׂים אָשָׁם נַפְשׁוֹ יִרְאֶה זֶרַע יַאֲרִיךְ יָמִים וְחֵפֶץ יְהֹוָה בְּיָדוֹ יִצְלָח"
+      english: "Yet the LORD was pleased to crush him; he made him sick. If his soul makes a guilt-offering, he shall see offspring, he shall prolong days, and the LORD's pleasure shall prosper in his hand."
+      words:
+        - w: ויהוה
+          lemma: יהוה
+          gloss: "and the LORD"
+          context: "God"
+        - w: חפץ
+          lemma: חָפֵץ
+          gloss: "was pleased, willed"
+          context: "desired"
+        - w: דכאו
+          lemma: דָּכָא
+          gloss: "to crush him"
+          context: "to crush him"
+        - w: החלי
+          lemma: חָלָה
+          gloss: "he made him sick"
+          context: "caused him to suffer"
+        - w: אם
+          lemma: אִם
+          gloss: "if"
+          context: "if, when"
+        - w: תשים
+          lemma: שִׂים
+          gloss: "you/it makes"
+          context: "his soul makes, or 'you (God) make'"
+        - w: אשם
+          lemma: אָשָׁם
+          gloss: "a guilt-offering"
+          context: "the reparation sacrifice of Leviticus 5"
+          readings:
+            jewish: "Israel's sufferings as a kind of offering; or 'if his soul acknowledges guilt'"
+            christian: "the servant's death is a sacrifice for sin, in the technical sense of the Levitical guilt-offering"
+        - w: נפשו
+          lemma: נֶפֶשׁ
+          gloss: "his soul, his life"
+          context: "himself"
+        - w: יראה
+          lemma: רָאָה
+          gloss: "he will see"
+          context: "he will see"
+        - w: זרע
+          lemma: זֶרַע
+          gloss: "offspring, seed"
+          context: "descendants"
+          readings:
+            jewish: "literal children: Israel restored and multiplying; the Messiah of Christianity had none"
+            christian: "spiritual offspring, those made righteous by him (v.11); 'seed' is used figuratively in Isaiah 1:4, 57:4"
+        - w: יאריך
+          lemma: אָרַךְ
+          gloss: "he will prolong"
+          context: "lengthen"
+        - w: ימים
+          lemma: יוֹם
+          gloss: "days"
+          context: "his life"
+          readings:
+            jewish: "a long life, which fits a nation but not one crucified at about thirty-three"
+            christian: "life after death: the resurrection"
+        - w: וחפץ
+          lemma: חֵפֶץ
+          gloss: "and the pleasure of"
+          context: "the purpose of"
+        - w: יהוה
+          lemma: יהוה
+          gloss: "the LORD"
+          context: "God"
+        - w: בידו
+          lemma: יָד
+          gloss: "in his hand"
+          context: "through him"
+        - w: יצלח
+          lemma: צָלַח
+          gloss: "will prosper"
+          context: "succeed"
+    - ref: Isaiah 53:11
+      text: "מעמל נפשו יראה ישבע בדעתו יצדיק צדיק עבדי לרבים ועונתם הוא יסבל"
+      text_pointed: "מֵעֲמַל נַפְשׁוֹ יִרְאֶה יִשְׂבָּע בְּדַעְתּוֹ יַצְדִּיק צַדִּיק עַבְדִּי לָרַבִּים וַעֲוֺנֹתָם הוּא יִסְבֹּל"
+      english: "From the labour of his soul he shall see and be satisfied; by his knowledge my righteous servant shall make many righteous, and he shall bear their iniquities."
+      words:
+        - w: מעמל
+          lemma: עָמָל
+          gloss: "from the labour of"
+          context: "after the anguish of"
+        - w: נפשו
+          lemma: נֶפֶשׁ
+          gloss: "his soul"
+          context: "himself"
+        - w: יראה
+          lemma: רָאָה
+          gloss: "he will see"
+          context: "he will see (1QIsa-a and LXX add 'light')"
+        - w: ישבע
+          lemma: שָׂבַע
+          gloss: "he will be satisfied"
+          context: "content"
+        - w: בדעתו
+          lemma: דַּעַת
+          gloss: "by his knowledge"
+          context: "by knowledge of him, or his own knowledge"
+        - w: יצדיק
+          lemma: צָדַק
+          gloss: "he will make righteous, justify"
+          context: "declare righteous"
+          readings:
+            jewish: "Israel, the righteous servant, brings the knowledge of God to many"
+            christian: "the servant justifies the many: Pauline justification (Romans 5:19)"
+        - w: צדיק
+          lemma: צַדִּיק
+          gloss: "the righteous one"
+          context: "righteous"
+        - w: עבדי
+          lemma: עֶבֶד
+          gloss: "my servant"
+          context: "my servant"
+        - w: לרבים
+          lemma: רַב
+          gloss: "for the many"
+          context: "many"
+        - w: ועונתם
+          lemma: עָוֹן
+          gloss: "and their iniquities"
+          context: "their guilt"
+        - w: הוא
+          lemma: הוּא
+          gloss: "he"
+          context: "he"
+        - w: יסבל
+          lemma: סָבַל
+          gloss: "will bear"
+          context: "carry"
+    - ref: Isaiah 53:12
+      text: "לכן אחלק לו ברבים ואת עצומים יחלק שלל תחת אשר הערה למות נפשו ואת פשעים נמנה והוא חטא רבים נשא ולפשעים יפגיע"
+      text_pointed: "לָכֵן אֲחַלֶּק־ לוֹ בָרַבִּים וְאֶת־ עֲצוּמִים יְחַלֵּק שָׁלָל תַּחַת אֲשֶׁר הֶעֱרָה לַמָּוֶת נַפְשׁוֹ וְאֶת־ פֹּשְׁעִים נִמְנָה וְהוּא חֵטְא־ רַבִּים נָשָׂא וְלַפֹּשְׁעִים יַפְגִּיעַ"
+      english: "Therefore I will divide him a portion with the many, and he shall divide the spoil with the strong; because he poured out his soul to death and was numbered with the transgressors; yet he bore the sin of many, and makes intercession for the transgressors."
+      words:
+        - w: לכן
+          lemma: לָכֵן
+          gloss: "therefore"
+          context: "therefore"
+        - w: אחלק
+          lemma: חָלַק
+          gloss: "I will divide, allot"
+          context: "assign"
+        - w: לו
+          lemma: לְ + הוּא
+          gloss: "to him"
+          context: "him"
+        - w: ברבים
+          lemma: רַב
+          gloss: "with the many / the great"
+          context: "among the many"
+        - w: ואת
+          lemma: אֵת
+          gloss: "and with"
+          context: "and with"
+        - w: עצומים
+          lemma: עָצוּם
+          gloss: "the strong, numerous"
+          context: "mighty ones"
+        - w: יחלק
+          lemma: חָלַק
+          gloss: "he will divide"
+          context: "share"
+        - w: שלל
+          lemma: שָׁלָל
+          gloss: "spoil"
+          context: "plunder: the victor's reward"
+        - w: תחת
+          lemma: תַּחַת
+          gloss: "because"
+          context: "in return for"
+        - w: אשר
+          lemma: אֲשֶׁר
+          gloss: "that"
+          context: "that"
+        - w: הערה
+          lemma: עָרָה
+          gloss: "he poured out"
+          context: "exposed, emptied"
+        - w: למות
+          lemma: מָוֶת
+          gloss: "to death"
+          context: "unto death"
+          readings:
+            jewish: "Israel exposed itself to death for God's name, martyrdom"
+            christian: "Jesus poured out his life to death"
+        - w: נפשו
+          lemma: נֶפֶשׁ
+          gloss: "his soul"
+          context: "his life"
+        - w: ואת
+          lemma: אֵת
+          gloss: "and with"
+          context: "and with"
+        - w: פשעים
+          lemma: פָּשַׁע
+          gloss: "transgressors"
+          context: "rebels"
+        - w: נמנה
+          lemma: מָנָה
+          gloss: "he was numbered"
+          context: "counted; quoted in Luke 22:37"
+        - w: והוא
+          lemma: הוּא
+          gloss: "and he"
+          context: "yet he"
+        - w: חטא
+          lemma: חֵטְא
+          gloss: "the sin of"
+          context: "sin of"
+        - w: רבים
+          lemma: רַב
+          gloss: "many"
+          context: "many"
+        - w: נשא
+          lemma: נָשָׂא
+          gloss: "bore"
+          context: "carried away"
+        - w: ולפשעים
+          lemma: פָּשַׁע
+          gloss: "and for the transgressors"
+          context: "for rebels"
+        - w: יפגיע
+          lemma: פָּגַע
+          gloss: "he makes intercession"
+          context: "intercedes, interposes himself"
 
 - id: mic-5-1
   theme: birth
@@ -1042,6 +2356,418 @@
       lemma: בּוֹא
       gloss: "who is to come"
       context: "the coming prince"
+  passage:
+    - ref: Daniel 9:24
+      text: "שבעים שבעים נחתך על עמך ועל עיר קדשך לכלא הפשע ולחתם ולהתם חטאות חטאת ולכפר עון ולהביא צדק עלמים ולחתם חזון ונביא ולמשח קדש קדשים"
+      text_pointed: "שָׁבֻעִים שִׁבְעִים נֶחְתַּךְ עַל־ עַמְּךָ וְעַל־ עִיר קׇדְשֶׁךָ לְכַלֵּא הַפֶּשַׁע ולחתם וּלְהָתֵם חטאות חַטָּאת וּלְכַפֵּר עָוֺן וּלְהָבִיא צֶדֶק עֹלָמִים וְלַחְתֹּם חָזוֹן וְנָבִיא וְלִמְשֹׁחַ קֹדֶשׁ קׇדָשִׁים"
+      english: "Seventy weeks are decreed upon your people and upon your holy city, to finish the transgression, to seal up sins, to atone for iniquity, to bring in everlasting righteousness, to seal vision and prophet, and to anoint a most holy place."
+      words:
+        - w: שבעים
+          lemma: שִׁבְעִים
+          gloss: "seventy"
+          context: "seventy"
+        - w: שבעים
+          lemma: שָׁבוּעַ
+          gloss: "weeks, sevens"
+          context: "heptads: 490 years"
+          readings:
+            jewish: "490 years from the destruction of the First Temple (586 BCE) to the Second (70 CE), by rabbinic chronology (Seder Olam)"
+            christian: "490 years from a Persian decree (458 or 445 BCE) to the Messiah and beyond"
+        - w: נחתך
+          lemma: חָתַךְ
+          gloss: "are decreed, cut"
+          context: "determined"
+        - w: על
+          lemma: עַל
+          gloss: "upon"
+          context: "concerning"
+        - w: עמך
+          lemma: עַם
+          gloss: "your people"
+          context: "Israel"
+        - w: ועל
+          lemma: עַל
+          gloss: "and upon"
+          context: "and"
+        - w: עיר
+          lemma: עִיר
+          gloss: "the city of"
+          context: "city"
+        - w: קדשך
+          lemma: קֹדֶשׁ
+          gloss: "your holiness"
+          context: "your holy city, Jerusalem"
+        - w: לכלא
+          lemma: כָּלָא
+          gloss: "to restrain, finish"
+          context: "to put an end to"
+        - w: הפשע
+          lemma: פֶּשַׁע
+          gloss: "the transgression"
+          context: "the rebellion"
+        - w: ולחתם
+          lemma: חָתַם
+          gloss: "and to seal"
+          context: "seal up (ketiv ולחתם; qere ולהתם 'to finish')"
+        - w: ולהתם
+          lemma: תָּמַם
+          gloss: "and to finish"
+          context: "complete"
+        - w: חטאות
+          lemma: חַטָּאת
+          gloss: "sins"
+          context: "sins (ketiv plural; qere singular)"
+        - w: חטאת
+          lemma: חַטָּאת
+          gloss: "sin"
+          context: "sin"
+        - w: ולכפר
+          lemma: כָּפַר
+          gloss: "and to atone for"
+          context: "make atonement for"
+          readings:
+            jewish: "atonement through the Second Temple's sacrifices and Israel's repentance"
+            christian: "atonement accomplished by the Messiah's death within the seventy weeks"
+        - w: עון
+          lemma: עָוֹן
+          gloss: "iniquity"
+          context: "guilt"
+        - w: ולהביא
+          lemma: בּוֹא
+          gloss: "and to bring in"
+          context: "usher in"
+        - w: צדק
+          lemma: צֶדֶק
+          gloss: "righteousness"
+          context: "righteousness"
+        - w: עלמים
+          lemma: עוֹלָם
+          gloss: "everlasting"
+          context: "eternal"
+        - w: ולחתם
+          lemma: חָתַם
+          gloss: "and to seal"
+          context: "confirm, or close"
+        - w: חזון
+          lemma: חָזוֹן
+          gloss: "vision"
+          context: "prophetic vision"
+        - w: ונביא
+          lemma: נָבִיא
+          gloss: "and prophet"
+          context: "and prophecy"
+        - w: ולמשח
+          lemma: מָשַׁח
+          gloss: "and to anoint"
+          context: "anoint"
+        - w: קדש
+          lemma: קֹדֶשׁ
+          gloss: "a holy"
+          context: "holy"
+        - w: קדשים
+          lemma: קֹדֶשׁ
+          gloss: "of holies"
+          context: "most holy: a place, the Temple's inner sanctuary"
+          readings:
+            jewish: "the rededication of the Temple's Holy of Holies"
+            christian: "the anointing of the Messiah, or of the heavenly sanctuary (Hebrews 9)"
+    - ref: Daniel 9:25
+      text: "ותדע ותשכל מן מצא דבר להשיב ולבנות ירושלם עד משיח נגיד שבעים שבעה ושבעים ששים ושנים תשוב ונבנתה רחוב וחרוץ ובצוק העתים"
+      text_pointed: "וְתֵדַע וְתַשְׂכֵּל מִן־ מֹצָא דָבָר לְהָשִׁיב וְלִבְנוֹת יְרוּשָׁלִַם עַד־ מָשִׁיחַ נָגִיד שָׁבֻעִים שִׁבְעָה וְשָׁבֻעִים שִׁשִּׁים וּשְׁנַיִם תָּשׁוּב וְנִבְנְתָה רְחוֹב וְחָרוּץ וּבְצוֹק הָעִתִּים"
+      english: "Know therefore and understand: from the going out of the word to restore and build Jerusalem until an anointed one, a prince, there shall be seven weeks; and sixty-two weeks it shall be built again, with square and moat, but in troubled times."
+      words:
+        - w: ותדע
+          lemma: יָדַע
+          gloss: "and know"
+          context: "know"
+        - w: ותשכל
+          lemma: שָׂכַל
+          gloss: "and understand"
+          context: "discern"
+        - w: מן
+          lemma: מִן
+          gloss: "from"
+          context: "from"
+        - w: מצא
+          lemma: יָצָא
+          gloss: "the going out of"
+          context: "the issuing of"
+        - w: דבר
+          lemma: דָּבָר
+          gloss: "a word"
+          context: "a decree"
+          readings:
+            jewish: "God's word through Jeremiah at the destruction (586 BCE), or Cyrus' decree (538 BCE)"
+            christian: "the decree of Artaxerxes to Ezra (458 BCE) or Nehemiah (445 BCE) to rebuild the city"
+        - w: להשיב
+          lemma: שׁוּב
+          gloss: "to restore"
+          context: "to bring back"
+        - w: ולבנות
+          lemma: בָּנָה
+          gloss: "and to build"
+          context: "rebuild"
+        - w: ירושלם
+          lemma: יְרוּשָׁלַיִם
+          gloss: "Jerusalem"
+          context: "Jerusalem"
+        - w: עד
+          lemma: עַד
+          gloss: "until"
+          context: "until"
+        - w: משיח
+          lemma: מָשִׁיחַ
+          gloss: "an anointed one"
+          context: "anointed"
+        - w: נגיד
+          lemma: נָגִיד
+          gloss: "a prince, leader"
+          context: "ruler"
+          readings:
+            jewish: "Cyrus, called 'his anointed' in Isaiah 45:1, or Joshua the high priest, after the first seven weeks"
+            christian: "the Messiah, Jesus, after seven plus sixty-two weeks"
+        - w: שבעים
+          lemma: שָׁבוּעַ
+          gloss: "weeks"
+          context: "sevens"
+        - w: שבעה
+          lemma: שֶׁבַע
+          gloss: "seven"
+          context: "seven: 49 years"
+          readings:
+            jewish: "the athnach accent after 'seven' separates it from 'sixty-two': the anointed prince comes after 49 years"
+            christian: "the two numbers are added: 69 weeks, 483 years"
+        - w: ושבעים
+          lemma: שָׁבוּעַ
+          gloss: "and weeks"
+          context: "and sevens"
+        - w: ששים
+          lemma: שִׁשִּׁים
+          gloss: "sixty"
+          context: "sixty"
+        - w: ושנים
+          lemma: שְׁנַיִם
+          gloss: "and two"
+          context: "two: 434 years"
+        - w: תשוב
+          lemma: שׁוּב
+          gloss: "it will be restored"
+          context: "return"
+        - w: ונבנתה
+          lemma: בָּנָה
+          gloss: "and built"
+          context: "rebuilt"
+        - w: רחוב
+          lemma: רְחֹב
+          gloss: "square, plaza"
+          context: "open square"
+        - w: וחרוץ
+          lemma: חָרוּץ
+          gloss: "and moat, trench"
+          context: "and conduit"
+        - w: ובצוק
+          lemma: צוֹק
+          gloss: "and in the distress of"
+          context: "in troubled"
+        - w: העתים
+          lemma: עֵת
+          gloss: "the times"
+          context: "times"
+    - ref: Daniel 9:26
+      text: "ואחרי השבעים ששים ושנים יכרת משיח ואין לו והעיר והקדש ישחית עם נגיד הבא וקצו בשטף ועד קץ מלחמה נחרצת שממות"
+      text_pointed: "וְאַחֲרֵי הַשָּׁבֻעִים שִׁשִּׁים וּשְׁנַיִם יִכָּרֵת מָשִׁיחַ וְאֵין לוֹ וְהָעִיר וְהַקֹּדֶשׁ יַשְׁחִית עַם נָגִיד הַבָּא וְקִצּוֹ בַשֶּׁטֶף וְעַד קֵץ מִלְחָמָה נֶחֱרֶצֶת שֹׁמֵמוֹת"
+      english: "And after the sixty-two weeks an anointed one shall be cut off and have nothing; and the people of the prince who is to come shall destroy the city and the sanctuary. Its end shall come with a flood, and to the end there shall be war; desolations are decreed."
+      words:
+        - w: ואחרי
+          lemma: אַחַר
+          gloss: "and after"
+          context: "after the period just named"
+        - w: השבעים
+          lemma: שָׁבוּעַ
+          gloss: "the weeks (sevens)"
+          context: "weeks of years, i.e. seven-year units"
+        - w: ששים
+          lemma: שִׁשִּׁים
+          gloss: "sixty"
+          context: "sixty"
+        - w: ושנים
+          lemma: שְׁנַיִם
+          gloss: "and two"
+          context: "sixty-two weeks, 434 years, following the first seven weeks of v.25"
+          readings:
+            jewish: "the Masoretic accents separate 'seven weeks' from 'sixty-two weeks' in v.25: two anointed figures, Cyrus or Joshua the high priest after seven weeks, and another after sixty-two"
+            christian: "seven plus sixty-two weeks run together, 483 years from a decree to rebuild Jerusalem to the Messiah's public appearance"
+        - w: יכרת
+          lemma: כָּרַת
+          gloss: "he will be cut off"
+          context: "killed, or removed from office; the verb used for the death penalty and for making a covenant"
+          readings:
+            jewish: "the anointed one, a high priest (Onias III, murdered 171 BCE) or King Agrippa, is removed or killed"
+            christian: "the Messiah is executed: the crucifixion"
+        - w: משיח
+          lemma: מָשִׁיחַ
+          gloss: "an anointed one"
+          context: "no definite article: 'an anointed one', priest or king"
+          readings:
+            jewish: "an anointed priest or king of the Second Temple period, not the Messiah of the end of days"
+            christian: "the Messiah, Jesus, anointed king and priest"
+        - w: ואין
+          lemma: אַיִן
+          gloss: "and there is not"
+          context: "and he has nothing / and no one is for him"
+        - w: לו
+          lemma: לְ + הוּא
+          gloss: "to him"
+          context: "'and has nothing': no successor, no help, no guilt"
+          readings:
+            jewish: "and he has no successor, or the people has no more anointed ones"
+            christian: "and not for himself: he dies for others, or he is left with nothing, abandoned"
+        - w: והעיר
+          lemma: עִיר
+          gloss: "and the city"
+          context: "Jerusalem"
+        - w: והקדש
+          lemma: קֹדֶשׁ
+          gloss: "and the sanctuary"
+          context: "the Temple"
+        - w: ישחית
+          lemma: שָׁחַת
+          gloss: "he / it will destroy"
+          context: "will be destroyed by"
+        - w: עם
+          lemma: עַם
+          gloss: "the people of"
+          context: "the people of the prince"
+        - w: נגיד
+          lemma: נָגִיד
+          gloss: "a prince, leader"
+          context: "a ruler"
+          readings:
+            jewish: "Titus, whose army destroyed Jerusalem in 70 CE (Rashi); or Antiochus"
+            christian: "Titus and Rome, fulfilling the prophecy after the Messiah's death; or a future antichrist figure"
+        - w: הבא
+          lemma: בּוֹא
+          gloss: "who is to come"
+          context: "the coming prince"
+        - w: וקצו
+          lemma: קֵץ
+          gloss: "and its end"
+          context: "the city's end, or the prince's"
+        - w: בשטף
+          lemma: שֶׁטֶף
+          gloss: "with a flood"
+          context: "overwhelming, as by a flood"
+        - w: ועד
+          lemma: עַד
+          gloss: "and until"
+          context: "until"
+        - w: קץ
+          lemma: קֵץ
+          gloss: "the end"
+          context: "the end"
+        - w: מלחמה
+          lemma: מִלְחָמָה
+          gloss: "war"
+          context: "war"
+        - w: נחרצת
+          lemma: חָרַץ
+          gloss: "is decreed"
+          context: "determined"
+        - w: שממות
+          lemma: שְׁמָמָה
+          gloss: "desolations"
+          context: "devastations"
+    - ref: Daniel 9:27
+      text: "והגביר ברית לרבים שבוע אחד וחצי השבוע ישבית זבח ומנחה ועל כנף שקוצים משמם ועד כלה ונחרצה תתך על שמם"
+      text_pointed: "וְהִגְבִּיר בְּרִית לָרַבִּים שָׁבוּעַ אֶחָד וַחֲצִי הַשָּׁבוּעַ יַשְׁבִּית זֶבַח וּמִנְחָה וְעַל כְּנַף שִׁקּוּצִים מְשֹׁמֵם וְעַד־ כָּלָה וְנֶחֱרָצָה תִּתַּךְ עַל־ שֹׁמֵם"
+      english: "And he shall make a strong covenant with many for one week; and for half of the week he shall put an end to sacrifice and offering, and on the wing of abominations shall come one who makes desolate, until the decreed end is poured out on the desolator."
+      words:
+        - w: והגביר
+          lemma: גָּבַר
+          gloss: "and he will make strong"
+          context: "confirm, make prevail"
+        - w: ברית
+          lemma: בְּרִית
+          gloss: "a covenant"
+          context: "a treaty or covenant"
+          readings:
+            jewish: "the Romans, or Antiochus, make a treaty with Jewish collaborators (1 Maccabees 1:11)"
+            christian: "the Messiah confirms the new covenant with many (Matthew 26:28); or a future antichrist makes a treaty"
+        - w: לרבים
+          lemma: רַב
+          gloss: "with the many"
+          context: "with many"
+        - w: שבוע
+          lemma: שָׁבוּעַ
+          gloss: "week"
+          context: "one seven"
+        - w: אחד
+          lemma: אֶחָד
+          gloss: "one"
+          context: "one: the final seven years"
+        - w: וחצי
+          lemma: חֲצִי
+          gloss: "and half of"
+          context: "in the middle of"
+        - w: השבוע
+          lemma: שָׁבוּעַ
+          gloss: "the week"
+          context: "the week"
+        - w: ישבית
+          lemma: שָׁבַת
+          gloss: "he will cause to cease"
+          context: "stop"
+        - w: זבח
+          lemma: זֶבַח
+          gloss: "sacrifice"
+          context: "animal sacrifice"
+        - w: ומנחה
+          lemma: מִנְחָה
+          gloss: "and offering"
+          context: "grain offering"
+          readings:
+            jewish: "Antiochus halted the Temple sacrifices in 167 BCE; or Titus in 70 CE"
+            christian: "the Messiah's death, three and a half years into his ministry, ends the need for sacrifice (Hebrews 10); or a future halt"
+        - w: ועל
+          lemma: עַל
+          gloss: "and on"
+          context: "and upon"
+        - w: כנף
+          lemma: כָּנָף
+          gloss: "the wing of"
+          context: "the wing, the pinnacle"
+        - w: שקוצים
+          lemma: שִׁקּוּץ
+          gloss: "abominations"
+          context: "detestable idols"
+        - w: משמם
+          lemma: שָׁמֵם
+          gloss: "one who desolates"
+          context: "the desolator; 'abomination of desolation' (Matthew 24:15)"
+        - w: ועד
+          lemma: עַד
+          gloss: "and until"
+          context: "until"
+        - w: כלה
+          lemma: כָּלָה
+          gloss: "the complete end"
+          context: "consummation"
+        - w: ונחרצה
+          lemma: חָרַץ
+          gloss: "and what is decreed"
+          context: "the determined end"
+        - w: תתך
+          lemma: נָתַךְ
+          gloss: "is poured out"
+          context: "is poured"
+        - w: על
+          lemma: עַל
+          gloss: "on"
+          context: "upon"
+        - w: שמם
+          lemma: שָׁמֵם
+          gloss: "the desolator"
+          context: "the one who desolates"
 
 - id: zech-9-9
   theme: ministry
@@ -1276,6 +3002,189 @@
       lemma: יָחִיד
       gloss: "the only (son)"
       context: "an only child, the bitterest loss"
+  passage:
+    - ref: Zechariah 12:10
+      text: "ושפכתי על בית דויד ועל יושב ירושלם רוח חן ותחנונים והביטו אלי את אשר דקרו וספדו עליו כמספד על היחיד והמר עליו כהמר על הבכור"
+      text_pointed: "וְשָׁפַכְתִּי עַל־ בֵּית דָּוִיד וְעַל יוֹשֵׁב יְרוּשָׁלִַם רוּחַ חֵן וְתַחֲנוּנִים וְהִבִּיטוּ אֵלַי אֵת אֲשֶׁר־ דָּקָרוּ וְסָפְדוּ עָלָיו כְּמִסְפֵּד עַל־ הַיָּחִיד וְהָמֵר עָלָיו כְּהָמֵר עַל־ הַבְּכוֹר"
+      english: "I will pour out on the house of David and the inhabitants of Jerusalem a spirit of grace and supplication; and they shall look to me, whom they have pierced, and they shall mourn for him as one mourns for an only son, and weep bitterly over him as one weeps over a firstborn."
+      words:
+        - w: ושפכתי
+          lemma: שָׁפַךְ
+          gloss: "and I will pour out"
+          context: "God speaks in the first person"
+        - w: על
+          lemma: עַל
+          gloss: "upon"
+          context: "upon"
+        - w: בית
+          lemma: בַּיִת
+          gloss: "the house of"
+          context: "the dynasty of"
+        - w: דויד
+          lemma: דָּוִד
+          gloss: "David"
+          context: "the royal family"
+        - w: ועל
+          lemma: עַל
+          gloss: "and upon"
+          context: "and upon"
+        - w: יושב
+          lemma: יָשַׁב
+          gloss: "the inhabitant(s) of"
+          context: "collective singular: those who dwell in"
+        - w: ירושלם
+          lemma: יְרוּשָׁלַיִם
+          gloss: "Jerusalem"
+          context: "Jerusalem"
+        - w: רוח
+          lemma: רוּחַ
+          gloss: "a spirit"
+          context: "a disposition given by God"
+        - w: חן
+          lemma: חֵן
+          gloss: "grace, favour"
+          context: "grace"
+        - w: ותחנונים
+          lemma: תַּחֲנוּן
+          gloss: "and supplications"
+          context: "pleading for mercy"
+        - w: והביטו
+          lemma: נָבַט
+          gloss: "and they will look"
+          context: "they will gaze toward"
+        - w: אלי
+          lemma: אֶל + אֲנִי
+          gloss: "to me"
+          context: "to me, God, the speaker"
+          readings:
+            jewish: "they will look to me (God) in prayer concerning the one whom they (the nations) have pierced, i.e. the slain of Israel or Messiah ben Joseph (Sukkah 52a); some manuscripts read אֵלָיו 'to him'"
+            christian: "God himself is the one pierced, so the pierced one shares God's identity; John 19:37 and Revelation 1:7 apply it to Jesus"
+        - w: את
+          lemma: אֵת
+          gloss: "(object marker)"
+          context: "marks 'whom' as the object"
+        - w: אשר
+          lemma: אֲשֶׁר
+          gloss: "whom, which"
+          context: "the one whom"
+        - w: דקרו
+          lemma: דָּקַר
+          gloss: "they pierced, thrust through"
+          context: "a fatal stabbing, as with a sword or spear"
+          readings:
+            jewish: "the enemies pierced him: those killed in the wars of Gog, or Messiah ben Joseph"
+            christian: "Jesus pierced by the spear at the crucifixion, by the people's own doing"
+        - w: וספדו
+          lemma: סָפַד
+          gloss: "and they will mourn, wail"
+          context: "ritual lament"
+        - w: עליו
+          lemma: עַל + הוּא
+          gloss: "for him"
+          context: "the shift from 'to me' to 'for him'"
+          readings:
+            jewish: "confirms that the pierced one is distinct from God the speaker"
+            christian: "God speaks of himself in the third person, or Father speaks of Son"
+        - w: כמספד
+          lemma: מִסְפֵּד
+          gloss: "like the mourning"
+          context: "as one mourns"
+        - w: על
+          lemma: עַל
+          gloss: "for"
+          context: "for"
+        - w: היחיד
+          lemma: יָחִיד
+          gloss: "the only (son)"
+          context: "an only child, the bitterest loss"
+        - w: והמר
+          lemma: מָרַר
+          gloss: "and weep bitterly"
+          context: "be in bitterness"
+        - w: עליו
+          lemma: עַל + הוּא
+          gloss: "over him"
+          context: "for him"
+        - w: כהמר
+          lemma: מָרַר
+          gloss: "as one weeps bitterly"
+          context: "as the bitterness"
+        - w: על
+          lemma: עַל
+          gloss: "over"
+          context: "for"
+        - w: הבכור
+          lemma: בְּכוֹר
+          gloss: "the firstborn"
+          context: "a firstborn son; Christians note the Messiah is 'firstborn' (Colossians 1:15)"
+    - ref: Zechariah 12:11
+      text: "ביום ההוא יגדל המספד בירושלם כמספד הדד רמון בבקעת מגדון"
+      text_pointed: "בַּיּוֹם הַהוּא יִגְדַּל הַמִּסְפֵּד בִּירוּשָׁלִַם כְּמִסְפַּד הֲדַד־ רִמּוֹן בְּבִקְעַת מְגִדּוֹן"
+      english: "On that day the mourning in Jerusalem shall be as great as the mourning of Hadad-rimmon in the plain of Megiddo."
+    - ref: Zechariah 12:12
+      text: "וספדה הארץ משפחות משפחות לבד משפחת בית דויד לבד ונשיהם לבד משפחת בית נתן לבד ונשיהם לבד"
+      text_pointed: "וְסָפְדָה הָאָרֶץ מִשְׁפָּחוֹת מִשְׁפָּחוֹת לְבָד מִשְׁפַּחַת בֵּית־ דָּוִיד לְבָד וּנְשֵׁיהֶם לְבָד מִשְׁפַּחַת בֵּית־ נָתָן לְבָד וּנְשֵׁיהֶם לְבָד"
+      english: "The land shall mourn, each family by itself: the family of the house of David by itself, and their wives by themselves; the family of the house of Nathan by itself, and their wives by themselves;"
+    - ref: Zechariah 12:13
+      text: "משפחת בית לוי לבד ונשיהם לבד משפחת השמעי לבד ונשיהם לבד"
+      text_pointed: "מִשְׁפַּחַת בֵּית־ לֵוִי לְבָד וּנְשֵׁיהֶם לְבָד מִשְׁפַּחַת הַשִּׁמְעִי לְבָד וּנְשֵׁיהֶם לְבָד"
+      english: "the family of the house of Levi by itself, and their wives by themselves; the family of the Shimeites by itself, and their wives by themselves;"
+    - ref: Zechariah 12:14
+      text: "כל המשפחות הנשארות משפחת משפחת לבד ונשיהם לבד"
+      text_pointed: "כֹּל הַמִּשְׁפָּחוֹת הַנִּשְׁאָרוֹת מִשְׁפָּחֹת מִשְׁפָּחֹת לְבָד וּנְשֵׁיהֶם לְבָד"
+      english: "all the families that remain, each family by itself, and their wives by themselves."
+    - ref: Zechariah 13:1
+      text: "ביום ההוא יהיה מקור נפתח לבית דויד ולישבי ירושלם לחטאת ולנדה"
+      text_pointed: "בַּיּוֹם הַהוּא יִהְיֶה מָקוֹר נִפְתָּח לְבֵית דָּוִיד וּלְיֹשְׁבֵי יְרוּשָׁלִָם לְחַטַּאת וּלְנִדָּה"
+      english: "On that day there shall be a fountain opened for the house of David and the inhabitants of Jerusalem, for sin and for impurity."
+      words:
+        - w: ביום
+          lemma: יוֹם
+          gloss: "on the day"
+          context: "on that day"
+        - w: ההוא
+          lemma: הוּא
+          gloss: "that"
+          context: "that"
+        - w: יהיה
+          lemma: הָיָה
+          gloss: "there will be"
+          context: "there shall be"
+        - w: מקור
+          lemma: מָקוֹר
+          gloss: "a fountain"
+          context: "a spring"
+        - w: נפתח
+          lemma: פָּתַח
+          gloss: "opened"
+          context: "opened"
+        - w: לבית
+          lemma: בַּיִת
+          gloss: "for the house of"
+          context: "for the house of"
+        - w: דויד
+          lemma: דָּוִד
+          gloss: "David"
+          context: "David"
+        - w: ולישבי
+          lemma: יָשַׁב
+          gloss: "and the inhabitants of"
+          context: "the dwellers of"
+        - w: ירושלם
+          lemma: יְרוּשָׁלַיִם
+          gloss: "Jerusalem"
+          context: "Jerusalem"
+        - w: לחטאת
+          lemma: חַטָּאת
+          gloss: "for sin"
+          context: "for cleansing from sin"
+        - w: ולנדה
+          lemma: נִדָּה
+          gloss: "and for impurity"
+          context: "ritual uncleanness"
+          readings:
+            jewish: "a purifying spring for Israel's repentance in the messianic age"
+            christian: "the cleansing opened by the pierced one's death (12:10): the blood and water of John 19:34, baptism, forgiveness"
 
 - id: mal-3-1
   theme: forerunner
@@ -2900,6 +4809,262 @@
 # ---------------------------------------------------------------------------
 # Malachi
 # ---------------------------------------------------------------------------
+  passage:
+    - ref: Zechariah 13:7
+      text: "חרב עורי על רעי ועל גבר עמיתי נאם יהוה צבאות הך את הרעה ותפוצין הצאן והשבתי ידי על הצערים"
+      text_pointed: "חֶרֶב עוּרִי עַל־ רֹעִי וְעַל־ גֶּבֶר עֲמִיתִי נְאֻם יְהֹוָה צְבָאוֹת הַךְ אֶת־ הָרֹעֶה וּתְפוּצֶיןָ הַצֹּאן וַהֲשִׁבֹתִי יָדִי עַל־ הַצֹּעֲרִים"
+      english: "Awake, O sword, against my shepherd, against the man who is my associate, declares the LORD of hosts. Strike the shepherd, and the sheep will be scattered; I will turn my hand against the little ones."
+      words:
+        - w: חרב
+          lemma: חֶרֶב
+          gloss: "sword"
+          context: "a sword"
+        - w: עורי
+          lemma: עוּר
+          gloss: "awake"
+          context: "rouse yourself"
+        - w: על
+          lemma: עַל
+          gloss: "against"
+          context: "against"
+        - w: רעי
+          lemma: רֹעֶה
+          gloss: "my shepherd"
+          context: "my shepherd"
+          readings:
+            jewish: "a ruler, whether good or the worthless shepherd of 11:17; Ibn Ezra: a leader slain in the wars of Gog"
+            christian: "Jesus, the good shepherd, struck down at the crucifixion (Mark 14:27)"
+        - w: ועל
+          lemma: עַל
+          gloss: "and against"
+          context: "and against"
+        - w: גבר
+          lemma: גֶּבֶר
+          gloss: "the man"
+          context: "a man"
+        - w: עמיתי
+          lemma: עָמִית
+          gloss: "my associate, fellow"
+          context: "my companion, my equal"
+          readings:
+            jewish: "a close associate of God in office, as a king is"
+            christian: "a hint of the Messiah's equality with God"
+        - w: נאם
+          lemma: נְאֻם
+          gloss: "declares"
+          context: "oracle of"
+        - w: יהוה
+          lemma: יהוה
+          gloss: "the LORD"
+          context: "God"
+        - w: צבאות
+          lemma: צָבָא
+          gloss: "of hosts"
+          context: "of armies"
+        - w: הך
+          lemma: נָכָה
+          gloss: "strike"
+          context: "smite"
+        - w: את
+          lemma: אֵת
+          gloss: "(object marker)"
+          context: "marks 'the shepherd'"
+        - w: הרעה
+          lemma: רֹעֶה
+          gloss: "the shepherd"
+          context: "the shepherd"
+        - w: ותפוצין
+          lemma: פּוּץ
+          gloss: "and they will be scattered"
+          context: "dispersed"
+        - w: הצאן
+          lemma: צֹאן
+          gloss: "the sheep, flock"
+          context: "the flock"
+          readings:
+            jewish: "Israel scattered after its ruler's fall"
+            christian: "the disciples fleeing at the arrest"
+        - w: והשבתי
+          lemma: שׁוּב
+          gloss: "and I will turn"
+          context: "I will turn back"
+        - w: ידי
+          lemma: יָד
+          gloss: "my hand"
+          context: "my hand"
+        - w: על
+          lemma: עַל
+          gloss: "against / upon"
+          context: "on"
+        - w: הצערים
+          lemma: צָעַר
+          gloss: "the little ones"
+          context: "the lowly; the remnant, refined in vv.8-9"
+    - ref: Zechariah 13:8
+      text: "והיה בכל הארץ נאם יהוה פי שנים בה יכרתו יגועו והשלשית יותר בה"
+      text_pointed: "וְהָיָה בְכׇל־ הָאָרֶץ נְאֻם־ יְהֹוָה פִּי־ שְׁנַיִם בָּהּ יִכָּרְתוּ יִגְוָעוּ וְהַשְּׁלִשִׁית יִוָּתֶר בָּהּ"
+      english: "And in all the land, declares the LORD, two thirds in it shall be cut off and perish, and one third shall be left in it."
+      words:
+        - w: והיה
+          lemma: הָיָה
+          gloss: "and it will be"
+          context: "it shall happen"
+        - w: בכל
+          lemma: כֹּל
+          gloss: "in all"
+          context: "throughout"
+        - w: הארץ
+          lemma: אֶרֶץ
+          gloss: "the land"
+          context: "the land"
+        - w: נאם
+          lemma: נְאֻם
+          gloss: "declares"
+          context: "oracle of"
+        - w: יהוה
+          lemma: יהוה
+          gloss: "the LORD"
+          context: "God"
+        - w: פי
+          lemma: פֶּה
+          gloss: "the portion of"
+          context: "mouth: a portion"
+        - w: שנים
+          lemma: שְׁנַיִם
+          gloss: "two"
+          context: "two (parts)"
+        - w: בה
+          lemma: בְּ + הִיא
+          gloss: "in it"
+          context: "in it"
+        - w: יכרתו
+          lemma: כָּרַת
+          gloss: "will be cut off"
+          context: "cut off"
+        - w: יגועו
+          lemma: גָּוַע
+          gloss: "will perish"
+          context: "expire"
+        - w: והשלשית
+          lemma: שְׁלִישִׁית
+          gloss: "and the third"
+          context: "one third"
+        - w: יותר
+          lemma: יָתַר
+          gloss: "will be left"
+          context: "remain"
+          readings:
+            jewish: "the remnant that survives the wars of Gog"
+            christian: "the remnant after the shepherd is struck: the church from Israel, or Israel's survivors in 70 CE"
+        - w: בה
+          lemma: בְּ + הִיא
+          gloss: "in it"
+          context: "in the land"
+    - ref: Zechariah 13:9
+      text: "והבאתי את השלשית באש וצרפתים כצרף את הכסף ובחנתים כבחן את הזהב הוא יקרא בשמי ואני אענה אתו אמרתי עמי הוא והוא יאמר יהוה אלהי"
+      text_pointed: "וְהֵבֵאתִי אֶת־ הַשְּׁלִשִׁית בָּאֵשׁ וּצְרַפְתִּים כִּצְרֹף אֶת־ הַכֶּסֶף וּבְחַנְתִּים כִּבְחֹן אֶת־ הַזָּהָב הוּא יִקְרָא בִשְׁמִי וַאֲנִי אֶעֱנֶה אֹתוֹ אָמַרְתִּי עַמִּי הוּא וְהוּא יֹאמַר יְהֹוָה אֱלֹהָי"
+      english: "And I will bring the third part through the fire, and refine them as one refines silver, and test them as gold is tested. They will call on my name, and I will answer them; I will say, 'They are my people', and they will say, 'The LORD is my God.'"
+      words:
+        - w: והבאתי
+          lemma: בּוֹא
+          gloss: "and I will bring"
+          context: "I will bring"
+        - w: את
+          lemma: אֵת
+          gloss: "(object marker)"
+          context: "marks 'the third'"
+        - w: השלשית
+          lemma: שְׁלִישִׁית
+          gloss: "the third"
+          context: "the third part"
+        - w: באש
+          lemma: אֵשׁ
+          gloss: "through the fire"
+          context: "into fire"
+        - w: וצרפתים
+          lemma: צָרַף
+          gloss: "and I will refine them"
+          context: "smelt them"
+        - w: כצרף
+          lemma: צָרַף
+          gloss: "as one refines"
+          context: "as refining"
+        - w: את
+          lemma: אֵת
+          gloss: "(object marker)"
+          context: "marks 'silver'"
+        - w: הכסף
+          lemma: כֶּסֶף
+          gloss: "silver"
+          context: "the silver"
+        - w: ובחנתים
+          lemma: בָּחַן
+          gloss: "and I will test them"
+          context: "assay them"
+        - w: כבחן
+          lemma: בָּחַן
+          gloss: "as one tests"
+          context: "as testing"
+        - w: את
+          lemma: אֵת
+          gloss: "(object marker)"
+          context: "marks 'gold'"
+        - w: הזהב
+          lemma: זָהָב
+          gloss: "gold"
+          context: "the gold"
+        - w: הוא
+          lemma: הוּא
+          gloss: "it, they"
+          context: "the remnant"
+        - w: יקרא
+          lemma: קָרָא
+          gloss: "will call"
+          context: "will call"
+        - w: בשמי
+          lemma: שֵׁם
+          gloss: "on my name"
+          context: "on my name"
+        - w: ואני
+          lemma: אֲנִי
+          gloss: "and I"
+          context: "and I"
+        - w: אענה
+          lemma: עָנָה
+          gloss: "will answer"
+          context: "will answer"
+        - w: אתו
+          lemma: אֵת + הוּא
+          gloss: "them"
+          context: "him"
+        - w: אמרתי
+          lemma: אָמַר
+          gloss: "I will say"
+          context: "I say"
+        - w: עמי
+          lemma: עַם
+          gloss: "my people"
+          context: "my people"
+        - w: הוא
+          lemma: הוּא
+          gloss: "they are"
+          context: "it is"
+        - w: והוא
+          lemma: הוּא
+          gloss: "and they"
+          context: "and it"
+        - w: יאמר
+          lemma: אָמַר
+          gloss: "will say"
+          context: "will say"
+        - w: יהוה
+          lemma: יהוה
+          gloss: "the LORD"
+          context: "the LORD"
+        - w: אלהי
+          lemma: אֱלֹהִים
+          gloss: "is my God"
+          context: "my God: the covenant formula restored (Hosea 2:25)"
 
 - id: mal-3-23
   theme: forerunner

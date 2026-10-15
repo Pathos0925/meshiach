@@ -91,6 +91,9 @@ def to_sefaria_ref(ref: str) -> str | None:
     m = re.match(r"^(Sanhedrin|Sukkah|Pesachim|Nedarim)\s+(\d+[ab])$", ref)
     if m:
         return f"{m.group(1)}.{m.group(2)}"
+    m = re.match(r"^(Pesikta Rabbati|Midrash Tehillim)\s+(\d+)$", ref)
+    if m:
+        return f"{m.group(1)}.{m.group(2)}"
     m = re.match(r"^(.+?)\s+(\d+):(\d+)(?:-(\d+))?$", ref)
     if not m:
         return None
@@ -182,6 +185,26 @@ def main() -> None:
                 print(f"ok {e['id']}  {src['ref']}")
             if pointed:
                 print(f"     {re.sub(r'<[^>]+>', '', text)}")
+        for v in e.get("passage") or []:
+            vref = to_sefaria_ref(v["ref"].replace("Psalms ", "Psalm "))
+            if vref is None:
+                skipped.append(f"{e['id']} passage {v['ref']}")
+                continue
+            try:
+                vt, vtext = sefaria(vref)
+            except Exception as ex:  # noqa: BLE001
+                print(f"!! {e['id']}: Sefaria fetch failed for {vref}: {ex}")
+                problems += 1
+                continue
+            bad = check_segments(v["text"], vtext, heb_consonants)
+            if bad:
+                problems += 1
+                print(f"XX {e['id']} passage {v['ref']}  [{vt}]")
+                for b in bad:
+                    print(f"     ours : {b}")
+                print(f"     source: {heb_consonants(vtext)}")
+            else:
+                print(f"ok {e['id']} passage {v['ref']}")
         for f in e.get("fulfilment") or []:
             gt = sblgnt_text(f["ref"])
             if gt is None:

@@ -66,6 +66,17 @@ def validate(entries: list[dict]) -> list[str]:
                     f"{e['id']}: words list does not match source.text tokens\n"
                     f"    text : {tokens}\n    words: {ws}"
                 )
+        for v in e.get("passage") or []:
+            for key in ("ref", "text", "english"):
+                if key not in v:
+                    sys.exit(f"{e['id']}: passage verse missing {key}")
+            vt = v.get("text_pointed")
+            if vt and len(vt.split()) != len(v["text"].split()):
+                warnings.append(f"{e['id']} {v['ref']}: text_pointed token count differs from text")
+            if v.get("words"):
+                ws = [w["w"] for w in v["words"]]
+                if ws != v["text"].split():
+                    warnings.append(f"{e['id']} {v['ref']}: words list does not match verse text")
     return warnings
 
 
@@ -178,7 +189,8 @@ def main() -> None:
     WEB_DATA.parent.mkdir(exist_ok=True)
     WEB_DATA.write_text(build_web_data(entries), encoding="utf-8", newline="\n")
     n_words = sum(1 for e in entries if e.get("words"))
-    print(f"{len(entries)} entries ({n_words} with word glosses) -> {GRAPH_MD.relative_to(ROOT)}, {WEB_DATA.relative_to(ROOT)}")
+    n_pv = sum(len(e.get("passage") or []) for e in entries)
+    print(f"{len(entries)} entries ({n_words} with word glosses, {n_pv} passage verses) -> {GRAPH_MD.relative_to(ROOT)}, {WEB_DATA.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
