@@ -61,7 +61,7 @@ flowchart LR
 
     subgraph Jewish ["Targum · Talmud · Qumran"]
         tg_isa_52_13["Tg Isaiah 52:13<br/>הא יצלח עבדי …<br/>Targum Jonathan names the servant as Messiah"]:::jew
-        san_98b_name["Sanhedrin 98b<br/>משיח מה שמו …<br/>The Messiah's names, including the leper scholar"]:::jew
+        san_98b_name["Sanhedrin 98b<br/>מה שמו דבי …<br/>The Messiah's names, including the leper scholar"]:::jew
         suk_52a["Sukkah 52a<br/>חד אמר על …<br/>Messiah ben Joseph is slain"]:::jew
         4q521["4Q521 frag. 2 col. ii, lines 1, 8, 12<br/>כי השמים והארץ …<br/>The Messianic Apocalypse"]:::jew
     end
@@ -77,9 +77,9 @@ flowchart LR
         nt_John_6_14["John 6:14<br/>Οὗτός ἐστιν ἀληθῶς ὁ"]:::grk
         nt_Luke_1_32_33["Luke 1:32-33<br/>καὶ δώσει αὐτῷ κύριος"]:::grk
         nt_John_20_25["John 20:25<br/>ἐὰν μὴ ἴδω ἐν"]:::grk
-        nt_Matthew_27_46["Matthew 27:46<br/>Ηλι ηλι λεμα σαβαχθανι"]:::grk
+        nt_Matthew_27_46["Matthew 27:46<br/>Ἠλὶ ἠλὶ λεμὰ σαβαχθάνι"]:::grk
         nt_Matthew_22_44["Matthew 22:44<br/>Εἶπεν κύριος τῷ κυρίῳ"]:::grk
-        nt_Acts_2_34_35["Acts 2:34-35<br/>Εἶπεν κύριος τῷ κυρίῳ"]:::grk
+        nt_Acts_2_34_35["Acts 2:34-35<br/>Εἶπεν ὁ κύριος τῷ"]:::grk
         nt_Matthew_1_22_23["Matthew 1:22-23<br/>Ἰδοὺ ἡ παρθένος ἐν"]:::grk
         nt_Luke_2_11["Luke 2:11<br/>ἐτέχθη ὑμῖν σήμερον σωτὴρ"]:::grk
         nt_1_Peter_2_24["1 Peter 2:24<br/>οὗ τῷ μώλωπι ἰάθητε"]:::grk
@@ -96,7 +96,7 @@ flowchart LR
         nt_Hebrews_1_5["Hebrews 1:5<br/>Τίνι γὰρ εἶπέν ποτε"]:::grk
         nt_Acts_2_27["Acts 2:27<br/>οὐκ ἐγκαταλείψεις τὴν ψυχήν"]:::grk
         nt_Acts_13_35["Acts 13:35<br/>Οὐ δώσεις τὸν ὅσιόν"]:::grk
-        nt_John_19_28_29["John 19:28-29<br/>ἵνα τελειωθῇ ἡ γραφή,"]:::grk
+        nt_John_19_28_29["John 19:28-29<br/>ἵνα τελειωθῇ ἡ γραφὴ"]:::grk
         nt_Matthew_27_34["Matthew 27:34<br/>ἔδωκαν αὐτῷ πιεῖν οἶνον"]:::grk
         nt_Romans_15_12["Romans 15:12<br/>Ἔσται ἡ ῥίζα τοῦ"]:::grk
         nt_Matthew_2_23["Matthew 2:23<br/>ὅπως πληρωθῇ τὸ ῥηθὲν"]:::grk
@@ -109,7 +109,7 @@ flowchart LR
         nt_Luke_2_32["Luke 2:32<br/>φῶς εἰς ἀποκάλυψιν ἐθνῶν"]:::grk
         nt_Matthew_26_67["Matthew 26:67<br/>Τότε ἐνέπτυσαν εἰς τὸ"]:::grk
         nt_Matthew_27_30["Matthew 27:30<br/>καὶ ἐμπτύσαντες εἰς αὐτὸν"]:::grk
-        nt_Luke_4_18_21["Luke 4:18-21<br/>Πνεῦμα κυρίου ἐπ᾽ ἐμέ,"]:::grk
+        nt_Luke_4_18_21["Luke 4:18-21<br/>Πνεῦμα κυρίου ἐπʼ ἐμέ,"]:::grk
         nt_Matthew_1_1["Matthew 1:1<br/>Βίβλος γενέσεως Ἰησοῦ Χριστοῦ"]:::grk
         nt_1_Corinthians_1_30["1 Corinthians 1:30<br/>ὃς ἐγενήθη σοφία ἡμῖν"]:::grk
         nt_Luke_22_20["Luke 22:20<br/>Τοῦτο τὸ ποτήριον ἡ"]:::grk

@@ -111,7 +111,7 @@ window.MESHIACH = [
    {
     "ref": "Acts 3:22",
     "lang": "el",
-    "text": "Προφήτην ὑμῖν ἀναστήσει κύριος ὁ θεὸς ὑμῶν ἐκ τῶν ἀδελφῶν ὑμῶν ὡς ἐμέ",
+    "text": "Προφήτην ὑμῖν ἀναστήσει κύριος ὁ θεὸς ἐκ τῶν ἀδελφῶν ὑμῶν ὡς ἐμέ",
     "english": "The Lord your God will raise up for you a prophet like me from your brothers."
    },
    {
@@ -176,7 +176,7 @@ window.MESHIACH = [
    {
     "ref": "Matthew 27:46",
     "lang": "el",
-    "text": "Ηλι ηλι λεμα σαβαχθανι",
+    "text": "Ἠλὶ ἠλὶ λεμὰ σαβαχθάνι",
     "english": "My God, my God, why have you forsaken me? (quoting Psalm 22:2 [1])"
    }
   ],
@@ -210,7 +210,7 @@ window.MESHIACH = [
    {
     "ref": "Acts 2:34-35",
     "lang": "el",
-    "text": "Εἶπεν κύριος τῷ κυρίῳ μου· Κάθου ἐκ δεξιῶν μου",
+    "text": "Εἶπεν ὁ κύριος τῷ κυρίῳ μου· Κάθου ἐκ δεξιῶν μου",
     "english": "The Lord said to my Lord, Sit at my right hand."
    }
   ],
@@ -434,7 +434,7 @@ window.MESHIACH = [
   "source": {
    "ref": "Isaiah 9:5 [6]",
    "lang": "he",
-   "text": "כי ילד ילד לנו בן נתן לנו ותהי המשרה על שכמו ויקרא שמו פלא יועץ אל גבור אביעד שר שלום",
+   "text": "כי ילד ילד לנו בן נתן לנו ותהי המשרה על שכמו ויקרא שמו פלא יועץ אל גבור אבי עד שר שלום",
    "english": "For to us a child is born, to us a son is given; and the government shall be upon his shoulder, and his name shall be called Wonderful Counsellor, Mighty God, Everlasting Father, Prince of Peace."
   },
   "fulfilment": [
@@ -796,7 +796,7 @@ window.MESHIACH = [
    {
     "ref": "John 19:28-29",
     "lang": "el",
-    "text": "ἵνα τελειωθῇ ἡ γραφή, λέγει· Διψῶ. σκεῦος ἔκειτο ὄξους μεστόν",
+    "text": "ἵνα τελειωθῇ ἡ γραφὴ λέγει· Διψῶ. σκεῦος ἔκειτο ὄξους μεστόν",
     "english": "To fulfil the Scripture he said, I thirst. A jar full of sour wine stood there."
    },
    {
@@ -828,7 +828,7 @@ window.MESHIACH = [
    {
     "ref": "Romans 15:12",
     "lang": "el",
-    "text": "Ἔσται ἡ ῥίζα τοῦ Ἰεσσαί, καὶ ὁ ἀνιστάμενος ἄρχειν ἐθνῶν· ἐπ᾽ αὐτῷ ἔθνη ἐλπιοῦσιν",
+    "text": "Ἔσται ἡ ῥίζα τοῦ Ἰεσσαί, καὶ ὁ ἀνιστάμενος ἄρχειν ἐθνῶν· ἐπʼ αὐτῷ ἔθνη ἐλπιοῦσιν",
     "english": "The root of Jesse will come, he who rises to rule the nations; in him the nations will hope."
    },
    {
@@ -901,7 +901,7 @@ window.MESHIACH = [
    {
     "ref": "Matthew 12:18",
     "lang": "el",
-    "text": "Ἰδοὺ ὁ παῖς μου ὃν ᾑρέτισα, ὁ ἀγαπητός μου εἰς ὃν εὐδόκησεν ἡ ψυχή μου· θήσω τὸ πνεῦμά μου ἐπ᾽ αὐτόν",
+    "text": "Ἰδοὺ ὁ παῖς μου ὃν ᾑρέτισα, ὁ ἀγαπητός μου εἰς ὃν εὐδόκησεν ἡ ψυχή μου· θήσω τὸ πνεῦμά μου ἐπʼ αὐτόν",
     "english": "Behold my servant whom I have chosen, my beloved in whom my soul is well pleased; I will put my Spirit upon him."
    },
    {
@@ -998,7 +998,7 @@ window.MESHIACH = [
    {
     "ref": "Luke 4:18-21",
     "lang": "el",
-    "text": "Πνεῦμα κυρίου ἐπ᾽ ἐμέ, οὗ εἵνεκεν ἔχρισέν με εὐαγγελίσασθαι πτωχοῖς ... Σήμερον πεπλήρωται ἡ γραφὴ αὕτη ἐν τοῖς ὠσὶν ὑμῶν",
+    "text": "Πνεῦμα κυρίου ἐπʼ ἐμέ, οὗ εἵνεκεν ἔχρισέν με εὐαγγελίσασθαι πτωχοῖς ... Σήμερον πεπλήρωται ἡ γραφὴ αὕτη ἐν τοῖς ὠσὶν ὑμῶν",
     "english": "The Spirit of the Lord is upon me, because he has anointed me to proclaim good news to the poor ... Today this Scripture has been fulfilled in your hearing."
    }
   ],
@@ -1084,7 +1084,7 @@ window.MESHIACH = [
   "source": {
    "ref": "Daniel 7:13-14",
    "lang": "arc",
-   "text": "חזה הוית בחזוי ליליא וארו עם ענני שמיא כבר אנש אתה הוה ועד עתיק יומיא מטה וקדמוהי הקרבוהי ולה יהיב שלטן ויקר ומלכו וכל עממיא אמיא ולשניא לה יפלחון שלטנה שלטן עלם די לא יעדה ומלכותה די לא תתחבל",
+   "text": "חזה הוית בחזוי ליליא וארו עם ענני שמיא כבר אנש אתה הוא ועד עתיק יומיא מטה וקדמוהי הקרבוהי ולה יהב שלטן ויקר ומלכו וכל עממיא אמיא ולשניא לה יפלחון שלטנה שלטן עלם די לא יעדה ומלכותה די לא תתחבל",
    "english": "I saw in the night visions, and behold, with the clouds of heaven there came one like a son of man, and he came to the Ancient of Days and was presented before him. And to him was given dominion and glory and a kingdom, that all peoples, nations, and languages should serve him; his dominion is an everlasting dominion that shall not pass away, and his kingdom one that shall not be destroyed."
   },
   "fulfilment": [
@@ -1218,7 +1218,7 @@ window.MESHIACH = [
    {
     "ref": "Matthew 17:12",
     "lang": "el",
-    "text": "Ἠλίας ἤδη ἦλθεν, καὶ οὐκ ἐπέγνωσαν αὐτόν",
+    "text": "Ἠλίας ἤδη ἦλθεν, καὶ οὐκ ἐπέγνωσαν αὐτὸν",
     "english": "Elijah has already come, and they did not recognise him."
    }
   ],
@@ -1239,7 +1239,7 @@ window.MESHIACH = [
    "kind": "targum",
    "ref": "Targum Jonathan on Isaiah 52:13",
    "lang": "arc",
-   "text": "הא יצלח עבדי משיחא יתרם ויסגי ויתקף לחדא",
+   "text": "הא יצלח עבדי משיחא ירום ויסגי ויתקוף לחדא",
    "english": "Behold, my servant the Messiah shall prosper; he shall be exalted and increase, and shall be very strong."
   },
   "fulfilment": [
@@ -1256,7 +1256,7 @@ window.MESHIACH = [
   ],
   "jewish_reading": "The Targum applies the exaltation to the Messiah but systematically rewrites the suffering of chapter 53 onto Israel and the nations. So it is evidence that the servant was read messianically, not that his suffering was.",
   "christian_reading": "Evidence from within Jewish tradition that the servant of Isaiah 52-53 was understood as the Messiah before the rabbinic 'Israel' reading became standard. Philippians 2 describes the same exaltation after humiliation.",
-  "notes": "Dated roughly 1st-2nd century CE in its core; the text we have is later.",
+  "notes": "Dated roughly 1st-2nd century CE in its core; the text we have is later. Wording follows the Mikraot Gedolot text on Sefaria; Sperber's edition reads יתרם for ירום and ויתקף for ויתקוף.",
   "tags": [
    "targum",
    "servant-songs"
@@ -1270,7 +1270,7 @@ window.MESHIACH = [
    "kind": "talmud",
    "ref": "Sanhedrin 98b",
    "lang": "arc",
-   "text": "משיח מה שמו ... דבי רבי שילא אמרי שילה שמו שנאמר עד כי יבא שילה ... ורבנן אמרי חיוורא דבי רבי שמו שנאמר אכן חלינו הוא נשא ומכאבינו סבלם",
+   "text": "מה שמו ... דבי רבי שילא אמרי שילה שמו שנאמר עד כי יבא שילה ... ורבנן אמרי חיוורא דבי רבי שמו שנאמר אכן חליינו הוא נשא ומכאבינו סבלם",
    "english": "What is the Messiah's name? ... The school of Rabbi Shila say: Shiloh is his name, as it is said, 'until Shiloh comes'. ... The Rabbis say: the leper of the house of Rabbi is his name, as it is said, 'surely he has borne our sicknesses and carried our pains'."
   },
   "relates_to": [
