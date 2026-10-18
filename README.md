@@ -160,6 +160,10 @@ See [docs/sources.md](docs/sources.md) for editions and licensing.
 - Every entry needs the `jewish_reading` field. Disagreement is the point of the project, not a bug.
 - Prefer primary sources over apologetics sites in either direction.
 
+## License
+
+Code, data format, glosses and English renderings are released under the [MIT License](LICENSE). The quoted source texts keep their own terms: the Masoretic Text and SBLGNT are freely redistributable, while the William Davidson Talmud and some Midrash texts on Sefaria are CC-BY-NC, so credit Sefaria when reusing those quotations.
+
 ## Name
 
 "Meshiach" is a working title.
